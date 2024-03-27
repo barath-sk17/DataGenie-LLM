@@ -40,6 +40,13 @@ streamlit run mile-1-2.py
 - Ensure that you have installed all the required libraries and dependencies before running the application.
 - The bot may require fine-tuning or adjustments to achieve optimal performance based on specific use cases and data.
 
+
+
+## Video Preview
+- https://drive.google.com/file/d/1ndt6A8R4y3rqpF6qp5N95-0OeITAFJTh/view?usp=sharing
+
+
+
 ## Preview
 - ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/ae1ecade-ba0a-4e20-9b74-d09760758709)
 
