@@ -1,5 +1,47 @@
 ---
 
+# DataGenie-Hackathon-CSVBot ( A Basic - CSVBot )
+
+## Overview
+The `DataGenie-Hackathon-CSVBot` is a Streamlit web application that serves as a conversational question-answering bot. It leverages both SQL databases and OpenAI language models (LLMs) to provide responses to user queries. The bot can interact with users in a chat-like interface, storing conversation history and utilizing memory to improve response efficiency.
+
+## Features
+- **Interactive Chat Interface**: Provides a chat-like interface for users to input queries and receive responses.
+- **Conversation History**: Maintains a history of previous questions and responses for reference.
+- **Memory Management**: Stores previous Q&A pairs to improve response efficiency and recall.
+- **Integration with SQL Databases**: Connects to PostgreSQL databases to retrieve information based on user queries.
+- **OpenAI Language Model Integration**: Utilizes OpenAI language models for natural language understanding and generation.
+
+## Usage
+1. **Environment Setup**: Ensure Python environment is set up with necessary dependencies, including Streamlit, psycopg2, OpenAI, and LangChain.
+   
+2. **Running the Application**: Execute the script `mile-1-2.py` to start the Streamlit web application.
+
+3. **Chat Interface**: Interact with the bot by typing queries into the text area provided. Press Enter to submit the query and view the bot's response.
+
+## Dependencies
+- Python 3.x
+- Streamlit library (`streamlit`)
+- psycopg2 library (`psycopg2`)
+- LangChain library (`langchain`)
+- OpenAI library (`openai`)
+- Other dependencies: `dotenv`
+
+## Configuration
+- **Database Connection**: Modify the PostgreSQL database connection parameters (`hostname`, `database`, `username`, `pwd`, `port_id`) as per your database setup.
+- **OpenAI Model**: Customize the OpenAI language model parameters, such as temperature, as needed.
+
+## Example
+```bash
+streamlit run mile-1-2.py
+```
+
+## Notes
+- Ensure that you have installed all the required libraries and dependencies before running the application.
+- The bot may require fine-tuning or adjustments to achieve optimal performance based on specific use cases and data.
+
+---
+
 # Conversational Question-Answering System with CSV Data and FAISS
 
 ## Overview
