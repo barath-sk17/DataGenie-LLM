@@ -1,4 +1,26 @@
-Certainly! Below is a sample README file for the provided code:
+Certainly! Below is a sample README file for the provided Python script:
+
+---
+
+# CSV to PostgreSQL Data Importer
+
+## Overview
+This Python script `csv_to_postgresql_importer.py` is designed to import data from a CSV file into a PostgreSQL database. It automates the process of creating a table based on the CSV file's structure and inserting the data into the database.
+
+## Features
+- Parses the structure of the CSV file to generate a corresponding PostgreSQL table schema dynamically.
+- Handles different data types (integer, float, string) in the CSV file and creates appropriate table columns.
+- Inserts data from the CSV file into the PostgreSQL table using parameterized queries to prevent SQL injection.
+- Provides flexibility to customize the input CSV file path, target table name, and PostgreSQL connection parameters.
+
+## Usage
+1. **Input CSV File**: Specify the path to the input CSV file using the `file_path` variable.
+   
+2. **Target Table Name**: Define the name of the table where the data will be imported. Modify the `table_name` variable accordingly.
+
+3. **PostgreSQL Connection Parameters**: Set the connection parameters for your PostgreSQL database (hostname, database name, username, password, port) using the respective variables (`hostname`, `database`, `username`, `pwd`, `port_id`).
+
+4. **Running the Script**: Execute the script `csv_to_postgresql_importer.py`. It will read the input CSV file, dynamically generate the table schema, create the table in the PostgreSQL database, and insert the data.
 
 ---
 
