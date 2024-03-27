@@ -31,6 +31,8 @@ from PIL import Image
 from io import BytesIO
 import base64
 
+
+
 load_dotenv()
 openai_module.api_key = os.getenv('OPENAI_API_KEY')
 
@@ -52,6 +54,12 @@ database = 'datagen'
 username = 'postgres'
 pwd = 'barathsk617'
 port_id = 5432
+
+db = SQLDatabase.from_uri(f"postgresql://{username}:{pwd}@{hostname}:{port_id}/{database}")
+
+# Initialize OpenAI
+llm = OpenAI(temperature=0)
+db_chain = SQLDatabaseChain(llm=llm, database=db, verbose=True)
 
 menu = st.sidebar.selectbox("Choose an Option", ["DataGenie-Hackathon-CSVBot","Anti Hallinucation & Response Evaluation","Question generator"])
 # Streamlit setup
