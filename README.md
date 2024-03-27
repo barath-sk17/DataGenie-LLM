@@ -1,6 +1,43 @@
 
 ---
 
+# Conversational Question-Answering System with CSV Data
+
+## Overview
+This Python script `conversational_qa_with_csv.py` demonstrates a conversational question-answering system integrated with CSV data. It leverages various components from the LangChain library to load CSV data, preprocess text, generate embeddings, and perform similarity search for answering questions.
+
+## Features
+- **CSV Data Loading**: Utilizes the `CSVLoader` from LangChain to load CSV data.
+- **Text Chunking**: Splits the loaded text data into smaller chunks for efficient processing using the `RecursiveCharacterTextSplitter`.
+- **Embedding Generation**: Utilizes Hugging Face embeddings to convert text chunks into dense embeddings.
+- **Vector Store Creation**: Creates a vector store using FAISS to store and query the embeddings efficiently.
+- **Conversational Retrieval**: Implements a conversational question-answering system using LangChain's LLM (Language Model) and the vector store for similarity search.
+
+## Usage
+1. **CSV Data**: Prepare the CSV data file (`output_1.csv`) containing the text information for question-answering.
+   
+2. **Python Environment**: Set up a Python environment with the required dependencies, including LangChain, Hugging Face Transformers, and FAISS.
+
+3. **Running the Script**: Execute the script `conversational_qa_with_csv.py`. It will prompt you to input a query, and then it will provide a response based on the CSV data.
+
+## Dependencies
+- Python 3.x
+- LangChain library (`langchain`)
+- Hugging Face Transformers library (`transformers`)
+- FAISS library (`faiss-cpu` or `faiss-gpu`)
+- Other dependencies: `csv`, `os`, `sys`
+
+## Configuration
+- **CSV File Path**: Modify the `file_path` variable to specify the path to the CSV file.
+- **Model**: Customize the LLM model path (`models/llama-2-7b-chat.ggmlv3.q8_0.bin`) and other parameters as needed.
+- **Vector Store Path**: Adjust the `DB_FAISS_PATH` variable to set the path for saving the FAISS vector store.
+
+## Run-Command
+```bash
+python llama.py
+```
+---
+
 # CSV to PostgreSQL Data Importer
 
 ## Overview
@@ -26,7 +63,7 @@ This Python script `csv_to_postgresql_importer.py` is designed to import data fr
 - `csv` module (built-in)
 - `psycopg2` library for PostgreSQL database connection
 
-## Example
+## Run-Command
 ```bash
 python script_ai.py
 ```
@@ -47,11 +84,11 @@ This Python script `partition_csv.py` is designed to partition a large CSV file 
 
 4. **Running the Script**: Simply execute the script `partition_csv.py`. It will read the input CSV file, partition it into smaller CSV files based on the specified number of rows per file, and save them in the output folder.
 
-## Example
+## Run-Command
 ```bash
 python partition_csv.py
 ```
 
-## Example Output
+## Output
 Suppose you have a large CSV file named `SalesUseCase-V1.csv`. After running the script, it will create a folder named `Sales-Datagen` (if it doesn't exist already) and save the partitioned CSV files inside it. The output files will be named `output_1.csv`, `output_2.csv`, etc., each containing the specified number of rows.
 
