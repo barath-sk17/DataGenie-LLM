@@ -40,6 +40,9 @@ Install the dependencies using `pip install -r requirements2.txt`.
 - Customize the script according to your specific dataset and requirements.
 - For production use, consider securing sensitive information such as API keys and database credentials.
 
+## Video Preview
+- https://drive.google.com/file/d/1ndt6A8R4y3rqpF6qp5N95-0OeITAFJTh/view?usp=sharing
+
 ## Preview
 - ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/51a1e9f8-5986-4066-a1a9-2b76d03150f8)
 - ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/c62ee932-8ee2-468b-915e-63e78a2f764c)
