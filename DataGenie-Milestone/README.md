@@ -16,12 +16,12 @@ This Python script implements a Streamlit application with multiple functionalit
 ## Usage
 1. **Environment Setup**: Set up a Python environment with the required dependencies listed in the `requirements2.txt` file.
 2. **Configuration**: Ensure that the PostgreSQL database connection parameters (`hostname`, `database`, `username`, `pwd`, `port_id`) are correctly configured.
-3. **Running the Script**: Execute the script (`streamlit run milestone-5.py`) to launch the Streamlit application. Choose the desired option from the sidebar menu to access different functionalities.
+3. **Running the Script**: Execute the script (`streamlit run milestone-5.py`) & (`streamlit run milestone-4.py`) to launch the Streamlit application. Choose the desired option from the sidebar menu to access different functionalities.
 
 ## Dependencies
 - Python 3.x
 - LangChain
-- Streamlit
+- Streamlit  
 - psycopg2
 - UpTrain
 - seaborn
