@@ -1,0 +1,1001 @@
+TransactionDate,CustomerAgeBucket,State,CustomerGender,CustomerIncomeGroup,MarketChannel,ProductCategory,ProductSubCategory,ProductBrand,ProductName,UnitCost,ProductCost,NumberOfUnits,DiscountRate,TotalCost,ShippingCost,Profit,PaymentMethod,DeliveryTime
+2021-04-12,36-45,OH,Other,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,148.0,100.0,1.0,2.0,148.0,16.0,31.0,Debit Card,6.0
+2021-04-12,46-55,PA,Female,Low,Affiliates,Clothing,Jeans,Levis,501 Original,75.0,60.0,2.0,17.0,150.0,9.0,21.0,BNPL,4.0
+2021-04-12,46-55,TX,Female,Middle,App,Clothing,Jeans,Wrangler,Authentics,36.0,30.0,1.0,24.0,36.0,6.0,0.0,Credit Card,4.0
+2021-04-12,36-45,FL,Other,High,App,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,5.0,8.0,100.0,8.0,17.0,Digital Wallet,7.0
+2021-04-12,46-55,TX,Female,High,App,Home,Furniture,IKEA,Billy Bookcase,154.0,100.0,1.0,3.0,154.0,16.0,38.0,Credit Card,6.0
+2021-04-12,36-45,NY,Other,Low,Email,Beauty,Skincare,Neutrogena,Hydro Boost Gel,22.0,20.0,5.0,13.0,108.0,11.0,-3.0,Credit Card,4.0
+2021-04-12,18-25,MI,Other,Low,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,6.0,14.0,107.0,10.0,6.0,Credit Card,16.0
+2021-04-12,18-25,OH,Other,Middle,Organic,Home,Beds,Serta,iComfort,2281.0,1900.0,1.0,4.0,2281.0,19.0,362.0,BNPL,4.0
+2021-04-12,36-45,TX,Male,Low,Organic,Electronics,Smartphones,Apple,iPhone 15,1083.0,800.0,2.0,6.0,2166.0,16.0,550.0,Digital Wallet,4.0
+2021-04-12,26-35,CA,Male,Low,Organic,Beauty,Makeup,Revlon,PhotoReady Concealer,17.0,12.0,7.0,8.0,117.0,7.0,27.0,Credit Card,5.0
+2021-04-12,46-55,OH,Female,High,Organic,Clothing,Jeans,Levis,501 Original,75.0,60.0,3.0,19.0,225.0,10.0,34.0,Debit Card,5.0
+2021-04-12,26-35,CA,Male,Low,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1809.0,1500.0,3.0,8.0,5428.0,30.0,898.0,Credit Card,5.0
+2021-04-12,26-35,TX,Other,Low,Affiliates,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,3.0,14.0,64.0,7.0,12.0,BNPL,7.0
+2021-04-12,36-45,OH,Male,Middle,App,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,25.0,20.0,2.0,17.0,49.0,7.0,3.0,Debit Card,4.0
+2021-04-12,26-35,TX,Male,Middle,Affiliates,Home,Furniture,IKEA,Kallax Shelf,96.0,60.0,2.0,4.0,191.0,27.0,44.0,Credit Card,7.0
+2021-04-12,66+,TX,Female,Middle,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2177.0,1800.0,1.0,4.0,2177.0,18.0,359.0,Digital Wallet,5.0
+2021-04-12,66+,TX,Other,Middle,Affiliates,Clothing,Jeans,Levis,501 Original,71.0,60.0,1.0,16.0,71.0,6.0,5.0,Debit Card,3.0
+2021-04-12,18-25,GA,Other,High,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,16.0,15.0,5.0,10.0,82.0,6.0,1.0,BNPL,8.0
+2021-04-12,26-35,OH,Female,High,Affiliates,Home,Furniture,IKEA,Billy Bookcase,136.0,100.0,1.0,3.0,136.0,16.0,20.0,Credit Card,6.0
+2021-04-12,56-65,PA,Other,High,Email,Clothing,Jeans,Levis,501 Original,69.0,60.0,2.0,20.0,137.0,9.0,8.0,Credit Card,6.0
+2021-04-12,66+,OH,Female,High,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1776.0,1500.0,2.0,9.0,3552.0,23.0,529.0,Digital Wallet,4.0
+2021-04-12,66+,TX,Male,Low,App,Electronics,Smartphones,Samsung,Galaxy S21,632.0,500.0,1.0,11.0,632.0,10.0,122.0,Credit Card,4.0
+2021-04-12,18-25,TX,Other,Middle,App,Electronics,Laptops,Dell,XPS,1593.0,1300.0,2.0,9.0,3186.0,23.0,563.0,Debit Card,4.0
+2021-04-12,46-55,GA,Female,Low,Others,Beauty,Makeup,Revlon,ColorStay Lipstick,17.0,15.0,3.0,13.0,50.0,6.0,-1.0,Digital Wallet,4.0
+2021-04-12,46-55,FL,Female,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,16.0,10.0,3.0,7.0,47.0,8.0,10.0,Debit Card,4.0
+2021-04-12,26-35,NY,Female,Middle,Others,Beauty,Makeup,Revlon,PhotoReady Concealer,19.0,12.0,7.0,11.0,130.0,12.0,35.0,Credit Card,7.0
+2021-04-12,18-25,PA,Other,Low,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,25.0,20.0,3.0,14.0,74.0,8.0,6.0,Digital Wallet,7.0
+2021-04-12,18-25,PA,Male,Middle,App,Clothing,Jeans,Levis,501 Original,72.0,60.0,3.0,16.0,216.0,11.0,25.0,Debit Card,6.0
+2021-04-12,26-35,MI,Other,High,Others,Home,Furniture,IKEA,Kallax Shelf,68.0,60.0,1.0,3.0,68.0,18.0,-10.0,BNPL,5.0
+2021-04-12,56-65,OH,Male,Middle,PPC,Electronics,Laptops,Apple Laptop,MacBook Air M2,1255.0,1000.0,1.0,6.0,1255.0,14.0,241.0,Debit Card,4.0
+2021-04-12,18-25,NY,Female,High,Affiliates,Electronics,Smartphones,Apple,iPhone SE,578.0,400.0,2.0,8.0,1156.0,19.0,337.0,Digital Wallet,5.0
+2021-04-12,36-45,GA,Other,Low,Organic,Electronics,Smartphones,Samsung,Galaxy S21,776.0,500.0,3.0,10.0,2327.0,21.0,806.0,Digital Wallet,6.0
+2021-04-12,56-65,OH,Male,Middle,Email,Home,Furniture,IKEA,Kallax Shelf,67.0,60.0,1.0,2.0,67.0,16.0,-9.0,Credit Card,6.0
+2021-04-12,18-25,IL,Male,Middle,Others,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1602.0,1500.0,3.0,12.0,4807.0,24.0,283.0,Digital Wallet,5.0
+2021-04-12,26-35,CA,Other,High,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,1.0,13.0,21.0,3.0,3.0,Credit Card,4.0
+2021-04-12,46-55,NY,Other,Middle,App,Home,Furniture,IKEA,Kallax Shelf,81.0,60.0,2.0,4.0,162.0,30.0,11.0,Digital Wallet,5.0
+2021-04-12,18-25,GA,Male,Middle,Affiliates,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,30.0,20.0,5.0,14.0,150.0,7.0,43.0,Credit Card,5.0
+2021-04-12,26-35,TX,Male,Low,App,Home,Furniture,IKEA,Kallax Shelf,77.0,60.0,2.0,4.0,153.0,27.0,6.0,BNPL,6.0
+2021-04-12,26-35,NC,Female,Low,Organic,Home,Beds,Serta,iComfort,2509.0,1900.0,1.0,2.0,2509.0,22.0,587.0,Credit Card,5.0
+2021-04-12,26-35,PA,Female,High,PPC,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,23.0,20.0,2.0,17.0,45.0,8.0,-2.0,Debit Card,4.0
+2021-04-12,36-45,OH,Female,Low,Affiliates,Electronics,Laptops,Apple Laptop,MacBook Pro M2,1383.0,1200.0,2.0,8.0,2766.0,23.0,342.0,Credit Card,5.0
+2021-04-12,36-45,CA,Female,High,PPC,Electronics,Smartphones,Samsung,Galaxy A32,358.0,250.0,1.0,6.0,358.0,8.0,100.0,Digital Wallet,4.0
+2021-04-12,18-25,PA,Female,Middle,PPC,Home,Furniture,IKEA,Kallax Shelf,73.0,60.0,2.0,3.0,145.0,29.0,-4.0,Credit Card,5.0
+2021-04-12,56-65,MI,Male,High,Affiliates,Beauty,Skincare,Neutrogena,Hydro Boost Gel,28.0,20.0,1.0,11.0,28.0,8.0,0.0,Credit Card,5.0
+2021-04-12,56-65,PA,Female,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,1.0,8.0,17.0,7.0,-4.0,BNPL,3.0
+2021-04-12,36-45,MI,Other,Middle,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,5.0,12.0,70.0,10.0,10.0,Debit Card,5.0
+2021-04-12,36-45,NY,Male,Low,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2180.0,1800.0,2.0,4.0,4360.0,35.0,725.0,Credit Card,5.0
+2021-04-12,18-25,CA,Other,Low,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1608.0,1500.0,3.0,14.0,4824.0,20.0,304.0,Debit Card,3.0
+2021-04-12,46-55,CA,Female,Middle,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2074.0,1800.0,2.0,4.0,4148.0,30.0,518.0,Debit Card,2.0
+2021-04-12,66+,CA,Male,Low,Organic,Beauty,Makeup,Revlon,PhotoReady Concealer,15.0,12.0,7.0,10.0,106.0,7.0,15.0,Credit Card,5.0
+2021-04-12,26-35,CA,Other,Low,Affiliates,Beauty,Makeup,Maybelline,Lash Sensational Mascara,11.0,10.0,3.0,10.0,33.0,5.0,-1.0,Credit Card,3.0
+2021-04-12,26-35,PA,Female,Middle,Others,Electronics,Smartphones,Samsung,Galaxy A32,340.0,250.0,1.0,14.0,340.0,12.0,78.0,Digital Wallet,3.0
+2021-04-12,56-65,CA,Female,Middle,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,15.0,10.0,3.0,10.0,45.0,5.0,10.0,Digital Wallet,3.0
+2021-04-12,26-35,PA,Male,Low,Others,Beauty,Makeup,Maybelline,Lash Sensational Mascara,16.0,10.0,2.0,7.0,33.0,7.0,5.0,Debit Card,4.0
+2021-04-12,56-65,GA,Female,Low,Organic,Home,Beds,Tempur-Pedic,Contour Elite,1944.0,1700.0,1.0,4.0,1944.0,17.0,227.0,Debit Card,5.0
+2021-04-12,36-45,CA,Male,Middle,Affiliates,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1800.0,1500.0,3.0,5.0,5400.0,20.0,880.0,Credit Card,5.0
+2021-04-12,56-65,FL,Other,Low,App,Clothing,Jeans,Wrangler,Regular Fit,48.0,35.0,3.0,17.0,143.0,11.0,27.0,BNPL,5.0
+2021-04-12,46-55,OH,Male,Middle,PPC,Home,Beds,Tempur-Pedic,Contour Elite,2132.0,1700.0,1.0,4.0,2132.0,19.0,413.0,Debit Card,5.0
+2021-04-12,18-25,TX,Female,Middle,Organic,Home,Beds,Serta,iComfort,2402.0,1900.0,2.0,4.0,4804.0,32.0,972.0,BNPL,6.0
+2021-04-12,66+,CA,Female,Middle,App,Clothing,T-Shirts,Adidas,Performance,64.0,45.0,1.0,17.0,64.0,4.0,15.0,Digital Wallet,2.0
+2021-04-12,26-35,CA,Male,Low,App,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,28.0,20.0,2.0,18.0,56.0,4.0,12.0,Debit Card,3.0
+2021-04-12,56-65,NC,Male,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,19.0,15.0,3.0,11.0,58.0,11.0,2.0,Debit Card,5.0
+2021-04-12,36-45,NC,Other,High,Affiliates,Beauty,Makeup,Revlon,PhotoReady Concealer,14.0,12.0,6.0,7.0,82.0,12.0,-2.0,Debit Card,7.0
+2021-04-12,56-65,NY,Male,Low,Affiliates,Electronics,Smartphones,Apple,iPhone 14,1029.0,700.0,2.0,5.0,2058.0,19.0,640.0,Digital Wallet,4.0
+2021-04-12,26-35,NC,Male,Middle,PPC,Electronics,Smartphones,Samsung,Galaxy A32,371.0,250.0,1.0,10.0,371.0,14.0,107.0,Debit Card,5.0
+2021-04-12,26-35,CA,Male,Middle,Email,Clothing,Jeans,Wrangler,Authentics,40.0,30.0,1.0,24.0,40.0,4.0,5.0,Credit Card,3.0
+2021-04-12,18-25,TX,Male,High,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,1.0,6.0,14.0,5.0,-1.0,Digital Wallet,4.0
+2021-04-12,26-35,FL,Female,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,7.0,7.0,149.0,10.0,34.0,Credit Card,6.0
+2021-04-12,36-45,CA,Male,Middle,App,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,5.0,12.0,99.0,5.0,19.0,Credit Card,5.0
+2021-04-12,26-35,OH,Female,Middle,Email,Beauty,Skincare,Neutrogena,Hydro Boost Gel,23.0,20.0,5.0,16.0,114.0,8.0,6.0,BNPL,5.0
+2021-04-12,46-55,TX,Male,High,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2150.0,1800.0,2.0,4.0,4299.0,32.0,667.0,Credit Card,6.0
+2021-04-12,18-25,NY,Female,Low,Others,Electronics,Smartphones,Apple,iPhone 15,994.0,800.0,1.0,14.0,994.0,13.0,181.0,Digital Wallet,5.0
+2021-04-12,46-55,CA,Female,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1650.0,1500.0,2.0,12.0,3300.0,14.0,286.0,Digital Wallet,4.0
+2021-04-12,26-35,TX,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,995.0,700.0,1.0,5.0,995.0,10.0,284.0,Credit Card,4.0
+2021-04-12,56-65,FL,Other,Low,Others,Home,Furniture,IKEA,Billy Bookcase,160.0,100.0,1.0,2.0,160.0,17.0,43.0,Debit Card,5.0
+2021-04-12,36-45,IL,Female,Middle,Email,Home,Beds,Tempur-Pedic,Contour Elite,2121.0,1700.0,1.0,3.0,2121.0,20.0,401.0,Credit Card,4.0
+2021-04-12,26-35,OH,Male,High,Others,Home,Furniture,IKEA,Billy Bookcase,166.0,100.0,1.0,1.0,166.0,16.0,49.0,BNPL,5.0
+2021-04-12,66+,FL,Female,Low,Email,Home,Furniture,IKEA,Kallax Shelf,85.0,60.0,1.0,1.0,85.0,17.0,8.0,Digital Wallet,4.0
+2021-04-12,26-35,IL,Female,High,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,6.0,7.0,111.0,10.0,11.0,Credit Card,5.0
+2021-04-12,66+,MI,Female,Low,Others,Beauty,Makeup,Maybelline,Lash Sensational Mascara,17.0,10.0,7.0,11.0,119.0,11.0,38.0,Debit Card,7.0
+2021-04-12,56-65,IL,Other,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,172.0,100.0,1.0,2.0,172.0,18.0,54.0,Credit Card,6.0
+2021-04-12,18-25,CA,Female,Middle,Email,Home,Furniture,Ashley Furniture,Bed Frame,246.0,100.0,2.0,1.0,492.0,25.0,266.0,Digital Wallet,6.0
+2021-04-12,18-25,TX,Male,High,Others,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,20.0,15.0,2.0,18.0,39.0,6.0,3.0,Debit Card,3.0
+2021-04-12,56-65,OH,Male,Middle,Affiliates,Beauty,Makeup,Maybelline,Lash Sensational Mascara,15.0,10.0,5.0,9.0,76.0,8.0,18.0,Debit Card,6.0
+2021-04-12,36-45,PA,Male,Middle,Organic,Clothing,Jeans,Levis,Slim Fit,57.0,50.0,2.0,18.0,113.0,9.0,4.0,Digital Wallet,6.0
+2021-04-12,46-55,CA,Male,Low,Affiliates,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,3.0,9.0,37.0,5.0,2.0,Digital Wallet,4.0
+2021-04-12,46-55,GA,Male,Low,Others,Electronics,Laptops,Dell,Inspiron,854.0,600.0,2.0,4.0,1708.0,22.0,486.0,Debit Card,4.0
+2021-04-12,26-35,CA,Male,Low,Affiliates,Home,Furniture,IKEA,Billy Bookcase,154.0,100.0,2.0,3.0,308.0,25.0,83.0,Credit Card,4.0
+2021-04-12,56-65,PA,Male,Middle,PPC,Beauty,Makeup,Maybelline,Fit Me Foundation,22.0,15.0,3.0,7.0,67.0,8.0,14.0,Credit Card,6.0
+2021-04-12,36-45,OH,Other,High,Organic,Home,Furniture,IKEA,Kallax Shelf,73.0,60.0,2.0,3.0,146.0,28.0,-2.0,Debit Card,6.0
+2021-04-12,26-35,TX,Other,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,927.0,700.0,3.0,11.0,2782.0,22.0,661.0,BNPL,5.0
+2021-04-12,26-35,TX,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,1058.0,800.0,2.0,13.0,2117.0,16.0,501.0,Debit Card,6.0
+2021-04-12,56-65,PA,Male,Middle,Affiliates,Clothing,Jeans,Levis,501 Original,70.0,60.0,3.0,21.0,211.0,11.0,20.0,Credit Card,5.0
+2021-04-12,26-35,TX,Male,Low,Others,Electronics,Smartphones,Samsung,Galaxy S21,753.0,500.0,3.0,8.0,2259.0,22.0,737.0,Digital Wallet,6.0
+2021-04-12,36-45,TX,Male,Low,PPC,Electronics,Laptops,Apple Laptop,MacBook Pro M2,1413.0,1200.0,1.0,6.0,1413.0,14.0,199.0,Credit Card,4.0
+2021-04-12,18-25,MI,Female,Low,Organic,Home,Beds,Serta,Perfect Sleeper,942.0,750.0,1.0,4.0,942.0,21.0,171.0,Credit Card,5.0
+2021-04-12,56-65,FL,Female,Middle,App,Home,Furniture,IKEA,Billy Bookcase,155.0,100.0,1.0,4.0,155.0,17.0,38.0,Credit Card,4.0
+2021-04-12,26-35,GA,Male,Middle,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2268.0,1800.0,2.0,1.0,4535.0,31.0,904.0,Digital Wallet,5.0
+2021-04-12,18-25,NC,Female,Middle,Email,Clothing,Jeans,Levis,Slim Fit,58.0,50.0,3.0,19.0,175.0,14.0,12.0,Digital Wallet,7.0
+2021-04-12,26-35,GA,Female,High,PPC,Home,Beds,Serta,Perfect Sleeper,971.0,750.0,2.0,3.0,1941.0,31.0,410.0,Digital Wallet,5.0
+2021-04-12,36-45,MI,Female,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,6.0,8.0,82.0,10.0,12.0,BNPL,6.0
+2021-04-12,66+,PA,Female,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,22.0,15.0,3.0,5.0,66.0,8.0,13.0,Debit Card,5.0
+2021-04-12,46-55,FL,Female,Middle,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,2.0,5.0,37.0,7.0,-0.0,Credit Card,5.0
+2021-04-12,26-35,PA,Female,Low,Email,Home,Furniture,IKEA,Kallax Shelf,75.0,60.0,2.0,4.0,150.0,29.0,1.0,Debit Card,5.0
+2021-04-12,26-35,FL,Other,Middle,Others,Electronics,Smartphones,Samsung,Galaxy S21,670.0,500.0,3.0,11.0,2010.0,23.0,487.0,Digital Wallet,6.0
+2021-04-12,46-55,CA,Other,Middle,Others,Electronics,Smartphones,Samsung,Galaxy A32,338.0,250.0,1.0,14.0,338.0,8.0,80.0,Credit Card,4.0
+2021-04-12,46-55,GA,Male,Middle,PPC,Electronics,Smartphones,Apple,iPhone 14,1000.0,700.0,2.0,6.0,1999.0,15.0,584.0,Credit Card,6.0
+2021-04-12,36-45,IL,Male,Low,Others,Home,Furniture,IKEA,Kallax Shelf,87.0,60.0,2.0,4.0,175.0,29.0,25.0,Credit Card,6.0
+2021-04-12,56-65,OH,Other,Low,App,Home,Furniture,Ashley Furniture,Dining Table,394.0,200.0,2.0,2.0,788.0,28.0,360.0,Credit Card,6.0
+2021-04-12,26-35,TX,Male,Low,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2158.0,1800.0,1.0,1.0,2158.0,18.0,340.0,Digital Wallet,5.0
+2021-04-12,66+,NY,Other,Low,PPC,Home,Furniture,IKEA,Billy Bookcase,158.0,100.0,1.0,1.0,158.0,19.0,39.0,Digital Wallet,6.0
+2021-04-12,26-35,NY,Male,Middle,PPC,Home,Furniture,IKEA,Kallax Shelf,91.0,60.0,2.0,3.0,181.0,30.0,31.0,BNPL,6.0
+2021-04-12,26-35,FL,Male,High,Others,Electronics,Smartphones,Samsung,Galaxy S21,702.0,500.0,2.0,9.0,1405.0,17.0,388.0,Debit Card,4.0
+2021-04-12,18-25,OH,Female,High,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,3.0,5.0,60.0,7.0,8.0,Debit Card,4.0
+2021-04-12,18-25,NY,Male,Middle,Affiliates,Electronics,Laptops,HP,Envy,1065.0,700.0,2.0,2.0,2129.0,26.0,703.0,Digital Wallet,5.0
+2021-04-12,36-45,NY,Male,Low,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,7.0,8.0,143.0,12.0,26.0,Debit Card,8.0
+2021-04-12,18-25,TX,Male,Low,App,Electronics,Smartphones,Apple,iPhone 15,1040.0,800.0,3.0,11.0,3120.0,22.0,699.0,Digital Wallet,5.0
+2021-04-12,36-45,TX,Female,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy A32,306.0,250.0,1.0,14.0,306.0,10.0,46.0,Credit Card,5.0
+2021-04-12,26-35,MI,Female,Low,App,Electronics,Smartphones,Apple,iPhone 15,1091.0,800.0,2.0,8.0,2183.0,18.0,565.0,Digital Wallet,5.0
+2021-04-12,26-35,OH,Female,Low,Affiliates,Electronics,Smartphones,Apple,iPhone 14,929.0,700.0,1.0,9.0,929.0,11.0,218.0,Credit Card,4.0
+2021-04-12,36-45,FL,Other,Middle,App,Clothing,Jeans,Levis,Slim Fit,63.0,50.0,13.0,20.0,821.0,24.0,147.0,Digital Wallet,10.0
+2021-04-12,66+,GA,Other,Middle,Email,Electronics,Laptops,Dell,XPS,1550.0,1300.0,2.0,7.0,3100.0,22.0,478.0,Credit Card,5.0
+2021-04-12,26-35,TX,Other,Low,Organic,Electronics,Smartphones,Apple,iPhone 14,989.0,700.0,1.0,6.0,989.0,10.0,278.0,Debit Card,4.0
+2021-04-12,36-45,PA,Female,Middle,Email,Electronics,Laptops,Apple Laptop,MacBook Air M2,1341.0,1000.0,2.0,6.0,2683.0,24.0,658.0,Credit Card,6.0
+2021-04-12,36-45,PA,Other,High,Affiliates,Clothing,Jeans,Wrangler,Regular Fit,49.0,35.0,1.0,21.0,49.0,8.0,7.0,Digital Wallet,4.0
+2021-04-12,36-45,OH,Female,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,91.0,60.0,1.0,2.0,91.0,16.0,14.0,Digital Wallet,5.0
+2021-04-12,66+,OH,Male,Middle,Email,Home,Beds,Tempur-Pedic,Cloud Supreme,2150.0,1800.0,1.0,4.0,2150.0,19.0,332.0,Digital Wallet,4.0
+2021-04-12,46-55,IL,Male,Middle,Email,Electronics,Smartphones,Samsung,Galaxy A32,314.0,250.0,1.0,11.0,314.0,12.0,52.0,Credit Card,4.0
+2021-04-12,26-35,FL,Female,Low,Email,Electronics,Smartphones,Apple,iPhone SE,567.0,400.0,1.0,11.0,567.0,11.0,156.0,Credit Card,9.0
+2021-04-12,26-35,IL,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,1082.0,800.0,1.0,6.0,1082.0,12.0,270.0,Debit Card,4.0
+2021-04-12,36-45,IL,Male,Low,App,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,30.0,20.0,13.0,14.0,385.0,15.0,109.0,Digital Wallet,10.0
+2021-04-12,26-35,OH,Female,Low,Others,Electronics,Smartphones,Apple,iPhone 15,1043.0,800.0,1.0,11.0,1043.0,11.0,233.0,BNPL,6.0
+2021-04-12,66+,PA,Female,Low,Email,Electronics,Laptops,Apple Laptop,MacBook Air M1,1166.0,900.0,2.0,2.0,2332.0,24.0,508.0,Credit Card,2.0
+2021-04-12,18-25,IL,Female,Middle,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,5.0,7.0,98.0,9.0,14.0,BNPL,7.0
+2021-04-12,26-35,IL,Female,Middle,Others,Electronics,Laptops,Dell,XPS,1634.0,1300.0,2.0,5.0,3267.0,25.0,643.0,Credit Card,4.0
+2021-04-12,46-55,CA,Female,Middle,Others,Clothing,Jeans,Levis,Bootcut,98.0,100.0,1.0,19.0,98.0,4.0,-6.0,Debit Card,4.0
+2021-04-12,66+,CA,Other,Middle,App,Beauty,Skincare,Neutrogena,Hydro Boost Gel,21.0,20.0,3.0,16.0,63.0,5.0,-2.0,Credit Card,4.0
+2021-04-12,56-65,NY,Male,Low,PPC,Clothing,Jeans,Levis,501 Original,70.0,60.0,3.0,20.0,211.0,13.0,19.0,Debit Card,6.0
+2021-04-12,26-35,TX,Male,Middle,PPC,Clothing,Jeans,Levis,501 Original,69.0,60.0,3.0,20.0,207.0,10.0,17.0,Credit Card,5.0
+2021-04-12,26-35,OH,Male,Middle,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,3.0,6.0,53.0,7.0,1.0,BNPL,6.0
+2021-04-12,26-35,IL,Female,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Pro M2,1339.0,1200.0,1.0,4.0,1339.0,16.0,123.0,Credit Card,5.0
+2021-04-12,66+,PA,Other,Middle,Organic,Home,Furniture,Ashley Furniture,Sofa,439.0,300.0,1.0,2.0,439.0,17.0,122.0,Credit Card,7.0
+2021-04-12,18-25,CA,Male,High,Email,Clothing,T-Shirts,Nike,Sportswear,39.0,25.0,1.0,11.0,39.0,4.0,10.0,Digital Wallet,3.0
+2021-04-12,36-45,IL,Male,Low,App,Clothing,Jeans,Wrangler,Authentics,34.0,30.0,2.0,23.0,68.0,10.0,-2.0,Debit Card,5.0
+2021-04-12,36-45,TX,Female,Middle,Others,Home,Furniture,IKEA,Billy Bookcase,144.0,100.0,2.0,3.0,288.0,27.0,61.0,Debit Card,5.0
+2021-04-12,26-35,NY,Male,High,Organic,Electronics,Smartphones,Apple,iPhone 15,986.0,800.0,3.0,11.0,2957.0,25.0,532.0,Credit Card,4.0
+2021-04-12,56-65,PA,Male,Middle,App,Clothing,T-Shirts,Nike,Sportswear,37.0,25.0,1.0,12.0,37.0,7.0,5.0,Digital Wallet,5.0
+2021-04-12,36-45,TX,Female,Middle,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1775.0,1500.0,2.0,9.0,3551.0,23.0,528.0,Digital Wallet,5.0
+2021-04-12,66+,CA,Female,Low,Affiliates,Electronics,Smartphones,Apple,iPhone SE,552.0,400.0,3.0,10.0,1655.0,20.0,435.0,Debit Card,4.0
+2021-04-12,26-35,PA,Female,Low,Organic,Electronics,Smartphones,Samsung,Galaxy A32,291.0,250.0,3.0,14.0,874.0,23.0,101.0,BNPL,7.0
+2021-04-12,66+,NC,Female,Low,Organic,Electronics,Smartphones,Samsung,Galaxy S21,779.0,500.0,2.0,5.0,1557.0,20.0,537.0,Debit Card,4.0
+2021-04-12,26-35,IL,Female,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 14,960.0,700.0,1.0,9.0,960.0,12.0,248.0,Credit Card,5.0
+2021-04-12,66+,FL,Male,Middle,Others,Electronics,Laptops,Dell,XPS,1732.0,1300.0,1.0,4.0,1732.0,15.0,417.0,Digital Wallet,5.0
+2021-04-12,18-25,MI,Female,High,Affiliates,Home,Beds,Tempur-Pedic,Contour Elite,2006.0,1700.0,2.0,2.0,4013.0,34.0,578.0,BNPL,6.0
+2021-04-12,46-55,TX,Other,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,48.0,30.0,1.0,20.0,48.0,6.0,12.0,Credit Card,4.0
+2021-04-12,18-25,IL,Female,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,43.0,30.0,3.0,22.0,130.0,12.0,28.0,Credit Card,6.0
+2021-04-12,56-65,NC,Male,Low,Email,Clothing,T-Shirts,Nike,Dry-FIT,25.0,20.0,2.0,12.0,50.0,11.0,-1.0,Debit Card,6.0
+2021-04-12,26-35,NY,Male,Low,PPC,Home,Beds,Tempur-Pedic,Contour Elite,2094.0,1700.0,2.0,1.0,4189.0,35.0,754.0,Credit Card,7.0
+2021-04-12,66+,NY,Male,Low,PPC,Clothing,T-Shirts,Adidas,Performance,61.0,45.0,3.0,18.0,184.0,12.0,37.0,Credit Card,6.0
+2021-04-12,18-25,NC,Female,High,Affiliates,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,3.0,18.0,55.0,11.0,-1.0,Digital Wallet,6.0
+2021-04-12,26-35,FL,Male,Low,Organic,Clothing,T-Shirts,Nike,Pro,47.0,30.0,1.0,11.0,47.0,7.0,10.0,Credit Card,4.0
+2021-04-12,26-35,TX,Other,Low,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,18.0,20.0,1.0,13.0,18.0,5.0,-7.0,BNPL,4.0
+2021-04-12,36-45,GA,Female,Middle,Others,Home,Beds,Tempur-Pedic,Contour Elite,2128.0,1700.0,2.0,4.0,4255.0,31.0,824.0,Digital Wallet,4.0
+2021-04-12,36-45,OH,Male,Low,Email,Clothing,Jeans,Levis,Slim Fit,58.0,50.0,2.0,16.0,117.0,8.0,8.0,Credit Card,5.0
+2021-04-12,56-65,OH,Other,Low,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,14.0,15.0,7.0,12.0,101.0,9.0,-13.0,Debit Card,5.0
+2021-04-12,36-45,OH,Female,Middle,Organic,Beauty,Skincare,Neutrogena,Hydro Boost Gel,23.0,20.0,1.0,12.0,23.0,6.0,-2.0,Digital Wallet,13.0
+2021-04-12,66+,CA,Other,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1757.0,1500.0,2.0,7.0,3513.0,21.0,492.0,Debit Card,4.0
+2021-04-12,46-55,PA,Male,Middle,App,Clothing,Jeans,Levis,501 Original,68.0,60.0,2.0,22.0,136.0,9.0,7.0,Credit Card,5.0
+2021-04-12,26-35,PA,Female,Middle,Organic,Home,Beds,Serta,Perfect Sleeper,968.0,750.0,1.0,3.0,968.0,20.0,198.0,Credit Card,5.0
+2021-04-12,66+,MI,Male,Middle,Email,Electronics,Smartphones,Apple,iPhone 15,1027.0,800.0,3.0,12.0,3081.0,24.0,657.0,Debit Card,11.0
+2021-04-12,56-65,TX,Male,Middle,Affiliates,Home,Furniture,IKEA,Kallax Shelf,55.0,60.0,2.0,4.0,110.0,27.0,-38.0,Credit Card,7.0
+2021-04-12,26-35,NY,Other,Middle,Others,Clothing,T-Shirts,Nike,Sportswear,36.0,25.0,16.0,13.0,575.0,27.0,148.0,Digital Wallet,11.0
+2021-04-12,56-65,OH,Other,Middle,Others,Clothing,Jeans,Levis,Bootcut,92.0,100.0,3.0,21.0,275.0,10.0,-35.0,Credit Card,4.0
+2021-04-12,18-25,GA,Female,High,Organic,Clothing,Jeans,Wrangler,Authentics,44.0,30.0,2.0,18.0,88.0,7.0,21.0,BNPL,4.0
+2021-04-12,66+,CA,Male,Low,App,Electronics,Laptops,Apple Laptop,MacBook Air M2,1212.0,1000.0,2.0,9.0,2424.0,21.0,404.0,Credit Card,3.0
+2021-04-12,46-55,FL,Male,High,Others,Home,Furniture,IKEA,Kallax Shelf,69.0,60.0,2.0,2.0,138.0,28.0,-10.0,Digital Wallet,5.0
+2021-04-12,26-35,MI,Male,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,23.0,15.0,6.0,5.0,137.0,10.0,36.0,Credit Card,6.0
+2021-04-12,46-55,FL,Male,Low,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,18.0,10.0,6.0,8.0,107.0,9.0,38.0,BNPL,6.0
+2021-04-12,56-65,NC,Male,Middle,Email,Electronics,Smartphones,Apple,iPhone 14,960.0,700.0,3.0,10.0,2880.0,26.0,754.0,Debit Card,5.0
+2021-04-12,18-25,MI,Male,High,App,Electronics,Smartphones,Samsung,Galaxy A32,303.0,250.0,2.0,12.0,607.0,18.0,89.0,Credit Card,4.0
+2021-04-12,46-55,FL,Female,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,96.0,60.0,1.0,4.0,96.0,17.0,19.0,Credit Card,5.0
+2021-04-12,66+,FL,Female,Middle,PPC,Clothing,Jeans,Levis,Slim Fit,61.0,50.0,1.0,21.0,61.0,7.0,4.0,Credit Card,3.0
+2021-04-12,26-35,FL,Male,Low,Organic,Electronics,Smartphones,Apple,iPhone 14,933.0,700.0,2.0,9.0,1865.0,17.0,449.0,Digital Wallet,5.0
+2021-04-12,46-55,TX,Female,Middle,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2197.0,1700.0,2.0,1.0,4395.0,32.0,963.0,Credit Card,5.0
+2021-04-12,26-35,CA,Male,Low,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,23.0,15.0,3.0,10.0,69.0,5.0,19.0,Credit Card,3.0
+2021-04-12,18-25,NY,Male,Middle,App,Electronics,Laptops,HP,Envy,1046.0,700.0,2.0,2.0,2093.0,26.0,667.0,BNPL,6.0
+2021-04-12,46-55,TX,Male,Middle,Organic,Home,Beds,Serta,Perfect Sleeper,975.0,750.0,2.0,3.0,1950.0,32.0,418.0,Debit Card,7.0
+2021-04-12,36-45,OH,Male,Low,Organic,Electronics,Smartphones,Apple,iPhone 15,1015.0,800.0,1.0,10.0,1015.0,11.0,205.0,BNPL,3.0
+2021-04-12,56-65,PA,Other,Low,Others,Electronics,Smartphones,Samsung,Galaxy A32,335.0,250.0,1.0,8.0,335.0,12.0,73.0,Digital Wallet,4.0
+2021-04-12,36-45,CA,Female,Middle,App,Home,Furniture,Ashley Furniture,Bed Frame,247.0,100.0,2.0,1.0,494.0,25.0,269.0,Credit Card,4.0
+2021-04-12,66+,FL,Male,Low,App,Home,Furniture,IKEA,Billy Bookcase,162.0,100.0,2.0,2.0,323.0,28.0,95.0,Digital Wallet,5.0
+2021-04-12,26-35,NY,Female,Middle,App,Home,Furniture,IKEA,Billy Bookcase,168.0,100.0,2.0,2.0,335.0,30.0,105.0,Debit Card,6.0
+2021-04-12,36-45,NY,Male,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy A32,317.0,250.0,2.0,14.0,634.0,19.0,115.0,BNPL,6.0
+2021-04-12,18-25,CA,Male,Middle,App,Electronics,Laptops,Dell,XPS,1593.0,1300.0,1.0,7.0,1593.0,12.0,281.0,Digital Wallet,3.0
+2021-04-12,56-65,TX,Male,Middle,PPC,Electronics,Smartphones,Apple,iPhone SE,572.0,400.0,1.0,10.0,572.0,10.0,162.0,Digital Wallet,3.0
+2021-04-12,66+,CA,Male,Middle,Others,Electronics,Laptops,HP,Envy,966.0,700.0,2.0,3.0,1933.0,21.0,512.0,Credit Card,6.0
+2021-04-12,36-45,NY,Male,Middle,App,Home,Furniture,IKEA,Billy Bookcase,148.0,100.0,1.0,4.0,148.0,19.0,29.0,Digital Wallet,5.0
+2021-04-12,66+,OH,Male,Middle,App,Electronics,Smartphones,Apple,iPhone SE,561.0,400.0,2.0,12.0,1123.0,16.0,307.0,Digital Wallet,4.0
+2021-04-12,56-65,PA,Male,High,Organic,Clothing,Jeans,Wrangler,Authentics,43.0,30.0,3.0,17.0,128.0,11.0,26.0,Credit Card,6.0
+2021-04-12,26-35,CA,Other,Low,App,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,2.0,10.0,24.0,4.0,-0.0,BNPL,3.0
+2021-04-12,66+,TX,Female,Middle,Email,Home,Beds,Tempur-Pedic,Contour Elite,1964.0,1700.0,2.0,3.0,3928.0,32.0,496.0,Credit Card,5.0
+2021-04-12,26-35,TX,Male,Middle,Email,Home,Furniture,Ashley Furniture,Bed Frame,247.0,100.0,1.0,2.0,247.0,16.0,131.0,Digital Wallet,5.0
+2021-04-12,18-25,TX,Male,Middle,Affiliates,Clothing,Jeans,Wrangler,Authentics,34.0,30.0,2.0,24.0,67.0,8.0,-1.0,Debit Card,2.0
+2021-04-12,18-25,PA,Male,Middle,PPC,Clothing,Jeans,Levis,Slim Fit,59.0,50.0,2.0,18.0,119.0,9.0,9.0,BNPL,4.0
+2021-04-12,36-45,FL,Male,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 14,934.0,700.0,2.0,11.0,1869.0,17.0,452.0,BNPL,4.0
+2021-04-12,66+,IL,Male,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,21.0,15.0,5.0,11.0,106.0,9.0,22.0,Digital Wallet,6.0
+2021-04-12,18-25,CA,Female,High,Email,Clothing,Jeans,Levis,501 Original,70.0,60.0,2.0,22.0,139.0,6.0,13.0,Digital Wallet,4.0
+2021-04-12,18-25,TX,Female,Middle,Email,Electronics,Smartphones,Apple,iPhone 15,1011.0,800.0,3.0,13.0,3034.0,22.0,613.0,Digital Wallet,4.0
+2021-04-12,36-45,CA,Male,Low,Others,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,7.0,6.0,144.0,7.0,33.0,Debit Card,6.0
+2021-04-12,18-25,NY,Other,Middle,Affiliates,Electronics,Smartphones,Samsung,Galaxy A32,320.0,250.0,10.0,14.0,3200.0,59.0,640.0,Credit Card,11.0
+2021-04-12,56-65,TX,Male,High,Organic,Clothing,T-Shirts,Adidas,Performance,55.0,45.0,6.0,18.0,331.0,11.0,50.0,Credit Card,11.0
+2021-04-12,18-25,OH,Male,Middle,Email,Electronics,Smartphones,Samsung,Galaxy S21,705.0,500.0,3.0,13.0,2116.0,22.0,594.0,Credit Card,4.0
+2021-04-12,36-45,CA,Female,Middle,PPC,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,1.0,13.0,18.0,3.0,-0.0,Digital Wallet,3.0
+2021-04-12,26-35,NC,Other,High,App,Clothing,T-Shirts,Adidas,Performance,66.0,45.0,6.0,17.0,397.0,15.0,111.0,Digital Wallet,6.0
+2021-04-12,18-25,NC,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,993.0,800.0,3.0,11.0,2979.0,26.0,553.0,Digital Wallet,6.0
+2021-04-12,66+,NY,Other,Low,PPC,Electronics,Smartphones,Samsung,Galaxy A32,319.0,250.0,2.0,13.0,637.0,19.0,118.0,Credit Card,7.0
+2021-04-12,46-55,GA,Female,Low,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,11.0,10.0,7.0,5.0,75.0,8.0,-3.0,Digital Wallet,5.0
+2021-04-12,36-45,MI,Other,Middle,Organic,Beauty,Makeup,Revlon,PhotoReady Concealer,19.0,12.0,7.0,5.0,130.0,11.0,35.0,Debit Card,8.0
+2021-04-12,66+,FL,Female,High,PPC,Beauty,Skincare,Neutrogena,Hydro Boost Gel,21.0,20.0,5.0,14.0,103.0,9.0,-6.0,Credit Card,5.0
+2021-04-12,18-25,TX,Female,Low,PPC,Home,Beds,Serta,iComfort,2332.0,1900.0,2.0,1.0,4665.0,32.0,833.0,Debit Card,4.0
+2021-04-12,36-45,PA,Female,Low,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,18.0,10.0,1.0,9.0,18.0,7.0,2.0,Debit Card,5.0
+2021-04-12,46-55,FL,Female,Middle,Organic,Electronics,Laptops,Dell,Inspiron,851.0,600.0,1.0,3.0,851.0,15.0,236.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Male,Middle,Email,Electronics,Smartphones,Apple,iPhone 15,985.0,800.0,1.0,13.0,985.0,8.0,176.0,Debit Card,5.0
+2021-04-12,36-45,PA,Other,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy A32,307.0,250.0,3.0,9.0,922.0,23.0,148.0,Digital Wallet,5.0
+2021-04-12,66+,TX,Male,Middle,App,Clothing,Jeans,Levis,Bootcut,99.0,100.0,1.0,24.0,99.0,6.0,-7.0,Credit Card,4.0
+2021-04-12,56-65,TX,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,966.0,700.0,3.0,7.0,2898.0,22.0,776.0,Credit Card,5.0
+2021-04-12,56-65,FL,Female,Middle,App,Clothing,Jeans,Wrangler,Authentics,46.0,30.0,1.0,15.0,46.0,7.0,9.0,Credit Card,4.0
+2021-04-12,46-55,OH,Male,Middle,Others,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1774.0,1500.0,2.0,11.0,3547.0,16.0,531.0,Debit Card,5.0
+2021-04-12,36-45,CA,Other,Middle,Email,Electronics,Smartphones,Apple,iPhone 15,1067.0,800.0,13.0,9.0,13866.0,66.0,3400.0,Digital Wallet,8.0
+2021-04-12,18-25,MI,Other,Middle,Affiliates,Home,Beds,Tempur-Pedic,Contour Elite,1972.0,1700.0,2.0,3.0,3943.0,34.0,509.0,BNPL,6.0
+2021-04-12,26-35,TX,Other,Low,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2288.0,1800.0,1.0,1.0,2288.0,18.0,469.0,Debit Card,5.0
+2021-04-12,56-65,FL,Male,Middle,PPC,Home,Beds,Tempur-Pedic,Contour Elite,2002.0,1700.0,2.0,4.0,4003.0,33.0,570.0,Debit Card,7.0
+2021-04-12,46-55,TX,Female,Middle,App,Electronics,Smartphones,Samsung,Galaxy A32,359.0,250.0,3.0,5.0,1076.0,22.0,304.0,Digital Wallet,5.0
+2021-04-12,46-55,PA,Male,Middle,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,20.0,15.0,3.0,11.0,59.0,8.0,6.0,Debit Card,4.0
+2021-04-12,46-55,GA,Other,Middle,Affiliates,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,6.0,13.0,71.0,7.0,4.0,Debit Card,5.0
+2021-04-12,56-65,TX,Male,Middle,PPC,Home,Beds,Serta,iComfort,2481.0,1900.0,1.0,4.0,2481.0,18.0,562.0,Credit Card,4.0
+2021-04-12,26-35,OH,Female,Middle,Organic,Electronics,Laptops,Dell,XPS,1528.0,1300.0,2.0,9.0,3056.0,23.0,433.0,Debit Card,5.0
+2021-04-12,18-25,IL,Male,High,App,Electronics,Laptops,HP,Pavilion,723.0,600.0,2.0,9.0,1446.0,25.0,221.0,Debit Card,5.0
+2021-04-12,36-45,PA,Female,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,20.0,15.0,7.0,5.0,140.0,10.0,25.0,BNPL,6.0
+2021-04-12,66+,NY,Female,Middle,Email,Beauty,Skincare,Neutrogena,Hydro Boost Gel,20.0,20.0,2.0,10.0,40.0,9.0,-9.0,Credit Card,4.0
+2021-04-12,36-45,TX,Male,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,162.0,100.0,1.0,1.0,162.0,16.0,46.0,Credit Card,4.0
+2021-04-12,46-55,PA,Other,Low,Organic,Home,Furniture,IKEA,Kallax Shelf,69.0,60.0,2.0,3.0,139.0,29.0,-10.0,Credit Card,5.0
+2021-04-12,36-45,CA,Other,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,13.0,10.0,7.0,8.0,94.0,7.0,17.0,Credit Card,6.0
+2021-04-12,56-65,TX,Male,Low,App,Home,Beds,Serta,Perfect Sleeper,1027.0,750.0,2.0,1.0,2054.0,32.0,522.0,Debit Card,6.0
+2021-04-12,26-35,CA,Female,Middle,PPC,Beauty,Skincare,Neutrogena,Hydro Boost Gel,22.0,20.0,3.0,17.0,66.0,5.0,1.0,Debit Card,3.0
+2021-04-12,26-35,IL,Female,Low,Affiliates,Home,Furniture,Ashley Furniture,Sofa,466.0,300.0,2.0,3.0,931.0,29.0,302.0,Credit Card,6.0
+2021-04-12,46-55,PA,Female,High,Organic,Electronics,Smartphones,Samsung,Galaxy S21,672.0,500.0,3.0,13.0,2016.0,23.0,492.0,Debit Card,6.0
+2021-04-12,36-45,TX,Female,Middle,PPC,Clothing,T-Shirts,Adidas,Performance,61.0,45.0,1.0,19.0,61.0,6.0,10.0,Debit Card,4.0
+2021-04-12,26-35,TX,Female,High,Email,Electronics,Smartphones,Samsung,Galaxy A32,359.0,250.0,2.0,8.0,719.0,16.0,203.0,Credit Card,8.0
+2021-04-12,56-65,PA,Male,High,Organic,Home,Beds,Serta,Perfect Sleeper,963.0,750.0,2.0,4.0,1927.0,34.0,393.0,Credit Card,6.0
+2021-04-12,36-45,OH,Female,Low,Others,Electronics,Smartphones,Samsung,Galaxy A32,325.0,250.0,6.0,8.0,1953.0,34.0,419.0,Digital Wallet,6.0
+2021-04-12,18-25,GA,Other,Middle,Organic,Beauty,Makeup,Revlon,PhotoReady Concealer,15.0,12.0,5.0,10.0,74.0,6.0,8.0,Digital Wallet,6.0
+2021-04-12,18-25,PA,Female,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,1.0,10.0,14.0,7.0,-3.0,Debit Card,10.0
+2021-04-12,46-55,GA,Other,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,133.0,100.0,1.0,2.0,133.0,15.0,18.0,Debit Card,4.0
+2021-04-12,18-25,NY,Male,Low,Email,Clothing,Jeans,Wrangler,Authentics,40.0,30.0,1.0,22.0,40.0,9.0,1.0,Credit Card,5.0
+2021-04-12,36-45,FL,Female,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Air M1,995.0,900.0,2.0,5.0,1989.0,24.0,165.0,Debit Card,6.0
+2021-04-12,56-65,OH,Female,High,PPC,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,6.0,5.0,102.0,8.0,4.0,BNPL,7.0
+2021-04-12,26-35,MI,Other,High,Email,Electronics,Smartphones,Apple,iPhone SE,531.0,400.0,3.0,14.0,1594.0,24.0,370.0,Digital Wallet,6.0
+2021-04-12,26-35,TX,Other,Middle,PPC,Home,Furniture,IKEA,Billy Bookcase,140.0,100.0,2.0,4.0,281.0,27.0,53.0,Credit Card,4.0
+2021-04-12,26-35,GA,Male,Low,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,1.0,11.0,16.0,4.0,-3.0,BNPL,3.0
+2021-04-12,26-35,MI,Female,Middle,PPC,Electronics,Smartphones,Samsung,Galaxy S21,777.0,500.0,1.0,7.0,777.0,13.0,264.0,Credit Card,3.0
+2021-04-12,36-45,FL,Female,Low,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1787.0,1500.0,2.0,9.0,3574.0,17.0,557.0,Credit Card,14.0
+2021-04-12,46-55,NY,Other,Middle,Organic,Beauty,Skincare,Neutrogena,Hydro Boost Gel,20.0,20.0,5.0,18.0,101.0,11.0,-10.0,BNPL,6.0
+2021-04-12,36-45,FL,Female,Middle,Others,Clothing,T-Shirts,Nike,Sportswear,35.0,25.0,3.0,14.0,104.0,10.0,20.0,Debit Card,4.0
+2021-04-12,26-35,TX,Female,High,Organic,Home,Furniture,IKEA,Billy Bookcase,141.0,100.0,1.0,4.0,141.0,16.0,25.0,BNPL,4.0
+2021-04-12,26-35,MI,Female,High,App,Home,Furniture,IKEA,Billy Bookcase,173.0,100.0,1.0,1.0,173.0,18.0,54.0,BNPL,5.0
+2021-04-12,46-55,FL,Female,Middle,App,Electronics,Smartphones,Samsung,Galaxy S21,766.0,500.0,2.0,9.0,1533.0,17.0,516.0,Debit Card,4.0
+2021-04-12,36-45,NY,Female,Low,Email,Electronics,Smartphones,Samsung,Galaxy A32,373.0,250.0,2.0,13.0,747.0,19.0,228.0,Digital Wallet,6.0
+2021-04-12,46-55,CA,Male,Middle,App,Electronics,Smartphones,Apple,iPhone 15,1075.0,800.0,1.0,6.0,1075.0,8.0,267.0,Digital Wallet,4.0
+2021-04-12,36-45,OH,Other,Middle,Email,Clothing,T-Shirts,Nike,Sportswear,38.0,25.0,5.0,11.0,192.0,10.0,56.0,Credit Card,5.0
+2021-04-12,56-65,CA,Other,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,39.0,30.0,1.0,24.0,39.0,4.0,4.0,Digital Wallet,5.0
+2021-04-12,36-45,TX,Female,Middle,Others,Electronics,Smartphones,Apple,iPhone 15,1046.0,800.0,2.0,9.0,2092.0,16.0,476.0,Digital Wallet,5.0
+2021-04-12,46-55,TX,Male,Middle,Email,Electronics,Laptops,HP,Envy,954.0,700.0,2.0,5.0,1908.0,23.0,485.0,BNPL,4.0
+2021-04-12,26-35,NY,Other,Middle,Others,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,20.0,20.0,5.0,17.0,102.0,11.0,-9.0,Digital Wallet,4.0
+2021-04-12,66+,CA,Female,High,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1728.0,1500.0,2.0,9.0,3456.0,21.0,435.0,Credit Card,6.0
+2021-04-12,46-55,TX,Male,High,Others,Home,Beds,Serta,iComfort,2589.0,1900.0,2.0,2.0,5179.0,32.0,1346.0,Digital Wallet,5.0
+2021-04-12,46-55,CA,Male,Low,Others,Clothing,T-Shirts,Nike,Dry-FIT,23.0,20.0,3.0,18.0,69.0,7.0,2.0,Debit Card,5.0
+2021-04-12,18-25,TX,Male,Low,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,13.0,10.0,7.0,13.0,89.0,9.0,11.0,Credit Card,6.0
+2021-04-12,46-55,CA,Male,Middle,Affiliates,Electronics,Laptops,Apple Laptop,MacBook Air M2,1296.0,1000.0,1.0,9.0,1296.0,12.0,285.0,BNPL,3.0
+2021-04-12,36-45,MI,Female,Middle,App,Home,Furniture,IKEA,Kallax Shelf,46.0,60.0,1.0,4.0,46.0,18.0,-32.0,Debit Card,5.0
+2021-04-12,36-45,PA,Other,Low,PPC,Home,Furniture,IKEA,Kallax Shelf,61.0,60.0,1.0,2.0,61.0,17.0,-16.0,Debit Card,5.0
+2021-04-12,56-65,TX,Female,Middle,Others,Electronics,Smartphones,Samsung,Galaxy A32,304.0,250.0,3.0,12.0,912.0,22.0,140.0,Credit Card,4.0
+2021-04-12,56-65,NY,Other,Middle,App,Electronics,Laptops,HP,Envy,965.0,700.0,2.0,8.0,1931.0,26.0,505.0,Credit Card,5.0
+2021-04-12,36-45,MI,Male,Middle,App,Home,Furniture,IKEA,Kallax Shelf,79.0,60.0,1.0,1.0,79.0,18.0,1.0,Credit Card,6.0
+2021-04-12,26-35,FL,Male,Middle,Organic,Electronics,Laptops,Dell,Inspiron,920.0,600.0,2.0,4.0,1841.0,24.0,617.0,Debit Card,3.0
+2021-04-12,18-25,NY,Female,High,Others,Electronics,Smartphones,Apple,iPhone 14,992.0,700.0,3.0,6.0,2977.0,25.0,853.0,BNPL,5.0
+2021-04-12,46-55,CA,Female,High,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,20.0,15.0,2.0,14.0,39.0,4.0,6.0,Digital Wallet,3.0
+2021-04-12,36-45,NY,Male,Middle,Organic,Home,Furniture,Ashley Furniture,Sofa,485.0,300.0,2.0,2.0,971.0,30.0,340.0,BNPL,6.0
+2021-04-12,46-55,TX,Female,Middle,Email,Electronics,Smartphones,Samsung,Galaxy A32,311.0,250.0,3.0,8.0,932.0,22.0,160.0,Digital Wallet,4.0
+2021-04-12,36-45,NC,Female,High,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,17.0,15.0,5.0,11.0,86.0,11.0,-0.0,Debit Card,7.0
+2021-04-12,18-25,CA,Female,Middle,Others,Home,Furniture,IKEA,Kallax Shelf,87.0,60.0,1.0,3.0,87.0,14.0,13.0,BNPL,5.0
+2021-04-12,26-35,FL,Male,Low,PPC,Clothing,Jeans,Wrangler,Regular Fit,46.0,35.0,3.0,20.0,138.0,11.0,22.0,Debit Card,5.0
+2021-04-12,18-25,TX,Male,High,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,22.0,20.0,3.0,15.0,67.0,7.0,0.0,Credit Card,5.0
+2021-04-12,26-35,TX,Female,Middle,PPC,Electronics,Laptops,HP,Envy,963.0,700.0,2.0,4.0,1925.0,23.0,502.0,Debit Card,6.0
+2021-04-12,36-45,IL,Female,Middle,App,Electronics,Laptops,Dell,XPS,1574.0,1300.0,1.0,9.0,1574.0,16.0,258.0,Credit Card,4.0
+2021-04-12,18-25,NY,Male,Low,Organic,Clothing,T-Shirts,Adidas,Essentials,46.0,35.0,6.0,13.0,277.0,14.0,53.0,Digital Wallet,6.0
+2021-04-12,36-45,NY,Female,Low,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1667.0,1500.0,2.0,12.0,3333.0,19.0,314.0,Credit Card,6.0
+2021-04-12,36-45,CA,Male,Middle,Email,Electronics,Smartphones,Apple,iPhone 14,944.0,700.0,2.0,14.0,1888.0,14.0,474.0,Digital Wallet,5.0
+2021-04-12,36-45,MI,Male,Middle,PPC,Home,Furniture,Ashley Furniture,Bed Frame,268.0,100.0,2.0,2.0,537.0,30.0,307.0,Credit Card,6.0
+2021-04-12,36-45,CA,Male,Middle,Email,Electronics,Smartphones,Apple,iPhone 14,934.0,700.0,1.0,14.0,934.0,8.0,226.0,Debit Card,3.0
+2021-04-12,26-35,GA,Female,High,Email,Clothing,Jeans,Levis,Slim Fit,61.0,50.0,1.0,16.0,61.0,5.0,6.0,Debit Card,4.0
+2021-04-12,26-35,OH,Other,High,Organic,Home,Furniture,Ashley Furniture,Bed Frame,257.0,100.0,2.0,4.0,515.0,28.0,287.0,Credit Card,6.0
+2021-04-12,46-55,GA,Male,Middle,PPC,Electronics,Laptops,HP,Pavilion,767.0,600.0,1.0,9.0,767.0,13.0,154.0,BNPL,3.0
+2021-04-12,26-35,TX,Female,Middle,Organic,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1950.0,1500.0,2.0,3.0,3899.0,23.0,876.0,Debit Card,4.0
+2021-04-12,36-45,TX,Female,Middle,Organic,Home,Beds,Serta,Perfect Sleeper,959.0,750.0,1.0,2.0,959.0,18.0,191.0,Debit Card,6.0
+2021-04-12,36-45,GA,Other,High,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2115.0,1700.0,2.0,3.0,4230.0,31.0,799.0,Digital Wallet,4.0
+2021-04-12,26-35,TX,Other,Middle,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1932.0,1500.0,1.0,5.0,1932.0,14.0,418.0,Credit Card,3.0
+2021-04-12,46-55,MI,Female,Low,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2308.0,1800.0,1.0,1.0,2308.0,21.0,487.0,Credit Card,5.0
+2021-04-12,56-65,NC,Male,Low,Affiliates,Home,Beds,Serta,iComfort,2504.0,1900.0,1.0,1.0,2504.0,22.0,582.0,Digital Wallet,5.0
+2021-04-12,66+,NY,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,984.0,700.0,3.0,7.0,2952.0,25.0,828.0,Credit Card,6.0
+2021-04-12,18-25,CA,Female,Middle,App,Electronics,Laptops,HP,Envy,913.0,700.0,1.0,6.0,913.0,12.0,202.0,Digital Wallet,2.0
+2021-04-12,56-65,TX,Male,Low,Affiliates,Electronics,Smartphones,Apple,iPhone SE,593.0,400.0,1.0,8.0,593.0,10.0,183.0,Debit Card,3.0
+2021-04-12,46-55,FL,Male,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,177.0,100.0,1.0,2.0,177.0,17.0,61.0,Credit Card,5.0
+2021-04-12,66+,CA,Male,Middle,PPC,Home,Furniture,Ashley Furniture,Sofa,469.0,300.0,1.0,2.0,469.0,14.0,155.0,Digital Wallet,4.0
+2021-04-12,46-55,NY,Female,Low,App,Clothing,Jeans,Wrangler,Authentics,42.0,30.0,3.0,20.0,126.0,13.0,23.0,Debit Card,5.0
+2021-04-12,56-65,MI,Male,High,Organic,Home,Furniture,IKEA,Billy Bookcase,187.0,100.0,1.0,1.0,187.0,18.0,68.0,Credit Card,6.0
+2021-04-12,18-25,MI,Male,Middle,Organic,Home,Furniture,Ashley Furniture,Dining Table,350.0,200.0,1.0,1.0,350.0,18.0,132.0,Credit Card,5.0
+2021-04-12,46-55,CA,Male,Middle,Affiliates,Clothing,Jeans,Wrangler,Authentics,38.0,30.0,3.0,19.0,115.0,8.0,17.0,Digital Wallet,2.0
+2021-04-12,66+,MI,Other,High,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1788.0,1500.0,1.0,10.0,1788.0,13.0,276.0,Debit Card,4.0
+2021-04-12,46-55,PA,Female,Middle,App,Electronics,Laptops,HP,Pavilion,846.0,600.0,1.0,2.0,846.0,15.0,231.0,BNPL,4.0
+2021-04-12,46-55,MI,Male,Middle,Others,Electronics,Laptops,HP,Pavilion,786.0,600.0,1.0,6.0,786.0,16.0,170.0,Credit Card,4.0
+2021-04-12,56-65,CA,Other,Low,App,Electronics,Smartphones,Apple,iPhone 15,994.0,800.0,1.0,14.0,994.0,8.0,186.0,Credit Card,2.0
+2021-04-12,36-45,FL,Male,Low,Email,Clothing,Jeans,Levis,501 Original,70.0,60.0,1.0,23.0,70.0,7.0,3.0,Credit Card,4.0
+2021-04-12,46-55,PA,Female,Low,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,15.0,15.0,5.0,9.0,74.0,9.0,-9.0,Digital Wallet,5.0
+2021-04-12,46-55,MI,Female,Low,App,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,7.0,7.0,86.0,11.0,5.0,Credit Card,7.0
+2021-04-12,36-45,FL,Female,Middle,App,Home,Beds,Serta,Perfect Sleeper,990.0,750.0,1.0,1.0,990.0,19.0,221.0,Digital Wallet,4.0
+2021-04-12,26-35,CA,Female,Low,App,Beauty,Makeup,Revlon,PhotoReady Concealer,16.0,12.0,3.0,6.0,48.0,5.0,8.0,Credit Card,4.0
+2021-04-12,66+,PA,Other,High,App,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1623.0,1500.0,1.0,14.0,1623.0,12.0,111.0,Digital Wallet,5.0
+2021-04-12,56-65,NC,Female,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,161.0,100.0,2.0,1.0,322.0,31.0,90.0,Credit Card,5.0
+2021-04-12,66+,CA,Other,Middle,Others,Beauty,Makeup,Maybelline,Lash Sensational Mascara,15.0,10.0,7.0,6.0,104.0,7.0,28.0,Debit Card,5.0
+2021-04-12,46-55,NY,Other,Middle,Email,Home,Furniture,IKEA,Billy Bookcase,158.0,100.0,1.0,1.0,158.0,19.0,39.0,Credit Card,5.0
+2021-04-12,26-35,NC,Female,Low,Affiliates,Clothing,T-Shirts,Adidas,Essentials,45.0,35.0,2.0,11.0,90.0,11.0,9.0,Digital Wallet,5.0
+2021-04-12,36-45,FL,Female,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,57.0,60.0,2.0,2.0,113.0,28.0,-35.0,Credit Card,5.0
+2021-04-12,18-25,OH,Male,Low,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1930.0,1500.0,1.0,3.0,1930.0,14.0,416.0,Debit Card,4.0
+2021-04-12,36-45,OH,Male,Low,Others,Home,Furniture,IKEA,Kallax Shelf,54.0,60.0,2.0,1.0,108.0,28.0,-40.0,BNPL,5.0
+2021-04-12,46-55,MI,Female,Middle,Email,Home,Furniture,IKEA,Kallax Shelf,77.0,60.0,1.0,2.0,77.0,18.0,-2.0,Digital Wallet,5.0
+2021-04-12,18-25,TX,Female,Middle,App,Home,Furniture,Ashley Furniture,Dining Table,305.0,200.0,1.0,3.0,305.0,16.0,89.0,Digital Wallet,6.0
+2021-04-12,18-25,PA,Female,Low,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,21.0,15.0,3.0,13.0,62.0,8.0,9.0,Credit Card,4.0
+2021-04-12,36-45,TX,Female,Low,Email,Home,Beds,Serta,iComfort,2427.0,1900.0,2.0,1.0,4854.0,32.0,1022.0,Debit Card,5.0
+2021-04-12,46-55,NC,Female,Middle,App,Beauty,Makeup,Revlon,PhotoReady Concealer,19.0,12.0,5.0,11.0,93.0,11.0,22.0,Credit Card,8.0
+2021-04-12,66+,TX,Male,Middle,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,6.0,11.0,122.0,8.0,24.0,Digital Wallet,6.0
+2021-04-12,18-25,FL,Female,Low,Email,Electronics,Smartphones,Apple,iPhone SE,530.0,400.0,3.0,14.0,1591.0,23.0,368.0,Credit Card,4.0
+2021-04-12,26-35,GA,Male,Middle,Others,Home,Furniture,Ashley Furniture,Dining Table,358.0,200.0,2.0,1.0,715.0,26.0,289.0,Digital Wallet,4.0
+2021-04-12,36-45,OH,Other,High,App,Home,Furniture,Ashley Furniture,Sofa,452.0,300.0,2.0,3.0,903.0,28.0,275.0,Debit Card,6.0
+2021-04-12,56-65,GA,Male,Low,App,Electronics,Smartphones,Samsung,Galaxy A32,355.0,250.0,2.0,10.0,710.0,15.0,195.0,Credit Card,5.0
+2021-04-12,56-65,NC,Male,Low,Organic,Beauty,Skincare,Neutrogena,Hydro Boost Gel,20.0,20.0,2.0,17.0,40.0,10.0,-10.0,Digital Wallet,6.0
+2021-04-12,26-35,PA,Male,Low,Email,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1724.0,1500.0,2.0,12.0,3448.0,17.0,431.0,Debit Card,5.0
+2021-04-12,56-65,NY,Other,High,App,Clothing,T-Shirts,Nike,Dry-FIT,15.0,20.0,1.0,13.0,15.0,9.0,-14.0,Debit Card,4.0
+2021-04-12,36-45,FL,Other,High,App,Electronics,Smartphones,Samsung,Galaxy A32,294.0,250.0,1.0,10.0,294.0,11.0,33.0,Credit Card,6.0
+2021-04-12,56-65,FL,Female,Middle,Affiliates,Clothing,Jeans,Wrangler,Regular Fit,50.0,35.0,2.0,19.0,100.0,9.0,21.0,Digital Wallet,5.0
+2021-04-12,56-65,CA,Female,Middle,PPC,Home,Furniture,Ashley Furniture,Dining Table,333.0,200.0,1.0,4.0,333.0,14.0,119.0,Debit Card,5.0
+2021-04-12,18-25,NY,Male,Middle,Others,Home,Beds,Tempur-Pedic,Cloud Supreme,2167.0,1800.0,1.0,2.0,2167.0,21.0,345.0,BNPL,6.0
+2021-04-12,46-55,IL,Male,Low,Organic,Electronics,Smartphones,Apple,iPhone SE,600.0,400.0,1.0,8.0,600.0,12.0,188.0,Digital Wallet,4.0
+2021-04-12,18-25,NY,Female,Middle,Others,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1681.0,1500.0,1.0,8.0,1681.0,13.0,168.0,Digital Wallet,5.0
+2021-04-12,18-25,IL,Female,Middle,App,Home,Furniture,IKEA,Billy Bookcase,138.0,100.0,1.0,1.0,138.0,18.0,20.0,Debit Card,5.0
+2021-04-12,46-55,PA,Female,Middle,Organic,Beauty,Makeup,Revlon,PhotoReady Concealer,19.0,12.0,1.0,10.0,19.0,7.0,0.0,Digital Wallet,4.0
+2021-04-12,66+,NC,Female,Low,App,Clothing,T-Shirts,Nike,Dry-FIT,23.0,20.0,6.0,19.0,140.0,15.0,4.0,Credit Card,6.0
+2021-04-12,36-45,TX,Male,Low,Others,Beauty,Makeup,Revlon,PhotoReady Concealer,17.0,12.0,3.0,5.0,50.0,7.0,7.0,Digital Wallet,5.0
+2021-04-12,56-65,MI,Male,Middle,App,Beauty,Makeup,Revlon,ColorStay Lipstick,19.0,15.0,7.0,5.0,132.0,11.0,16.0,BNPL,6.0
+2021-04-12,18-25,TX,Female,Low,App,Clothing,T-Shirts,Adidas,Performance,56.0,45.0,3.0,14.0,169.0,9.0,25.0,Credit Card,5.0
+2021-04-12,56-65,OH,Male,High,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2148.0,1800.0,2.0,2.0,4296.0,33.0,664.0,Digital Wallet,4.0
+2021-04-12,26-35,NY,Male,High,App,Home,Furniture,IKEA,Billy Bookcase,185.0,100.0,3.0,2.0,556.0,42.0,214.0,Digital Wallet,8.0
+2021-04-12,46-55,GA,Other,High,PPC,Home,Furniture,IKEA,Kallax Shelf,66.0,60.0,2.0,1.0,132.0,26.0,-14.0,Credit Card,5.0
+2021-04-12,36-45,TX,Female,High,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2277.0,1800.0,1.0,1.0,2277.0,18.0,458.0,Credit Card,4.0
+2021-04-12,26-35,CA,Female,Low,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,5.0,12.0,86.0,5.0,5.0,Digital Wallet,3.0
+2021-04-12,26-35,IL,Male,High,Affiliates,Clothing,T-Shirts,Adidas,Performance,50.0,45.0,3.0,19.0,150.0,11.0,5.0,Credit Card,5.0
+2021-04-12,56-65,TX,Female,Middle,Organic,Home,Beds,Serta,iComfort,2400.0,1900.0,2.0,2.0,4800.0,32.0,968.0,Credit Card,4.0
+2021-04-12,66+,IL,Female,Low,App,Electronics,Smartphones,Apple,iPhone 14,1012.0,700.0,1.0,7.0,1012.0,12.0,300.0,Credit Card,6.0
+2021-04-12,26-35,IL,Female,Middle,Affiliates,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1885.0,1500.0,2.0,3.0,3770.0,25.0,745.0,BNPL,6.0
+2021-04-12,66+,TX,Male,Low,App,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1763.0,1500.0,3.0,13.0,5290.0,22.0,769.0,Debit Card,5.0
+2021-04-12,46-55,FL,Other,Low,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,23.0,15.0,1.0,12.0,23.0,6.0,1.0,Digital Wallet,3.0
+2021-04-12,26-35,IL,Other,Middle,Email,Home,Furniture,IKEA,Kallax Shelf,86.0,60.0,2.0,1.0,172.0,29.0,22.0,Credit Card,5.0
+2021-04-12,26-35,FL,Male,Middle,Affiliates,Electronics,Laptops,HP,Envy,941.0,700.0,5.0,4.0,4704.0,42.0,1162.0,Debit Card,7.0
+2021-04-12,56-65,CA,Male,Middle,App,Clothing,T-Shirts,Adidas,Performance,62.0,45.0,1.0,13.0,62.0,4.0,14.0,Digital Wallet,4.0
+2021-04-12,46-55,MI,Other,Middle,App,Home,Beds,Tempur-Pedic,Cloud Supreme,2197.0,1800.0,2.0,1.0,4394.0,34.0,760.0,Credit Card,6.0
+2021-04-12,26-35,TX,Other,Middle,App,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,12.0,13.0,198.0,13.0,5.0,Debit Card,9.0
+2021-04-12,36-45,CA,Male,Middle,Organic,Home,Beds,Serta,Perfect Sleeper,1000.0,750.0,2.0,3.0,1999.0,30.0,469.0,Digital Wallet,4.0
+2021-04-12,26-35,IL,Female,Low,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,3.0,6.0,37.0,9.0,-1.0,Digital Wallet,6.0
+2021-04-12,26-35,OH,Male,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,92.0,60.0,8.0,2.0,732.0,85.0,167.0,Digital Wallet,9.0
+2021-04-12,36-45,CA,Other,Low,Organic,Electronics,Laptops,HP,Envy,893.0,700.0,2.0,2.0,1785.0,21.0,365.0,Credit Card,4.0
+2021-04-12,66+,NY,Female,Middle,Email,Clothing,T-Shirts,Nike,Sportswear,38.0,25.0,3.0,10.0,115.0,12.0,28.0,Debit Card,6.0
+2021-04-12,46-55,OH,Male,Low,Email,Home,Beds,Tempur-Pedic,Contour Elite,2039.0,1700.0,1.0,3.0,2039.0,19.0,320.0,Credit Card,3.0
+2021-04-12,46-55,FL,Male,High,Others,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,25.0,20.0,1.0,13.0,25.0,6.0,-1.0,Digital Wallet,4.0
+2021-04-12,66+,TX,Male,High,Organic,Electronics,Laptops,Apple Laptop,MacBook Air M2,1316.0,1000.0,2.0,2.0,2633.0,23.0,610.0,Digital Wallet,5.0
+2021-04-12,56-65,FL,Female,Middle,Email,Electronics,Smartphones,Samsung,Galaxy S21,724.0,500.0,2.0,11.0,1448.0,17.0,431.0,Digital Wallet,3.0
+2021-04-12,36-45,GA,Other,Low,PPC,Electronics,Laptops,Dell,Inspiron,810.0,600.0,1.0,4.0,810.0,13.0,198.0,Debit Card,4.0
+2021-04-12,56-65,NC,Male,Low,Email,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,19.0,15.0,5.0,13.0,94.0,12.0,7.0,Digital Wallet,6.0
+2021-04-12,26-35,CA,Female,Middle,Affiliates,Electronics,Laptops,HP,Pavilion,788.0,600.0,2.0,9.0,1576.0,21.0,355.0,Debit Card,4.0
+2021-04-12,36-45,TX,Other,Low,App,Electronics,Laptops,Dell,XPS,1599.0,1300.0,2.0,6.0,3197.0,23.0,574.0,Debit Card,5.0
+2021-04-12,36-45,MI,Female,Low,Email,Home,Furniture,IKEA,Kallax Shelf,66.0,60.0,1.0,3.0,66.0,18.0,-12.0,Digital Wallet,5.0
+2021-04-12,36-45,NY,Other,Low,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2197.0,1800.0,2.0,4.0,4394.0,35.0,759.0,Debit Card,5.0
+2021-04-12,36-45,TX,Other,Low,App,Home,Furniture,IKEA,Billy Bookcase,143.0,100.0,5.0,2.0,713.0,50.0,163.0,Credit Card,8.0
+2021-04-12,56-65,NC,Female,Low,App,Clothing,Jeans,Levis,Slim Fit,58.0,50.0,2.0,21.0,116.0,12.0,5.0,Digital Wallet,4.0
+2021-04-12,66+,CA,Other,Middle,Email,Electronics,Smartphones,Apple,iPhone 14,985.0,700.0,2.0,7.0,1971.0,14.0,557.0,Digital Wallet,4.0
+2021-04-12,46-55,CA,Male,High,Affiliates,Home,Furniture,IKEA,Billy Bookcase,162.0,100.0,1.0,4.0,162.0,14.0,48.0,Digital Wallet,5.0
+2021-04-12,26-35,IL,Other,Middle,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,17.0,5.0,310.0,17.0,38.0,Credit Card,11.0
+2021-04-12,56-65,GA,Male,Middle,PPC,Clothing,Jeans,Wrangler,Regular Fit,51.0,35.0,1.0,18.0,51.0,5.0,11.0,Digital Wallet,5.0
+2021-04-12,56-65,PA,Other,Low,Affiliates,Home,Beds,Serta,iComfort,2345.0,1900.0,2.0,4.0,4691.0,34.0,857.0,BNPL,8.0
+2021-04-12,46-55,MI,Female,Middle,Email,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1738.0,1500.0,1.0,7.0,1738.0,13.0,225.0,Credit Card,10.0
+2021-04-12,26-35,NC,Female,Middle,Others,Home,Furniture,Ashley Furniture,Sofa,436.0,300.0,2.0,2.0,873.0,31.0,241.0,BNPL,7.0
+2021-04-12,46-55,NY,Other,High,Others,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,7.0,8.0,87.0,12.0,6.0,Credit Card,5.0
+2021-04-12,46-55,TX,Other,Low,App,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,29.0,20.0,1.0,10.0,29.0,5.0,4.0,Credit Card,4.0
+2021-04-12,66+,IL,Other,Middle,App,Electronics,Smartphones,Apple,iPhone SE,542.0,400.0,3.0,11.0,1626.0,24.0,402.0,BNPL,2.0
+2021-04-12,26-35,NY,Male,High,App,Home,Furniture,IKEA,Billy Bookcase,146.0,100.0,2.0,3.0,291.0,30.0,61.0,BNPL,7.0
+2021-04-12,56-65,IL,Female,Middle,App,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,7.0,7.0,119.0,11.0,4.0,Digital Wallet,6.0
+2021-04-12,26-35,TX,Male,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,78.0,60.0,2.0,4.0,156.0,27.0,9.0,Debit Card,6.0
+2021-04-12,36-45,TX,Female,Low,Organic,Electronics,Laptops,HP,Pavilion,808.0,600.0,2.0,4.0,1616.0,23.0,394.0,Credit Card,4.0
+2021-04-12,66+,FL,Female,Middle,Organic,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1848.0,1500.0,1.0,4.0,1848.0,15.0,333.0,Digital Wallet,5.0
+2021-04-12,26-35,IL,Female,High,Affiliates,Electronics,Laptops,HP,Pavilion,805.0,600.0,2.0,8.0,1610.0,25.0,386.0,Credit Card,4.0
+2021-04-12,56-65,CA,Other,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,21.0,15.0,3.0,9.0,63.0,5.0,14.0,Credit Card,4.0
+2021-04-12,26-35,CA,Female,Middle,App,Electronics,Laptops,HP,Pavilion,774.0,600.0,2.0,4.0,1547.0,21.0,326.0,Credit Card,12.0
+2021-04-12,36-45,TX,Female,High,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2160.0,1800.0,2.0,1.0,4321.0,32.0,689.0,Digital Wallet,6.0
+2021-04-12,56-65,FL,Male,Low,Email,Electronics,Laptops,HP,Pavilion,826.0,600.0,1.0,7.0,826.0,15.0,211.0,Credit Card,3.0
+2021-04-12,26-35,TX,Other,High,PPC,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,19.0,15.0,1.0,11.0,19.0,5.0,-1.0,Debit Card,3.0
+2021-04-12,26-35,PA,Male,High,Organic,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1828.0,1500.0,2.0,3.0,3657.0,24.0,633.0,Digital Wallet,4.0
+2021-04-12,18-25,FL,Female,Middle,Others,Clothing,T-Shirts,Adidas,Performance,66.0,45.0,2.0,17.0,132.0,8.0,34.0,BNPL,4.0
+2021-04-12,66+,CA,Female,Middle,Organic,Clothing,T-Shirts,Adidas,Essentials,43.0,35.0,3.0,18.0,129.0,7.0,18.0,Digital Wallet,4.0
+2021-04-12,36-45,CA,Male,Middle,App,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,28.0,20.0,1.0,14.0,28.0,3.0,4.0,Digital Wallet,3.0
+2021-04-12,26-35,CA,Male,High,Organic,Beauty,Makeup,Revlon,PhotoReady Concealer,15.0,12.0,2.0,11.0,30.0,4.0,2.0,Credit Card,4.0
+2021-04-12,26-35,PA,Male,Middle,Affiliates,Clothing,T-Shirts,Adidas,Essentials,39.0,35.0,1.0,19.0,39.0,7.0,-3.0,Credit Card,5.0
+2021-04-12,56-65,OH,Other,Low,App,Electronics,Smartphones,Apple,iPhone 14,986.0,700.0,17.0,7.0,16768.0,91.0,4776.0,Debit Card,13.0
+2021-04-12,26-35,IL,Male,Low,App,Electronics,Laptops,HP,Envy,981.0,700.0,2.0,2.0,1962.0,25.0,537.0,Credit Card,5.0
+2021-04-12,18-25,GA,Female,Low,Affiliates,Home,Furniture,IKEA,Kallax Shelf,77.0,60.0,2.0,1.0,154.0,26.0,8.0,Digital Wallet,7.0
+2021-04-12,18-25,TX,Male,High,Affiliates,Electronics,Smartphones,Apple,iPhone 15,1116.0,800.0,15.0,7.0,16740.0,79.0,4660.0,Debit Card,11.0
+2021-04-12,46-55,FL,Male,Low,Others,Electronics,Smartphones,Apple,iPhone 14,999.0,700.0,2.0,8.0,1999.0,17.0,582.0,Credit Card,6.0
+2021-04-12,26-35,OH,Other,Low,Organic,Electronics,Laptops,Dell,Inspiron,784.0,600.0,1.0,4.0,784.0,14.0,170.0,Credit Card,5.0
+2021-04-12,26-35,NY,Other,Middle,App,Home,Furniture,IKEA,Billy Bookcase,120.0,100.0,2.0,2.0,239.0,30.0,9.0,Digital Wallet,7.0
+2021-04-12,36-45,FL,Male,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,145.0,100.0,2.0,3.0,291.0,28.0,62.0,Debit Card,7.0
+2021-04-12,56-65,GA,Female,High,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1925.0,1500.0,2.0,3.0,3851.0,22.0,829.0,Credit Card,4.0
+2021-04-12,18-25,IL,Female,Low,Others,Home,Beds,Tempur-Pedic,Contour Elite,2039.0,1700.0,1.0,2.0,2039.0,20.0,319.0,Credit Card,6.0
+2021-04-12,46-55,CA,Female,Middle,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2307.0,1800.0,17.0,1.0,39217.0,209.0,8407.0,Credit Card,11.0
+2021-04-12,36-45,CA,Female,Low,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1913.0,1500.0,1.0,6.0,1913.0,12.0,401.0,Digital Wallet,5.0
+2021-04-12,18-25,TX,Other,High,App,Home,Beds,Tempur-Pedic,Contour Elite,2154.0,1700.0,1.0,2.0,2154.0,18.0,436.0,Debit Card,4.0
+2021-04-12,18-25,CA,Female,Middle,Organic,Home,Beds,Serta,iComfort,2469.0,1900.0,2.0,2.0,4937.0,30.0,1107.0,Debit Card,5.0
+2021-04-12,18-25,CA,Female,Low,Organic,Electronics,Laptops,Dell,XPS,1538.0,1300.0,1.0,2.0,1538.0,12.0,227.0,Debit Card,3.0
+2021-04-12,26-35,PA,Female,Low,App,Home,Beds,Tempur-Pedic,Contour Elite,1990.0,1700.0,2.0,2.0,3981.0,34.0,547.0,Debit Card,6.0
+2021-04-12,26-35,IL,Male,Low,PPC,Home,Furniture,Ashley Furniture,Sofa,512.0,300.0,1.0,1.0,512.0,18.0,194.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Male,Low,App,Home,Furniture,IKEA,Billy Bookcase,182.0,100.0,1.0,2.0,182.0,14.0,68.0,Credit Card,4.0
+2021-04-12,46-55,NY,Male,Low,Affiliates,Beauty,Makeup,Revlon,ColorStay Lipstick,22.0,15.0,7.0,5.0,155.0,12.0,39.0,Digital Wallet,8.0
+2021-04-12,36-45,FL,Male,Middle,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,3.0,14.0,55.0,8.0,2.0,Credit Card,4.0
+2021-04-12,46-55,NC,Female,High,App,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,1.0,6.0,21.0,9.0,-3.0,Digital Wallet,3.0
+2021-04-12,18-25,TX,Male,High,Affiliates,Clothing,T-Shirts,Adidas,Performance,61.0,45.0,3.0,13.0,184.0,9.0,40.0,Digital Wallet,4.0
+2021-04-12,66+,GA,Female,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,142.0,100.0,1.0,2.0,142.0,15.0,27.0,BNPL,5.0
+2021-04-12,36-45,IL,Male,High,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2183.0,1800.0,2.0,2.0,4367.0,34.0,733.0,Credit Card,7.0
+2021-04-12,18-25,OH,Female,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,16.0,15.0,7.0,8.0,110.0,9.0,-4.0,Credit Card,6.0
+2021-04-12,66+,NC,Male,High,Email,Electronics,Smartphones,Apple,iPhone SE,613.0,400.0,3.0,8.0,1840.0,26.0,614.0,Credit Card,6.0
+2021-04-12,26-35,TX,Male,Middle,Others,Electronics,Smartphones,Apple,iPhone SE,512.0,400.0,3.0,14.0,1537.0,22.0,315.0,Digital Wallet,5.0
+2021-04-12,26-35,PA,Other,Low,App,Home,Beds,Serta,iComfort,2370.0,1900.0,2.0,2.0,4741.0,34.0,907.0,Digital Wallet,5.0
+2021-04-12,56-65,CA,Male,High,App,Home,Furniture,Ashley Furniture,Sofa,460.0,300.0,1.0,4.0,460.0,14.0,146.0,Debit Card,4.0
+2021-04-12,26-35,MI,Other,Middle,PPC,Home,Beds,Serta,iComfort,2324.0,1900.0,2.0,4.0,4648.0,34.0,814.0,Digital Wallet,6.0
+2021-04-12,26-35,CA,Other,Low,PPC,Electronics,Smartphones,Apple,iPhone 15,1066.0,800.0,1.0,5.0,1066.0,8.0,258.0,Credit Card,3.0
+2021-04-12,36-45,FL,Female,Middle,Others,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1666.0,1500.0,2.0,12.0,3332.0,17.0,315.0,Debit Card,4.0
+2021-04-12,26-35,TX,Female,Middle,Others,Clothing,Jeans,Wrangler,Authentics,36.0,30.0,2.0,23.0,73.0,8.0,5.0,Debit Card,5.0
+2021-04-12,26-35,IL,Other,Middle,Affiliates,Beauty,Skincare,Neutrogena,Hydro Boost Gel,18.0,20.0,3.0,19.0,53.0,9.0,-16.0,Credit Card,4.0
+2021-04-12,18-25,PA,Other,Middle,App,Electronics,Laptops,HP,Envy,1001.0,700.0,2.0,2.0,2002.0,24.0,577.0,Debit Card,5.0
+2021-04-12,26-35,TX,Female,Low,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2035.0,1700.0,1.0,1.0,2035.0,18.0,316.0,Credit Card,3.0
+2021-04-12,26-35,NY,Female,Middle,Email,Beauty,Skincare,Neutrogena,Hydro Boost Gel,23.0,20.0,5.0,13.0,114.0,11.0,4.0,Credit Card,6.0
+2021-04-12,36-45,FL,Male,Middle,App,Clothing,T-Shirts,Adidas,Performance,64.0,45.0,6.0,18.0,382.0,12.0,100.0,Credit Card,7.0
+2021-04-12,18-25,NY,Other,Middle,Affiliates,Clothing,Jeans,Wrangler,Regular Fit,43.0,35.0,1.0,24.0,43.0,9.0,-1.0,Credit Card,5.0
+2021-04-12,26-35,NY,Female,Middle,Organic,Clothing,T-Shirts,Nike,Sportswear,36.0,25.0,5.0,18.0,178.0,13.0,40.0,Credit Card,6.0
+2021-04-12,56-65,TX,Other,Low,Organic,Electronics,Smartphones,Apple,iPhone 14,956.0,700.0,3.0,9.0,2869.0,22.0,748.0,BNPL,4.0
+2021-04-12,18-25,CA,Male,Middle,App,Electronics,Smartphones,Samsung,Galaxy S21,760.0,500.0,2.0,5.0,1521.0,14.0,507.0,Digital Wallet,4.0
+2021-04-12,26-35,PA,Other,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy S21,724.0,500.0,1.0,10.0,724.0,12.0,212.0,Credit Card,4.0
+2021-04-12,46-55,FL,Female,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,18.0,15.0,13.0,11.0,234.0,13.0,26.0,Credit Card,10.0
+2021-04-12,26-35,TX,Male,Low,App,Clothing,Jeans,Wrangler,Regular Fit,51.0,35.0,1.0,17.0,51.0,6.0,9.0,Credit Card,3.0
+2021-04-12,26-35,FL,Male,Middle,App,Clothing,Jeans,Wrangler,Authentics,35.0,30.0,3.0,19.0,105.0,11.0,4.0,Digital Wallet,5.0
+2021-04-12,26-35,TX,Male,Low,Email,Clothing,Jeans,Wrangler,Authentics,43.0,30.0,2.0,24.0,86.0,8.0,18.0,Credit Card,6.0
+2021-04-12,36-45,GA,Male,Middle,App,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,2.0,6.0,28.0,5.0,3.0,Digital Wallet,3.0
+2021-04-12,26-35,GA,Male,Middle,Others,Home,Beds,Tempur-Pedic,Contour Elite,2164.0,1700.0,1.0,4.0,2164.0,17.0,447.0,Credit Card,4.0
+2021-04-12,36-45,CA,Male,Middle,Affiliates,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,8.0,19.0,124.0,8.0,-4.0,Debit Card,6.0
+2021-04-12,36-45,IL,Other,Low,Email,Home,Beds,Tempur-Pedic,Contour Elite,1978.0,1700.0,2.0,4.0,3955.0,34.0,521.0,Credit Card,6.0
+2021-04-12,46-55,OH,Other,Low,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,19.0,15.0,5.0,9.0,97.0,8.0,14.0,Debit Card,7.0
+2021-04-12,26-35,OH,Female,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,159.0,100.0,1.0,2.0,159.0,16.0,42.0,Credit Card,5.0
+2021-04-12,36-45,CA,Female,Middle,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1744.0,1500.0,2.0,9.0,3489.0,21.0,468.0,Debit Card,4.0
+2021-04-12,18-25,PA,Male,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,80.0,60.0,2.0,4.0,159.0,29.0,10.0,Credit Card,5.0
+2021-04-12,18-25,CA,Female,Low,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,3.0,19.0,47.0,5.0,-3.0,Credit Card,5.0
+2021-04-12,36-45,NY,Male,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,148.0,100.0,1.0,1.0,148.0,19.0,29.0,Digital Wallet,5.0
+2021-04-12,46-55,MI,Female,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,42.0,30.0,1.0,23.0,42.0,9.0,3.0,Digital Wallet,3.0
+2021-04-12,36-45,FL,Male,Middle,App,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,19.0,15.0,2.0,19.0,38.0,7.0,1.0,Digital Wallet,4.0
+2021-04-12,66+,PA,Male,Low,Organic,Electronics,Laptops,Dell,XPS,1464.0,1300.0,12.0,9.0,17566.0,98.0,1868.0,Credit Card,11.0
+2021-04-12,26-35,FL,Other,Low,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2236.0,1800.0,2.0,2.0,4472.0,33.0,839.0,Digital Wallet,5.0
+2021-04-12,46-55,MI,Female,Middle,Others,Electronics,Laptops,HP,Envy,875.0,700.0,1.0,9.0,875.0,16.0,159.0,Digital Wallet,4.0
+2021-04-12,56-65,GA,Female,Low,PPC,Electronics,Laptops,HP,Pavilion,801.0,600.0,2.0,9.0,1602.0,22.0,380.0,Credit Card,5.0
+2021-04-12,36-45,IL,Female,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,138.0,100.0,2.0,2.0,275.0,29.0,46.0,Digital Wallet,6.0
+2021-04-12,46-55,TX,Female,High,Email,Beauty,Skincare,Neutrogena,Hydro Boost Gel,25.0,20.0,3.0,10.0,74.0,7.0,8.0,Credit Card,5.0
+2021-04-12,66+,CA,Male,Low,Others,Home,Beds,Tempur-Pedic,Cloud Supreme,2137.0,1800.0,1.0,1.0,2137.0,16.0,320.0,Debit Card,4.0
+2021-04-12,18-25,GA,Other,High,App,Electronics,Smartphones,Samsung,Galaxy A32,339.0,250.0,1.0,10.0,339.0,9.0,79.0,Digital Wallet,3.0
+2021-04-12,26-35,IL,Female,Middle,PPC,Electronics,Laptops,Apple Laptop,MacBook Air M1,1083.0,900.0,1.0,6.0,1083.0,16.0,168.0,Debit Card,4.0
+2021-04-12,46-55,NY,Other,Middle,Others,Electronics,Laptops,Apple Laptop,MacBook Air M1,1095.0,900.0,2.0,8.0,2191.0,26.0,365.0,BNPL,6.0
+2021-04-12,26-35,PA,Other,Low,App,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,1.0,9.0,20.0,7.0,-1.0,Digital Wallet,3.0
+2021-04-12,18-25,CA,Female,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,153.0,100.0,2.0,4.0,306.0,25.0,80.0,Digital Wallet,5.0
+2021-04-12,66+,TX,Male,Middle,Organic,Clothing,Jeans,Levis,Bootcut,99.0,100.0,3.0,17.0,298.0,10.0,-11.0,Credit Card,5.0
+2021-04-12,36-45,FL,Female,Low,Others,Home,Furniture,IKEA,Kallax Shelf,73.0,60.0,7.0,3.0,508.0,74.0,14.0,Credit Card,7.0
+2021-04-12,18-25,MI,Female,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy S21,712.0,500.0,2.0,7.0,1424.0,18.0,405.0,Credit Card,4.0
+2021-04-12,56-65,CA,Female,Low,Email,Home,Beds,Tempur-Pedic,Contour Elite,2053.0,1700.0,2.0,2.0,4106.0,30.0,676.0,Credit Card,4.0
+2021-04-12,46-55,NY,Male,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy A32,318.0,250.0,2.0,13.0,635.0,19.0,116.0,Digital Wallet,6.0
+2021-04-12,26-35,CA,Other,Low,Others,Home,Furniture,IKEA,Billy Bookcase,214.0,100.0,16.0,2.0,3420.0,163.0,1656.0,Credit Card,13.0
+2021-04-12,56-65,CA,Male,High,Email,Home,Beds,Tempur-Pedic,Cloud Supreme,2216.0,1800.0,1.0,2.0,2216.0,16.0,400.0,BNPL,4.0
+2021-04-12,66+,FL,Female,Middle,App,Clothing,Jeans,Wrangler,Authentics,40.0,30.0,3.0,22.0,121.0,11.0,21.0,Credit Card,4.0
+2021-04-12,36-45,TX,Other,Low,Others,Home,Beds,Serta,Perfect Sleeper,982.0,750.0,2.0,1.0,1965.0,32.0,432.0,Credit Card,5.0
+2021-04-12,26-35,PA,Male,Middle,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1791.0,1500.0,2.0,5.0,3581.0,24.0,557.0,Debit Card,6.0
+2021-04-12,26-35,NC,Male,Low,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M2,1403.0,1200.0,1.0,7.0,1403.0,18.0,185.0,Credit Card,6.0
+2021-04-12,18-25,IL,Male,Low,App,Electronics,Smartphones,Samsung,Galaxy A32,350.0,250.0,2.0,5.0,700.0,18.0,182.0,Debit Card,5.0
+2021-04-12,26-35,CA,Female,Low,App,Electronics,Laptops,Dell,XPS,1451.0,1300.0,2.0,9.0,2902.0,21.0,281.0,Credit Card,4.0
+2021-04-12,56-65,TX,Other,High,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,16.0,15.0,2.0,9.0,32.0,6.0,-4.0,Debit Card,4.0
+2021-04-12,66+,OH,Female,Low,PPC,Electronics,Smartphones,Apple,iPhone 15,1072.0,800.0,2.0,6.0,2145.0,16.0,528.0,Debit Card,4.0
+2021-04-12,26-35,NY,Other,Middle,Organic,Home,Furniture,Ashley Furniture,Sofa,458.0,300.0,2.0,3.0,916.0,30.0,286.0,Digital Wallet,6.0
+2021-04-12,18-25,FL,Male,High,PPC,Clothing,Jeans,Levis,Bootcut,104.0,100.0,3.0,15.0,313.0,11.0,2.0,Debit Card,6.0
+2021-04-12,36-45,FL,Male,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 15,1065.0,800.0,3.0,6.0,3195.0,23.0,773.0,Debit Card,4.0
+2021-04-12,46-55,NC,Female,Low,PPC,Electronics,Smartphones,Samsung,Galaxy S21,720.0,500.0,1.0,13.0,720.0,14.0,205.0,Credit Card,4.0
+2021-04-12,18-25,MI,Male,Low,PPC,Clothing,Jeans,Levis,Bootcut,110.0,100.0,3.0,24.0,331.0,12.0,19.0,Credit Card,4.0
+2021-04-12,36-45,FL,Other,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy S21,764.0,500.0,3.0,5.0,2292.0,23.0,770.0,Debit Card,5.0
+2021-04-12,26-35,TX,Male,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,187.0,100.0,14.0,4.0,2619.0,142.0,1076.0,Credit Card,11.0
+2021-04-12,26-35,IL,Female,High,App,Home,Beds,Serta,iComfort,2451.0,1900.0,2.0,3.0,4902.0,34.0,1068.0,Credit Card,5.0
+2021-04-12,56-65,PA,Male,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Air M2,1255.0,1000.0,1.0,6.0,1255.0,15.0,240.0,Credit Card,4.0
+2021-04-12,26-35,MI,Female,High,Email,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1806.0,1500.0,2.0,9.0,3613.0,18.0,594.0,Digital Wallet,5.0
+2021-04-12,26-35,TX,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,1075.0,800.0,2.0,7.0,2151.0,16.0,535.0,Credit Card,6.0
+2021-04-12,56-65,CA,Male,High,Affiliates,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,30.0,20.0,2.0,19.0,61.0,4.0,16.0,Digital Wallet,4.0
+2021-04-12,66+,TX,Other,Low,Organic,Home,Furniture,Ashley Furniture,Sofa,464.0,300.0,1.0,4.0,464.0,16.0,148.0,Debit Card,5.0
+2021-04-12,26-35,FL,Male,Low,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,17.0,15.0,1.0,18.0,17.0,6.0,-4.0,Digital Wallet,5.0
+2021-04-12,26-35,CA,Male,Middle,Others,Home,Furniture,IKEA,Kallax Shelf,80.0,60.0,1.0,4.0,80.0,14.0,6.0,Credit Card,7.0
+2021-04-12,66+,CA,Other,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,1.0,11.0,14.0,3.0,1.0,Credit Card,5.0
+2021-04-12,36-45,NY,Male,Low,App,Electronics,Smartphones,Apple,iPhone 14,880.0,700.0,2.0,13.0,1761.0,19.0,342.0,Digital Wallet,5.0
+2021-04-12,18-25,PA,Other,Low,Others,Electronics,Smartphones,Apple,iPhone SE,611.0,400.0,1.0,5.0,611.0,12.0,200.0,Debit Card,5.0
+2021-04-12,26-35,IL,Other,Middle,Email,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,27.0,20.0,1.0,15.0,27.0,7.0,-1.0,Debit Card,4.0
+2021-04-12,46-55,TX,Male,Middle,Email,Home,Furniture,IKEA,Billy Bookcase,155.0,100.0,1.0,2.0,155.0,16.0,39.0,Digital Wallet,5.0
+2021-04-12,36-45,GA,Female,Middle,Email,Electronics,Smartphones,Samsung,Galaxy S21,709.0,500.0,1.0,9.0,709.0,9.0,200.0,BNPL,3.0
+2021-04-12,46-55,CA,Female,High,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,19.0,20.0,5.0,19.0,96.0,6.0,-9.0,Digital Wallet,5.0
+2021-04-12,66+,TX,Other,Low,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1810.0,1500.0,2.0,9.0,3620.0,23.0,597.0,Credit Card,4.0
+2021-04-12,46-55,OH,Male,Low,App,Home,Furniture,IKEA,Kallax Shelf,56.0,60.0,1.0,1.0,56.0,16.0,-21.0,Digital Wallet,5.0
+2021-04-12,26-35,GA,Female,High,PPC,Electronics,Smartphones,Apple,iPhone SE,555.0,400.0,3.0,13.0,1666.0,21.0,445.0,Debit Card,4.0
+2021-04-12,36-45,IL,Male,High,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,21.0,15.0,7.0,10.0,150.0,11.0,34.0,BNPL,7.0
+2021-04-12,46-55,TX,Female,High,Others,Home,Beds,Tempur-Pedic,Contour Elite,2190.0,1700.0,1.0,2.0,2190.0,18.0,472.0,Credit Card,5.0
+2021-04-12,26-35,GA,Female,High,Others,Home,Furniture,Ashley Furniture,Dining Table,337.0,200.0,2.0,2.0,675.0,26.0,248.0,Digital Wallet,6.0
+2021-04-12,56-65,MI,Male,Middle,App,Electronics,Smartphones,Apple,iPhone 14,926.0,700.0,1.0,11.0,926.0,13.0,213.0,Digital Wallet,4.0
+2021-04-12,36-45,NC,Male,Low,Others,Home,Furniture,Ashley Furniture,Dining Table,373.0,200.0,12.0,2.0,4480.0,123.0,1956.0,Digital Wallet,10.0
+2021-04-12,46-55,NY,Female,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,176.0,100.0,12.0,4.0,2114.0,122.0,791.0,Digital Wallet,10.0
+2021-04-12,26-35,MI,Female,High,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,24.0,15.0,6.0,8.0,145.0,10.0,45.0,Digital Wallet,7.0
+2021-04-12,18-25,CA,Female,Middle,App,Electronics,Smartphones,Apple,iPhone 15,1122.0,800.0,2.0,7.0,2245.0,14.0,631.0,Credit Card,4.0
+2021-04-12,56-65,IL,Male,Low,Others,Clothing,T-Shirts,Adidas,Performance,61.0,45.0,1.0,14.0,61.0,8.0,8.0,Credit Card,15.0
+2021-04-12,18-25,CA,Female,Low,App,Electronics,Laptops,Dell,Inspiron,831.0,600.0,2.0,3.0,1662.0,21.0,441.0,Debit Card,5.0
+2021-04-12,26-35,MI,Male,Middle,App,Electronics,Smartphones,Samsung,Galaxy A32,364.0,250.0,3.0,5.0,1092.0,24.0,318.0,Digital Wallet,6.0
+2021-04-12,36-45,NY,Female,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,172.0,100.0,1.0,3.0,172.0,19.0,53.0,Credit Card,6.0
+2021-04-12,26-35,NC,Male,Middle,Email,Electronics,Smartphones,Samsung,Galaxy S21,726.0,500.0,1.0,14.0,726.0,14.0,211.0,Credit Card,4.0
+2021-04-12,46-55,CA,Male,Middle,App,Electronics,Laptops,HP,Pavilion,796.0,600.0,2.0,8.0,1591.0,21.0,371.0,Credit Card,3.0
+2021-04-12,46-55,CA,Male,Middle,App,Home,Furniture,IKEA,Billy Bookcase,162.0,100.0,2.0,2.0,324.0,25.0,99.0,Credit Card,3.0
+2021-04-12,36-45,PA,Other,Low,Organic,Electronics,Laptops,HP,Envy,888.0,700.0,1.0,6.0,888.0,15.0,173.0,Debit Card,4.0
+2021-04-12,56-65,TX,Male,Middle,Organic,Clothing,T-Shirts,Adidas,Performance,61.0,45.0,5.0,15.0,305.0,10.0,70.0,Debit Card,5.0
+2021-04-12,26-35,IL,Female,Low,Others,Home,Furniture,IKEA,Billy Bookcase,131.0,100.0,2.0,3.0,262.0,29.0,32.0,Credit Card,5.0
+2021-04-12,56-65,CA,Female,Low,Others,Clothing,T-Shirts,Nike,Sportswear,36.0,25.0,2.0,12.0,72.0,5.0,17.0,Debit Card,3.0
+2021-04-12,26-35,CA,Male,Low,Organic,Clothing,Jeans,Wrangler,Authentics,40.0,30.0,1.0,22.0,40.0,4.0,6.0,Credit Card,6.0
+2021-04-12,46-55,OH,Male,High,Others,Electronics,Smartphones,Apple,iPhone 15,1013.0,800.0,2.0,14.0,2026.0,16.0,410.0,Digital Wallet,4.0
+2021-04-12,56-65,PA,Female,Middle,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,3.0,7.0,52.0,8.0,-1.0,Digital Wallet,7.0
+2021-04-12,46-55,TX,Female,Middle,Others,Clothing,Jeans,Levis,Slim Fit,68.0,50.0,3.0,16.0,203.0,10.0,43.0,BNPL,5.0
+2021-04-12,66+,GA,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,994.0,700.0,2.0,9.0,1987.0,15.0,572.0,Digital Wallet,5.0
+2021-04-12,26-35,NY,Male,Middle,PPC,Electronics,Laptops,HP,Envy,982.0,700.0,1.0,9.0,982.0,17.0,265.0,Digital Wallet,5.0
+2021-04-12,18-25,NY,Male,High,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2144.0,1800.0,1.0,2.0,2144.0,21.0,323.0,Credit Card,5.0
+2021-04-12,56-65,TX,Female,Middle,Others,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,7.0,10.0,95.0,9.0,16.0,Digital Wallet,6.0
+2021-04-12,46-55,PA,Male,Low,Others,Clothing,T-Shirts,Nike,Dry-FIT,29.0,20.0,5.0,10.0,147.0,11.0,36.0,Debit Card,5.0
+2021-04-12,18-25,NY,Male,Middle,Affiliates,Beauty,Skincare,Neutrogena,Hydro Boost Gel,22.0,20.0,1.0,12.0,22.0,8.0,-6.0,Debit Card,4.0
+2021-04-12,26-35,FL,Male,Low,Organic,Clothing,T-Shirts,Adidas,Performance,57.0,45.0,6.0,16.0,340.0,12.0,58.0,Credit Card,8.0
+2021-04-12,56-65,MI,Female,Middle,App,Clothing,T-Shirts,Nike,Dry-FIT,24.0,20.0,3.0,19.0,72.0,11.0,1.0,Credit Card,5.0
+2021-04-12,26-35,NY,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,1046.0,800.0,2.0,9.0,2092.0,19.0,473.0,Credit Card,5.0
+2021-04-12,66+,NC,Female,High,Others,Home,Beds,Tempur-Pedic,Contour Elite,2082.0,1700.0,2.0,1.0,4164.0,36.0,728.0,Digital Wallet,6.0
+2021-04-12,36-45,FL,Other,Middle,Others,Clothing,T-Shirts,Adidas,Performance,71.0,45.0,5.0,13.0,357.0,11.0,121.0,Digital Wallet,5.0
+2021-04-12,66+,NC,Male,Low,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,6.0,8.0,110.0,12.0,8.0,Digital Wallet,9.0
+2021-04-12,18-25,FL,Other,Middle,App,Electronics,Smartphones,Apple,iPhone 14,937.0,700.0,1.0,12.0,937.0,11.0,226.0,Digital Wallet,4.0
+2021-04-12,18-25,NY,Male,Middle,Organic,Home,Furniture,Ashley Furniture,Bed Frame,237.0,100.0,2.0,4.0,473.0,30.0,243.0,Credit Card,6.0
+2021-04-12,36-45,CA,Male,Low,PPC,Electronics,Smartphones,Apple,iPhone 15,1079.0,800.0,3.0,8.0,3236.0,20.0,816.0,Debit Card,4.0
+2021-04-12,26-35,FL,Male,Middle,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2246.0,1800.0,1.0,1.0,2246.0,19.0,427.0,BNPL,4.0
+2021-04-12,26-35,PA,Other,Middle,Others,Electronics,Smartphones,Apple,iPhone 14,965.0,700.0,1.0,9.0,965.0,12.0,253.0,Digital Wallet,3.0
+2021-04-12,26-35,PA,Male,Middle,Affiliates,Beauty,Makeup,Maybelline,Lash Sensational Mascara,18.0,10.0,7.0,9.0,123.0,10.0,43.0,Digital Wallet,6.0
+2021-04-12,26-35,OH,Male,High,Others,Electronics,Smartphones,Apple,iPhone SE,550.0,400.0,3.0,8.0,1650.0,22.0,427.0,Debit Card,4.0
+2021-04-12,26-35,NC,Female,Low,App,Home,Furniture,Ashley Furniture,Dining Table,389.0,200.0,1.0,2.0,389.0,20.0,169.0,Digital Wallet,4.0
+2021-04-12,66+,TX,Female,Middle,App,Home,Furniture,IKEA,Kallax Shelf,72.0,60.0,1.0,2.0,72.0,16.0,-4.0,Credit Card,7.0
+2021-04-12,46-55,CA,Female,Low,PPC,Home,Furniture,Ashley Furniture,Sofa,428.0,300.0,2.0,1.0,856.0,25.0,231.0,Debit Card,5.0
+2021-04-12,46-55,TX,Female,High,PPC,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,19.0,15.0,2.0,10.0,38.0,6.0,2.0,Debit Card,4.0
+2021-04-12,56-65,TX,Female,High,PPC,Electronics,Smartphones,Apple,iPhone SE,537.0,400.0,1.0,12.0,537.0,10.0,127.0,Debit Card,3.0
+2021-04-12,26-35,MI,Female,Low,Email,Home,Furniture,IKEA,Kallax Shelf,74.0,60.0,2.0,3.0,148.0,30.0,-2.0,Digital Wallet,6.0
+2021-04-12,26-35,PA,Female,Middle,Others,Electronics,Smartphones,Apple,iPhone 14,944.0,700.0,3.0,10.0,2832.0,23.0,709.0,Digital Wallet,2.0
+2021-04-12,26-35,IL,Female,Middle,PPC,Home,Furniture,IKEA,Billy Bookcase,156.0,100.0,1.0,3.0,156.0,18.0,38.0,Debit Card,5.0
+2021-04-12,26-35,CA,Male,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,176.0,100.0,2.0,4.0,351.0,25.0,126.0,Credit Card,5.0
+2021-04-12,36-45,OH,Male,Low,Organic,Home,Furniture,IKEA,Kallax Shelf,88.0,60.0,1.0,2.0,88.0,16.0,12.0,BNPL,5.0
+2021-04-12,36-45,PA,Female,Middle,Affiliates,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,30.0,20.0,5.0,12.0,148.0,9.0,39.0,Debit Card,4.0
+2021-04-12,26-35,PA,Female,Low,App,Electronics,Laptops,HP,Pavilion,758.0,600.0,2.0,5.0,1515.0,24.0,291.0,Digital Wallet,5.0
+2021-04-12,26-35,CA,Male,Middle,Organic,Electronics,Laptops,Apple Laptop,MacBook Air M2,1281.0,1000.0,2.0,6.0,2562.0,21.0,541.0,Debit Card,4.0
+2021-04-12,46-55,FL,Other,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,132.0,100.0,2.0,4.0,264.0,28.0,36.0,Credit Card,7.0
+2021-04-12,36-45,CA,Female,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy A32,360.0,250.0,3.0,9.0,1081.0,20.0,311.0,Debit Card,5.0
+2021-04-12,26-35,FL,Other,High,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,22.0,15.0,3.0,16.0,65.0,8.0,12.0,Digital Wallet,4.0
+2021-04-12,18-25,TX,Other,Middle,Affiliates,Beauty,Makeup,Revlon,PhotoReady Concealer,15.0,12.0,5.0,9.0,76.0,7.0,9.0,Digital Wallet,5.0
+2021-04-12,18-25,NY,Female,Middle,App,Home,Furniture,IKEA,Kallax Shelf,73.0,60.0,2.0,2.0,146.0,30.0,-4.0,Digital Wallet,5.0
+2021-04-12,18-25,GA,Female,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,5.0,7.0,102.0,6.0,21.0,Digital Wallet,6.0
+2021-04-12,46-55,CA,Female,Low,Email,Clothing,T-Shirts,Nike,Sportswear,38.0,25.0,2.0,11.0,77.0,5.0,22.0,Credit Card,4.0
+2021-04-12,26-35,FL,Female,High,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1884.0,1500.0,1.0,9.0,1884.0,15.0,369.0,Credit Card,5.0
+2021-04-12,26-35,PA,Other,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy S21,745.0,500.0,2.0,12.0,1491.0,17.0,473.0,Debit Card,5.0
+2021-04-12,36-45,FL,Female,High,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2280.0,1800.0,2.0,2.0,4560.0,33.0,927.0,Credit Card,5.0
+2021-04-12,36-45,IL,Male,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,65.0,60.0,1.0,1.0,65.0,18.0,-13.0,Debit Card,6.0
+2021-04-12,18-25,CA,Female,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,19.0,15.0,7.0,5.0,136.0,7.0,24.0,BNPL,5.0
+2021-04-12,46-55,TX,Male,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1914.0,1500.0,1.0,7.0,1914.0,14.0,401.0,Credit Card,4.0
+2021-04-12,18-25,CA,Female,Middle,App,Beauty,Skincare,Neutrogena,Hydro Boost Gel,21.0,20.0,1.0,18.0,21.0,3.0,-3.0,Debit Card,4.0
+2021-04-12,36-45,IL,Female,Middle,Organic,Clothing,T-Shirts,Adidas,Performance,57.0,45.0,6.0,16.0,345.0,13.0,61.0,Digital Wallet,6.0
+2021-04-12,26-35,TX,Other,Middle,App,Home,Beds,Tempur-Pedic,Contour Elite,1974.0,1700.0,2.0,1.0,3947.0,32.0,515.0,BNPL,6.0
+2021-04-12,36-45,FL,Female,Middle,Affiliates,Home,Beds,Serta,iComfort,2337.0,1900.0,1.0,1.0,2337.0,19.0,418.0,Debit Card,6.0
+2021-04-12,26-35,NC,Female,Middle,Organic,Clothing,Jeans,Levis,Slim Fit,66.0,50.0,2.0,19.0,132.0,12.0,20.0,Credit Card,5.0
+2021-04-12,66+,CA,Other,Low,PPC,Clothing,T-Shirts,Nike,Sportswear,37.0,25.0,1.0,15.0,37.0,4.0,8.0,Debit Card,2.0
+2021-04-12,18-25,OH,Female,Middle,App,Home,Furniture,IKEA,Kallax Shelf,74.0,60.0,2.0,1.0,148.0,28.0,-0.0,Credit Card,7.0
+2021-04-12,18-25,CA,Male,Middle,PPC,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,25.0,20.0,5.0,16.0,123.0,6.0,17.0,Credit Card,4.0
+2021-04-12,26-35,CA,Other,Middle,App,Electronics,Smartphones,Apple,iPhone 15,1046.0,800.0,1.0,11.0,1046.0,8.0,238.0,Debit Card,2.0
+2021-04-12,26-35,GA,Male,High,Organic,Home,Furniture,Ashley Furniture,Dining Table,359.0,200.0,1.0,3.0,359.0,15.0,144.0,Digital Wallet,5.0
+2021-04-12,56-65,CA,Male,Middle,Organic,Beauty,Skincare,Neutrogena,Hydro Boost Gel,26.0,20.0,1.0,14.0,26.0,3.0,2.0,Debit Card,3.0
+2021-04-12,26-35,TX,Female,High,App,Electronics,Laptops,Dell,XPS,1554.0,1300.0,1.0,9.0,1554.0,14.0,241.0,Digital Wallet,4.0
+2021-04-12,18-25,OH,Female,Middle,Organic,Home,Furniture,IKEA,Kallax Shelf,96.0,60.0,1.0,3.0,96.0,16.0,20.0,Digital Wallet,6.0
+2021-04-12,56-65,PA,Male,Middle,App,Clothing,T-Shirts,Nike,Dry-FIT,24.0,20.0,5.0,12.0,120.0,11.0,9.0,Credit Card,6.0
+2021-04-12,46-55,NY,Male,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy S21,758.0,500.0,2.0,8.0,1516.0,19.0,497.0,Digital Wallet,6.0
+2021-04-12,36-45,CA,Male,High,PPC,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,1.0,18.0,18.0,3.0,0.0,Digital Wallet,4.0
+2021-04-12,46-55,CA,Female,Middle,Others,Home,Beds,Serta,Perfect Sleeper,989.0,750.0,2.0,2.0,1978.0,30.0,448.0,Credit Card,4.0
+2021-04-12,56-65,TX,Female,Middle,Email,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,35.0,20.0,5.0,11.0,175.0,8.0,67.0,Digital Wallet,6.0
+2021-04-12,18-25,CA,Female,Low,Others,Beauty,Makeup,Revlon,ColorStay Lipstick,14.0,15.0,6.0,14.0,86.0,6.0,-10.0,Debit Card,4.0
+2021-04-12,56-65,MI,Other,Middle,Others,Electronics,Smartphones,Apple,iPhone 14,917.0,700.0,3.0,10.0,2752.0,24.0,628.0,BNPL,6.0
+2021-04-12,66+,IL,Female,Middle,App,Home,Furniture,IKEA,Billy Bookcase,158.0,100.0,2.0,2.0,317.0,29.0,87.0,Credit Card,6.0
+2021-04-12,66+,PA,Male,Middle,Others,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,22.0,20.0,3.0,14.0,66.0,8.0,-2.0,Debit Card,5.0
+2021-04-12,46-55,TX,Other,Middle,App,Clothing,T-Shirts,Nike,Pro,48.0,30.0,6.0,12.0,286.0,11.0,95.0,Debit Card,6.0
+2021-04-12,46-55,NY,Male,Middle,Email,Home,Beds,Tempur-Pedic,Contour Elite,2090.0,1700.0,2.0,2.0,4180.0,35.0,745.0,Credit Card,7.0
+2021-04-12,36-45,NC,Female,High,Affiliates,Beauty,Makeup,Maybelline,Lash Sensational Mascara,15.0,10.0,1.0,5.0,15.0,9.0,-4.0,Debit Card,4.0
+2021-04-12,26-35,TX,Male,Middle,Organic,Home,Beds,Serta,iComfort,2476.0,1900.0,2.0,2.0,4952.0,32.0,1120.0,Digital Wallet,15.0
+2021-04-12,26-35,MI,Male,Low,Organic,Clothing,T-Shirts,Adidas,Performance,54.0,45.0,3.0,18.0,163.0,11.0,17.0,BNPL,5.0
+2021-04-12,26-35,IL,Other,Low,Email,Home,Beds,Tempur-Pedic,Contour Elite,1997.0,1700.0,1.0,4.0,1997.0,20.0,277.0,BNPL,6.0
+2021-04-12,36-45,NC,Male,Middle,App,Electronics,Smartphones,Apple,iPhone SE,543.0,400.0,2.0,12.0,1086.0,20.0,266.0,Debit Card,4.0
+2021-04-12,56-65,OH,Female,Middle,App,Electronics,Laptops,HP,Envy,973.0,700.0,2.0,2.0,1946.0,23.0,523.0,Debit Card,5.0
+2021-04-12,18-25,PA,Female,Low,Affiliates,Beauty,Skincare,Neutrogena,Hydro Boost Gel,23.0,20.0,3.0,11.0,68.0,8.0,-1.0,Debit Card,4.0
+2021-04-12,56-65,CA,Female,Low,Others,Home,Beds,Tempur-Pedic,Contour Elite,2081.0,1700.0,2.0,1.0,4162.0,30.0,732.0,Digital Wallet,5.0
+2021-04-12,66+,CA,Female,Low,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M2,1500.0,1200.0,2.0,5.0,3001.0,21.0,580.0,Credit Card,4.0
+2021-04-12,56-65,GA,Female,High,Organic,Electronics,Smartphones,Apple,iPhone SE,581.0,400.0,1.0,10.0,581.0,9.0,172.0,Credit Card,3.0
+2021-04-12,36-45,MI,Female,Low,Organic,Electronics,Smartphones,Apple,iPhone 14,967.0,700.0,2.0,10.0,1935.0,18.0,516.0,Credit Card,4.0
+2021-04-12,56-65,IL,Female,Low,Email,Clothing,Jeans,Wrangler,Regular Fit,46.0,35.0,1.0,20.0,46.0,8.0,3.0,Debit Card,4.0
+2021-04-12,26-35,CA,Male,High,Organic,Clothing,Jeans,Levis,501 Original,69.0,60.0,3.0,18.0,207.0,8.0,20.0,Credit Card,4.0
+2021-04-12,66+,IL,Male,Low,Organic,Clothing,T-Shirts,Nike,Dry-FIT,31.0,20.0,6.0,15.0,186.0,13.0,53.0,Debit Card,6.0
+2021-04-12,66+,MI,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,1012.0,700.0,2.0,5.0,2025.0,18.0,607.0,Credit Card,5.0
+2021-04-12,46-55,FL,Female,Middle,Email,Electronics,Smartphones,Apple,iPhone 14,857.0,700.0,2.0,14.0,1714.0,17.0,297.0,Credit Card,6.0
+2021-04-12,36-45,NY,Female,High,App,Electronics,Laptops,Apple Laptop,MacBook Air M2,1247.0,1000.0,2.0,9.0,2493.0,26.0,467.0,Credit Card,5.0
+2021-04-12,26-35,CA,Female,Middle,PPC,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1830.0,1500.0,1.0,8.0,1830.0,12.0,318.0,Credit Card,8.0
+2021-04-12,26-35,PA,Male,High,Affiliates,Clothing,T-Shirts,Adidas,Performance,58.0,45.0,1.0,15.0,58.0,7.0,6.0,Credit Card,3.0
+2021-04-12,36-45,TX,Other,Middle,Others,Electronics,Smartphones,Apple,iPhone 15,1102.0,800.0,3.0,6.0,3305.0,22.0,883.0,Debit Card,6.0
+2021-04-12,56-65,FL,Other,Middle,Email,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,2.0,10.0,37.0,7.0,-0.0,Credit Card,3.0
+2021-04-12,46-55,TX,Other,Middle,App,Electronics,Smartphones,Apple,iPhone 14,1063.0,700.0,2.0,5.0,2126.0,16.0,710.0,Credit Card,4.0
+2021-04-12,46-55,TX,Female,Middle,Organic,Home,Beds,Serta,iComfort,2477.0,1900.0,1.0,4.0,2477.0,18.0,559.0,Credit Card,4.0
+2021-04-12,56-65,NY,Female,Middle,App,Clothing,Jeans,Levis,Bootcut,100.0,100.0,1.0,19.0,100.0,9.0,-9.0,Debit Card,5.0
+2021-04-12,36-45,GA,Female,Middle,Email,Home,Furniture,IKEA,Kallax Shelf,83.0,60.0,1.0,3.0,83.0,15.0,8.0,Debit Card,4.0
+2021-04-12,18-25,NC,Female,Middle,Others,Home,Furniture,IKEA,Kallax Shelf,94.0,60.0,2.0,1.0,188.0,31.0,37.0,Credit Card,5.0
+2021-04-12,66+,FL,Male,Middle,PPC,Home,Furniture,IKEA,Billy Bookcase,181.0,100.0,2.0,2.0,361.0,28.0,133.0,Credit Card,6.0
+2021-04-12,36-45,IL,Male,Middle,App,Beauty,Makeup,Maybelline,Fit Me Foundation,21.0,15.0,1.0,9.0,21.0,7.0,-1.0,Digital Wallet,5.0
+2021-04-12,36-45,OH,Other,Middle,Others,Electronics,Smartphones,Apple,iPhone 15,1019.0,800.0,3.0,11.0,3058.0,22.0,636.0,Debit Card,6.0
+2021-04-12,26-35,IL,Male,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,31.0,30.0,3.0,21.0,93.0,12.0,-8.0,BNPL,4.0
+2021-04-12,26-35,MI,Male,Low,App,Home,Furniture,IKEA,Billy Bookcase,166.0,100.0,1.0,4.0,166.0,18.0,47.0,Debit Card,4.0
+2021-04-12,56-65,NC,Male,High,Email,Home,Furniture,Ashley Furniture,Bed Frame,260.0,100.0,1.0,3.0,260.0,20.0,140.0,Debit Card,2.0
+2021-04-12,36-45,NC,Male,Middle,App,Beauty,Makeup,Maybelline,Lash Sensational Mascara,16.0,10.0,1.0,14.0,16.0,9.0,-4.0,Digital Wallet,5.0
+2021-04-12,46-55,TX,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone SE,597.0,400.0,3.0,6.0,1792.0,22.0,570.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Female,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,17.0,15.0,2.0,12.0,35.0,4.0,1.0,Credit Card,3.0
+2021-04-12,26-35,PA,Female,Middle,Affiliates,Electronics,Smartphones,Samsung,Galaxy S21,763.0,500.0,3.0,6.0,2289.0,23.0,765.0,Digital Wallet,6.0
+2021-04-12,18-25,NY,Female,High,App,Clothing,T-Shirts,Nike,Dry-FIT,25.0,20.0,5.0,16.0,127.0,13.0,14.0,Credit Card,7.0
+2021-04-12,26-35,FL,Female,Middle,Organic,Clothing,T-Shirts,Adidas,Performance,58.0,45.0,2.0,14.0,117.0,8.0,18.0,Credit Card,4.0
+2021-04-12,18-25,PA,Female,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 15,1007.0,800.0,1.0,11.0,1007.0,12.0,195.0,Credit Card,5.0
+2021-04-12,36-45,OH,Male,Middle,App,Home,Furniture,IKEA,Billy Bookcase,144.0,100.0,2.0,3.0,288.0,28.0,60.0,Debit Card,6.0
+2021-04-12,36-45,TX,Male,Low,App,Clothing,Jeans,Levis,501 Original,69.0,60.0,3.0,19.0,206.0,10.0,17.0,Credit Card,6.0
+2021-04-12,26-35,CA,Male,Middle,Email,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1868.0,1500.0,2.0,6.0,3737.0,14.0,723.0,Credit Card,2.0
+2021-04-12,46-55,NY,Female,Low,Organic,Electronics,Smartphones,Samsung,Galaxy S21,707.0,500.0,2.0,9.0,1414.0,19.0,395.0,Credit Card,4.0
+2021-04-12,26-35,PA,Other,High,Organic,Clothing,T-Shirts,Nike,Dry-FIT,25.0,20.0,6.0,11.0,149.0,13.0,16.0,Credit Card,10.0
+2021-04-12,56-65,CA,Female,Middle,App,Beauty,Makeup,Maybelline,Lash Sensational Mascara,15.0,10.0,7.0,8.0,108.0,7.0,32.0,Credit Card,6.0
+2021-04-12,18-25,NC,Female,Low,Organic,Home,Beds,Serta,Perfect Sleeper,984.0,750.0,1.0,1.0,984.0,22.0,212.0,Debit Card,4.0
+2021-04-12,36-45,MI,Male,Low,Affiliates,Home,Furniture,IKEA,Billy Bookcase,146.0,100.0,1.0,2.0,146.0,18.0,28.0,BNPL,5.0
+2021-04-12,36-45,OH,Female,High,Email,Electronics,Smartphones,Apple,iPhone 15,1101.0,800.0,9.0,7.0,9908.0,51.0,2657.0,Debit Card,7.0
+2021-04-12,26-35,OH,Male,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 15,1031.0,800.0,2.0,9.0,2063.0,16.0,446.0,Digital Wallet,5.0
+2021-04-12,18-25,FL,Other,Middle,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,3.0,19.0,47.0,8.0,-6.0,Credit Card,4.0
+2021-04-12,46-55,CA,Female,High,App,Home,Furniture,IKEA,Billy Bookcase,187.0,100.0,2.0,3.0,375.0,25.0,149.0,Digital Wallet,4.0
+2021-04-12,46-55,OH,Other,Middle,Email,Home,Furniture,IKEA,Billy Bookcase,134.0,100.0,2.0,4.0,269.0,28.0,41.0,Debit Card,6.0
+2021-04-12,36-45,CA,Male,Middle,Others,Home,Beds,Tempur-Pedic,Contour Elite,1945.0,1700.0,2.0,3.0,3890.0,30.0,460.0,Credit Card,4.0
+2021-04-12,66+,PA,Male,Low,Others,Home,Furniture,IKEA,Billy Bookcase,157.0,100.0,2.0,1.0,314.0,29.0,85.0,Digital Wallet,5.0
+2021-04-12,26-35,GA,Female,Middle,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,13.0,10.0,7.0,13.0,93.0,8.0,15.0,Debit Card,6.0
+2021-04-12,18-25,FL,Female,Middle,Others,Clothing,Jeans,Levis,501 Original,78.0,60.0,2.0,19.0,156.0,9.0,27.0,Digital Wallet,4.0
+2021-04-12,18-25,TX,Female,Middle,PPC,Electronics,Smartphones,Samsung,Galaxy S21,739.0,500.0,2.0,8.0,1479.0,16.0,463.0,Credit Card,4.0
+2021-04-12,26-35,MI,Female,Middle,Others,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,25.0,20.0,3.0,18.0,75.0,9.0,6.0,Debit Card,6.0
+2021-04-12,26-35,CA,Male,Middle,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2153.0,1800.0,1.0,2.0,2153.0,16.0,337.0,Digital Wallet,5.0
+2021-04-12,46-55,TX,Male,High,Affiliates,Home,Beds,Serta,Perfect Sleeper,983.0,750.0,2.0,4.0,1966.0,32.0,434.0,Digital Wallet,5.0
+2021-04-12,66+,CA,Female,Middle,Affiliates,Clothing,Jeans,Levis,501 Original,75.0,60.0,3.0,21.0,224.0,8.0,36.0,Credit Card,5.0
+2021-04-12,36-45,FL,Female,Middle,Organic,Clothing,Jeans,Wrangler,Regular Fit,56.0,35.0,2.0,20.0,113.0,9.0,34.0,Debit Card,3.0
+2021-04-12,26-35,MI,Female,Low,Organic,Electronics,Smartphones,Samsung,Galaxy S21,662.0,500.0,2.0,9.0,1325.0,18.0,306.0,Digital Wallet,2.0
+2021-04-12,26-35,PA,Female,Middle,PPC,Electronics,Smartphones,Samsung,Galaxy S21,691.0,500.0,7.0,7.0,4835.0,40.0,1295.0,BNPL,7.0
+2021-04-12,56-65,CA,Other,Low,Others,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,30.0,20.0,2.0,13.0,60.0,4.0,16.0,Digital Wallet,2.0
+2021-04-12,26-35,IL,Male,Low,PPC,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1857.0,1500.0,2.0,4.0,3714.0,25.0,689.0,Debit Card,5.0
+2021-04-12,36-45,MI,Female,High,Organic,Clothing,Jeans,Wrangler,Authentics,44.0,30.0,3.0,20.0,132.0,12.0,30.0,BNPL,6.0
+2021-04-12,56-65,FL,Female,Middle,PPC,Home,Furniture,IKEA,Billy Bookcase,161.0,100.0,3.0,1.0,484.0,40.0,145.0,Debit Card,6.0
+2021-04-12,26-35,IL,Female,Low,Others,Electronics,Smartphones,Apple,iPhone 15,1023.0,800.0,1.0,12.0,1023.0,12.0,210.0,Debit Card,4.0
+2021-04-12,66+,TX,Male,Middle,Organic,Electronics,Laptops,HP,Envy,1011.0,700.0,2.0,2.0,2023.0,23.0,600.0,Debit Card,5.0
+2021-04-12,18-25,FL,Female,Low,App,Electronics,Smartphones,Samsung,Galaxy S21,769.0,500.0,2.0,8.0,1539.0,17.0,522.0,Digital Wallet,4.0
+2021-04-12,56-65,TX,Female,Low,Organic,Home,Beds,Serta,iComfort,2359.0,1900.0,1.0,1.0,2359.0,18.0,440.0,Digital Wallet,6.0
+2021-04-12,66+,NC,Female,Middle,App,Electronics,Smartphones,Apple,iPhone SE,589.0,400.0,2.0,5.0,1177.0,20.0,357.0,Credit Card,4.0
+2021-04-12,46-55,FL,Other,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,16.0,10.0,6.0,8.0,96.0,9.0,27.0,Digital Wallet,9.0
+2021-04-12,18-25,NC,Female,Low,App,Home,Beds,Tempur-Pedic,Contour Elite,2242.0,1700.0,1.0,3.0,2242.0,22.0,520.0,Credit Card,4.0
+2021-04-12,26-35,TX,Male,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,47.0,30.0,1.0,15.0,47.0,6.0,11.0,Debit Card,4.0
+2021-04-12,46-55,NY,Female,Low,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2104.0,1800.0,2.0,1.0,4208.0,35.0,573.0,BNPL,6.0
+2021-04-12,66+,TX,Other,Low,App,Home,Beds,Tempur-Pedic,Contour Elite,2158.0,1700.0,1.0,1.0,2158.0,18.0,440.0,Debit Card,4.0
+2021-04-12,56-65,CA,Female,High,Affiliates,Electronics,Laptops,HP,Pavilion,841.0,600.0,2.0,3.0,1681.0,21.0,460.0,Credit Card,4.0
+2021-04-12,56-65,MI,Male,Middle,Others,Clothing,T-Shirts,Adidas,Performance,74.0,45.0,6.0,12.0,446.0,14.0,162.0,Digital Wallet,6.0
+2021-04-12,18-25,PA,Other,Low,Organic,Electronics,Smartphones,Apple,iPhone 15,1056.0,800.0,2.0,10.0,2113.0,17.0,495.0,Debit Card,4.0
+2021-04-12,46-55,FL,Other,Low,Email,Beauty,Makeup,Revlon,ColorStay Lipstick,18.0,15.0,3.0,14.0,55.0,8.0,3.0,Credit Card,5.0
+2021-04-12,26-35,CA,Other,High,Email,Electronics,Smartphones,Apple,iPhone 15,1065.0,800.0,1.0,5.0,1065.0,8.0,257.0,Debit Card,3.0
+2021-04-12,36-45,CA,Female,Low,Others,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,3.0,17.0,47.0,5.0,-3.0,Digital Wallet,4.0
+2021-04-12,36-45,IL,Other,High,Organic,Electronics,Smartphones,Apple,iPhone 14,909.0,700.0,1.0,14.0,909.0,12.0,197.0,Debit Card,3.0
+2021-04-12,66+,FL,Other,Low,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,22.0,15.0,5.0,12.0,108.0,8.0,25.0,Digital Wallet,5.0
+2021-04-12,36-45,FL,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,990.0,800.0,2.0,10.0,1980.0,17.0,363.0,Digital Wallet,4.0
+2021-04-12,26-35,TX,Female,Low,Organic,Home,Furniture,Ashley Furniture,Sofa,478.0,300.0,2.0,3.0,957.0,27.0,329.0,Credit Card,5.0
+2021-04-12,36-45,TX,Female,Middle,Others,Clothing,T-Shirts,Nike,Sportswear,37.0,25.0,6.0,15.0,219.0,11.0,58.0,Debit Card,8.0
+2021-04-12,18-25,TX,Female,High,App,Electronics,Smartphones,Apple,iPhone 14,899.0,700.0,1.0,14.0,899.0,10.0,189.0,Credit Card,4.0
+2021-04-12,26-35,CA,Male,Low,Affiliates,Home,Furniture,IKEA,Billy Bookcase,134.0,100.0,1.0,3.0,134.0,14.0,20.0,Digital Wallet,4.0
+2021-04-12,26-35,CA,Male,Low,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,25.0,15.0,7.0,8.0,178.0,7.0,66.0,Debit Card,6.0
+2021-04-12,66+,CA,Female,High,PPC,Home,Furniture,Ashley Furniture,Dining Table,341.0,200.0,2.0,4.0,682.0,25.0,256.0,Credit Card,4.0
+2021-04-12,46-55,OH,Female,High,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,5.0,11.0,58.0,8.0,1.0,Credit Card,5.0
+2021-04-12,36-45,NY,Male,Low,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1793.0,1500.0,1.0,8.0,1793.0,17.0,276.0,Debit Card,5.0
+2021-04-12,18-25,FL,Female,Middle,App,Beauty,Makeup,Revlon,PhotoReady Concealer,20.0,12.0,3.0,5.0,60.0,8.0,16.0,Digital Wallet,5.0
+2021-04-12,26-35,NY,Female,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1642.0,1500.0,1.0,14.0,1642.0,13.0,129.0,Credit Card,6.0
+2021-04-12,26-35,FL,Female,Low,Organic,Electronics,Laptops,HP,Pavilion,755.0,600.0,2.0,3.0,1509.0,24.0,285.0,BNPL,5.0
+2021-04-12,56-65,CA,Other,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,15.0,10.0,1.0,12.0,15.0,3.0,2.0,Credit Card,2.0
+2021-04-12,26-35,NY,Other,Middle,Affiliates,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,28.0,20.0,3.0,15.0,85.0,10.0,15.0,BNPL,5.0
+2021-04-12,36-45,OH,Male,Middle,PPC,Electronics,Laptops,Apple Laptop,MacBook Air M2,1334.0,1000.0,2.0,5.0,2668.0,23.0,644.0,Credit Card,5.0
+2021-04-12,46-55,FL,Male,Low,Email,Electronics,Smartphones,Samsung,Galaxy A32,357.0,250.0,1.0,9.0,357.0,11.0,96.0,Debit Card,4.0
+2021-04-12,18-25,OH,Other,High,Organic,Electronics,Smartphones,Samsung,Galaxy A32,300.0,250.0,3.0,12.0,901.0,22.0,129.0,BNPL,5.0
+2021-04-12,26-35,IL,Female,High,Affiliates,Beauty,Makeup,Revlon,ColorStay Lipstick,20.0,15.0,1.0,10.0,20.0,7.0,-2.0,BNPL,3.0
+2021-04-12,66+,CA,Other,Middle,Affiliates,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,2.0,16.0,37.0,4.0,2.0,Credit Card,2.0
+2021-04-12,36-45,NY,Male,Middle,PPC,Clothing,T-Shirts,Adidas,Performance,64.0,45.0,6.0,19.0,383.0,14.0,98.0,Credit Card,5.0
+2021-04-12,18-25,TX,Other,Low,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1729.0,1500.0,1.0,6.0,1729.0,14.0,215.0,Credit Card,5.0
+2021-04-12,18-25,PA,Male,Middle,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2209.0,1800.0,2.0,1.0,4418.0,34.0,785.0,Credit Card,6.0
+2021-04-12,36-45,CA,Male,Middle,Others,Clothing,T-Shirts,Nike,Dry-FIT,16.0,20.0,2.0,18.0,31.0,5.0,-14.0,Credit Card,5.0
+2021-04-12,18-25,FL,Male,Low,Organic,Home,Furniture,Ashley Furniture,Sofa,433.0,300.0,2.0,4.0,866.0,28.0,238.0,Credit Card,7.0
+2021-04-12,46-55,CA,Female,High,Affiliates,Electronics,Smartphones,Apple,iPhone 14,959.0,700.0,3.0,11.0,2877.0,20.0,757.0,Digital Wallet,4.0
+2021-04-12,56-65,MI,Male,Low,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,5.0,12.0,92.0,10.0,8.0,Debit Card,5.0
+2021-04-12,26-35,NY,Male,Middle,PPC,Clothing,T-Shirts,Nike,Pro,51.0,30.0,6.0,14.0,303.0,14.0,109.0,Debit Card,5.0
+2021-04-12,36-45,CA,Male,High,Organic,Electronics,Smartphones,Apple,iPhone 15,1006.0,800.0,1.0,13.0,1006.0,8.0,198.0,Credit Card,2.0
+2021-04-12,18-25,MI,Female,High,App,Home,Beds,Serta,iComfort,2293.0,1900.0,2.0,3.0,4585.0,34.0,751.0,Digital Wallet,6.0
+2021-04-12,36-45,NC,Male,High,App,Home,Beds,Serta,iComfort,2438.0,1900.0,1.0,3.0,2438.0,22.0,516.0,Credit Card,6.0
+2021-04-12,66+,NC,Male,Middle,PPC,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1824.0,1500.0,1.0,2.0,1824.0,18.0,307.0,Debit Card,5.0
+2021-04-12,36-45,CA,Other,Middle,Organic,Electronics,Smartphones,Apple,iPhone SE,525.0,400.0,1.0,14.0,525.0,8.0,117.0,Credit Card,2.0
+2021-04-12,66+,OH,Female,Middle,Organic,Clothing,Jeans,Wrangler,Authentics,42.0,30.0,16.0,22.0,665.0,29.0,156.0,Debit Card,11.0
+2021-04-12,66+,FL,Female,Middle,PPC,Electronics,Smartphones,Apple,iPhone 15,1015.0,800.0,2.0,13.0,2030.0,17.0,413.0,BNPL,5.0
+2021-04-12,26-35,TX,Female,Low,App,Home,Beds,Tempur-Pedic,Contour Elite,2075.0,1700.0,2.0,4.0,4150.0,32.0,718.0,Debit Card,6.0
+2021-04-12,26-35,GA,Other,Low,PPC,Home,Furniture,IKEA,Kallax Shelf,73.0,60.0,1.0,3.0,73.0,15.0,-2.0,Debit Card,4.0
+2021-04-12,46-55,TX,Male,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,16.0,10.0,5.0,9.0,82.0,7.0,25.0,BNPL,5.0
+2021-04-12,56-65,MI,Other,High,App,Home,Beds,Serta,iComfort,2467.0,1900.0,1.0,3.0,2467.0,21.0,547.0,Digital Wallet,6.0
+2021-04-12,36-45,PA,Male,High,App,Electronics,Laptops,HP,Pavilion,763.0,600.0,2.0,8.0,1526.0,24.0,301.0,BNPL,4.0
+2021-04-12,26-35,MI,Other,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,124.0,100.0,1.0,3.0,124.0,18.0,6.0,Credit Card,5.0
+2021-04-12,56-65,MI,Female,Low,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,21.0,20.0,1.0,17.0,21.0,8.0,-6.0,Credit Card,4.0
+2021-04-12,18-25,CA,Female,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy S21,649.0,500.0,1.0,13.0,649.0,8.0,141.0,BNPL,4.0
+2021-04-12,36-45,OH,Female,High,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2150.0,1800.0,1.0,3.0,2150.0,19.0,331.0,Digital Wallet,6.0
+2021-04-12,36-45,IL,Female,Middle,Others,Beauty,Makeup,Maybelline,Fit Me Foundation,20.0,15.0,6.0,14.0,122.0,10.0,22.0,BNPL,5.0
+2021-04-12,18-25,TX,Female,High,Organic,Electronics,Smartphones,Apple,iPhone SE,560.0,400.0,1.0,14.0,560.0,10.0,149.0,BNPL,5.0
+2021-04-12,36-45,OH,Male,Middle,App,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,3.0,6.0,64.0,7.0,12.0,Debit Card,4.0
+2021-04-12,36-45,GA,Male,Middle,App,Home,Furniture,IKEA,Kallax Shelf,75.0,60.0,1.0,3.0,75.0,15.0,-0.0,Debit Card,5.0
+2021-04-12,56-65,PA,Male,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,136.0,100.0,1.0,4.0,136.0,17.0,19.0,Credit Card,5.0
+2021-04-12,56-65,MI,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,1017.0,800.0,1.0,12.0,1017.0,13.0,204.0,Digital Wallet,5.0
+2021-04-12,46-55,PA,Female,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,163.0,100.0,1.0,4.0,163.0,17.0,45.0,Debit Card,6.0
+2021-04-12,18-25,MI,Male,Middle,Email,Clothing,Jeans,Wrangler,Regular Fit,61.0,35.0,2.0,19.0,122.0,10.0,42.0,Debit Card,5.0
+2021-04-12,66+,FL,Male,Middle,App,Home,Beds,Serta,iComfort,2412.0,1900.0,2.0,3.0,4824.0,33.0,991.0,Digital Wallet,7.0
+2021-04-12,18-25,TX,Female,Middle,PPC,Electronics,Smartphones,Samsung,Galaxy A32,335.0,250.0,2.0,9.0,670.0,16.0,154.0,Debit Card,4.0
+2021-04-12,18-25,IL,Female,Middle,App,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,5.0,13.0,91.0,10.0,6.0,Digital Wallet,5.0
+2021-04-12,18-25,FL,Male,Low,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2147.0,1700.0,1.0,1.0,2147.0,19.0,428.0,Debit Card,4.0
+2021-04-12,46-55,TX,Female,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,163.0,100.0,1.0,2.0,163.0,16.0,47.0,Digital Wallet,5.0
+2021-04-12,26-35,CA,Male,Low,PPC,Electronics,Laptops,Dell,XPS,1574.0,1300.0,1.0,9.0,1574.0,12.0,262.0,Credit Card,3.0
+2021-04-12,46-55,CA,Female,Middle,PPC,Electronics,Smartphones,Apple,iPhone 14,906.0,700.0,3.0,11.0,2718.0,20.0,598.0,Digital Wallet,6.0
+2021-04-12,36-45,TX,Other,Middle,Affiliates,Electronics,Smartphones,Samsung,Galaxy A32,341.0,250.0,2.0,14.0,681.0,16.0,165.0,Credit Card,4.0
+2021-04-12,18-25,FL,Male,Middle,Affiliates,Home,Furniture,IKEA,Billy Bookcase,142.0,100.0,2.0,4.0,284.0,28.0,56.0,Credit Card,4.0
+2021-04-12,56-65,IL,Female,Low,Organic,Home,Furniture,Ashley Furniture,Bed Frame,263.0,100.0,2.0,1.0,526.0,29.0,296.0,BNPL,5.0
+2021-04-12,26-35,CA,Male,High,App,Home,Furniture,IKEA,Billy Bookcase,154.0,100.0,1.0,3.0,154.0,14.0,40.0,Digital Wallet,3.0
+2021-04-12,26-35,NY,Other,Middle,App,Home,Furniture,IKEA,Kallax Shelf,87.0,60.0,2.0,3.0,174.0,30.0,24.0,Digital Wallet,8.0
+2021-04-12,18-25,CA,Male,Middle,App,Clothing,T-Shirts,Nike,Pro,36.0,30.0,5.0,13.0,182.0,8.0,24.0,Digital Wallet,5.0
+2021-04-12,18-25,TX,Male,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 14,930.0,700.0,3.0,13.0,2789.0,22.0,667.0,Credit Card,6.0
+2021-04-12,26-35,PA,Other,High,Organic,Electronics,Smartphones,Apple,iPhone 15,1012.0,800.0,3.0,14.0,3037.0,23.0,613.0,Credit Card,7.0
+2021-04-12,46-55,CA,Male,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,19.0,15.0,2.0,8.0,38.0,4.0,4.0,Credit Card,4.0
+2021-04-12,46-55,FL,Other,Middle,Others,Electronics,Laptops,Apple Laptop,MacBook Air M2,1326.0,1000.0,1.0,4.0,1326.0,15.0,311.0,Credit Card,4.0
+2021-04-12,56-65,FL,Female,Low,Others,Clothing,Jeans,Wrangler,Authentics,46.0,30.0,1.0,20.0,46.0,7.0,9.0,Digital Wallet,3.0
+2021-04-12,18-25,CA,Female,Low,App,Beauty,Makeup,Maybelline,Fit Me Foundation,14.0,15.0,6.0,10.0,83.0,6.0,-13.0,Digital Wallet,4.0
+2021-04-12,26-35,CA,Other,Middle,Affiliates,Electronics,Smartphones,Samsung,Galaxy A32,335.0,250.0,2.0,8.0,671.0,14.0,157.0,Debit Card,2.0
+2021-04-12,18-25,NY,Female,Middle,App,Electronics,Smartphones,Apple,iPhone 14,969.0,700.0,8.0,7.0,7756.0,48.0,2108.0,Digital Wallet,9.0
+2021-04-12,36-45,FL,Male,Low,Email,Home,Furniture,IKEA,Billy Bookcase,124.0,100.0,1.0,3.0,124.0,17.0,8.0,Credit Card,4.0
+2021-04-12,56-65,NY,Female,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 14,962.0,700.0,2.0,10.0,1923.0,19.0,504.0,Digital Wallet,2.0
+2021-04-12,46-55,NC,Female,Middle,Others,Electronics,Smartphones,Apple,iPhone SE,579.0,400.0,1.0,8.0,579.0,14.0,165.0,Credit Card,4.0
+2021-04-12,66+,MI,Female,Middle,Others,Electronics,Laptops,HP,Pavilion,714.0,600.0,2.0,5.0,1427.0,25.0,202.0,Digital Wallet,6.0
+2021-04-12,66+,MI,Female,Middle,Affiliates,Home,Furniture,IKEA,Kallax Shelf,79.0,60.0,1.0,2.0,79.0,18.0,1.0,Debit Card,6.0
+2021-04-12,66+,CA,Other,Middle,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2157.0,1800.0,2.0,3.0,4314.0,30.0,684.0,BNPL,5.0
+2021-04-12,46-55,NY,Female,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 14,889.0,700.0,1.0,11.0,889.0,13.0,176.0,Digital Wallet,5.0
+2021-04-12,18-25,NY,Other,High,Others,Electronics,Smartphones,Apple,iPhone 14,903.0,700.0,3.0,14.0,2708.0,25.0,583.0,Digital Wallet,5.0
+2021-04-12,18-25,PA,Male,Middle,Others,Home,Furniture,Ashley Furniture,Bed Frame,247.0,100.0,2.0,4.0,493.0,29.0,264.0,Debit Card,10.0
+2021-04-12,18-25,TX,Other,Middle,Others,Home,Furniture,IKEA,Kallax Shelf,75.0,60.0,2.0,4.0,150.0,27.0,3.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Male,Low,Affiliates,Electronics,Smartphones,Apple,iPhone SE,547.0,400.0,1.0,10.0,547.0,8.0,139.0,Digital Wallet,3.0
+2021-04-12,36-45,CA,Other,High,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,5.0,11.0,90.0,5.0,9.0,Credit Card,5.0
+2021-04-12,18-25,TX,Male,High,App,Clothing,Jeans,Wrangler,Authentics,41.0,30.0,2.0,21.0,83.0,8.0,15.0,Digital Wallet,5.0
+2021-04-12,26-35,NY,Female,Low,App,Electronics,Smartphones,Apple,iPhone 15,992.0,800.0,1.0,13.0,992.0,13.0,179.0,Debit Card,4.0
+2021-04-12,56-65,CA,Other,Middle,Email,Beauty,Makeup,Revlon,ColorStay Lipstick,21.0,15.0,5.0,10.0,106.0,5.0,26.0,Debit Card,3.0
+2021-04-12,56-65,TX,Male,High,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,5.0,8.0,84.0,7.0,2.0,Digital Wallet,6.0
+2021-04-12,56-65,FL,Female,Low,Affiliates,Beauty,Skincare,Neutrogena,Hydro Boost Gel,22.0,20.0,2.0,10.0,44.0,7.0,-3.0,Debit Card,6.0
+2021-04-12,46-55,TX,Male,Middle,App,Clothing,Jeans,Wrangler,Authentics,40.0,30.0,2.0,22.0,80.0,8.0,12.0,Debit Card,5.0
+2021-04-12,66+,OH,Female,Middle,App,Home,Furniture,IKEA,Billy Bookcase,149.0,100.0,1.0,2.0,149.0,16.0,33.0,Digital Wallet,6.0
+2021-04-12,26-35,IL,Other,Middle,PPC,Electronics,Smartphones,Apple,iPhone 15,1043.0,800.0,3.0,6.0,3129.0,24.0,705.0,BNPL,5.0
+2021-04-12,26-35,NC,Other,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1826.0,1500.0,1.0,7.0,1826.0,14.0,312.0,Debit Card,5.0
+2021-04-12,66+,CA,Female,Low,App,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,28.0,20.0,1.0,18.0,28.0,3.0,5.0,Credit Card,3.0
+2021-04-12,26-35,CA,Male,Low,App,Beauty,Makeup,Maybelline,Lash Sensational Mascara,13.0,10.0,1.0,9.0,13.0,3.0,-0.0,Debit Card,3.0
+2021-04-12,26-35,TX,Male,Middle,Others,Beauty,Makeup,Revlon,PhotoReady Concealer,16.0,12.0,1.0,7.0,16.0,5.0,-1.0,BNPL,3.0
+2021-04-12,26-35,FL,Male,Middle,App,Home,Furniture,IKEA,Kallax Shelf,71.0,60.0,2.0,4.0,142.0,28.0,-6.0,Credit Card,7.0
+2021-04-12,56-65,NY,Male,Middle,PPC,Electronics,Laptops,Dell,XPS,1570.0,1300.0,2.0,9.0,3139.0,26.0,514.0,Digital Wallet,2.0
+2021-04-12,18-25,NC,Female,Middle,App,Home,Furniture,Ashley Furniture,Bed Frame,252.0,100.0,1.0,1.0,252.0,20.0,132.0,Credit Card,5.0
+2021-04-12,66+,OH,Female,Low,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,16.0,15.0,1.0,12.0,16.0,6.0,-5.0,BNPL,3.0
+2021-04-12,26-35,FL,Female,High,Organic,Home,Furniture,IKEA,Kallax Shelf,56.0,60.0,1.0,4.0,56.0,17.0,-21.0,Digital Wallet,7.0
+2021-04-12,26-35,CA,Female,Middle,Others,Electronics,Smartphones,Apple,iPhone 15,1053.0,800.0,3.0,11.0,3159.0,20.0,739.0,Debit Card,4.0
+2021-04-12,46-55,FL,Female,Middle,Email,Home,Beds,Tempur-Pedic,Cloud Supreme,2136.0,1800.0,2.0,4.0,4272.0,33.0,639.0,Debit Card,4.0
+2021-04-12,36-45,FL,Male,Middle,Affiliates,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,31.0,20.0,3.0,17.0,92.0,8.0,24.0,Debit Card,4.0
+2021-04-12,26-35,GA,Female,Low,PPC,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,1.0,8.0,14.0,4.0,-1.0,Debit Card,3.0
+2021-04-12,26-35,CA,Male,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy S21,715.0,500.0,1.0,11.0,715.0,8.0,206.0,Credit Card,3.0
+2021-04-12,46-55,TX,Female,Low,Others,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,5.0,8.0,69.0,7.0,12.0,Digital Wallet,5.0
+2021-04-12,36-45,TX,Other,High,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1761.0,1500.0,1.0,4.0,1761.0,14.0,247.0,Credit Card,4.0
+2021-04-12,46-55,TX,Male,Middle,Organic,Clothing,Jeans,Wrangler,Regular Fit,58.0,35.0,2.0,22.0,116.0,8.0,38.0,Credit Card,3.0
+2021-04-12,46-55,MI,Male,Low,Affiliates,Electronics,Smartphones,Apple,iPhone SE,527.0,400.0,1.0,13.0,527.0,13.0,114.0,Digital Wallet,6.0
+2021-04-12,26-35,PA,Other,High,App,Electronics,Smartphones,Apple,iPhone 15,962.0,800.0,3.0,12.0,2887.0,23.0,464.0,Credit Card,5.0
+2021-04-12,18-25,CA,Female,Middle,App,Home,Beds,Serta,iComfort,2507.0,1900.0,1.0,3.0,2507.0,16.0,590.0,Digital Wallet,4.0
+2021-04-12,36-45,GA,Female,High,Affiliates,Home,Furniture,IKEA,Billy Bookcase,155.0,100.0,2.0,3.0,309.0,26.0,83.0,Debit Card,6.0
+2021-04-12,36-45,NC,Female,Middle,PPC,Home,Furniture,IKEA,Billy Bookcase,129.0,100.0,2.0,4.0,258.0,31.0,27.0,Credit Card,6.0
+2021-04-12,56-65,NY,Female,Low,PPC,Home,Furniture,IKEA,Kallax Shelf,83.0,60.0,1.0,4.0,83.0,19.0,4.0,Debit Card,5.0
+2021-04-12,18-25,CA,Female,Middle,Others,Beauty,Makeup,Revlon,ColorStay Lipstick,17.0,15.0,7.0,14.0,118.0,7.0,7.0,BNPL,6.0
+2021-04-12,18-25,OH,Male,Low,Organic,Electronics,Smartphones,Samsung,Galaxy A32,323.0,250.0,3.0,14.0,970.0,22.0,197.0,Debit Card,4.0
+2021-04-12,18-25,MI,Female,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy S21,682.0,500.0,3.0,9.0,2045.0,24.0,521.0,Digital Wallet,21.0
+2021-04-12,36-45,NY,Female,Middle,Organic,Beauty,Makeup,Revlon,ColorStay Lipstick,22.0,15.0,5.0,8.0,112.0,10.0,27.0,Digital Wallet,5.0
+2021-04-12,36-45,NC,Male,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,19.0,15.0,3.0,10.0,57.0,11.0,1.0,Credit Card,5.0
+2021-04-12,46-55,CA,Male,Middle,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,19.0,15.0,3.0,11.0,58.0,5.0,8.0,Digital Wallet,4.0
+2021-04-12,26-35,OH,Female,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy A32,330.0,250.0,2.0,12.0,659.0,16.0,143.0,Credit Card,5.0
+2021-04-12,46-55,CA,Male,High,Organic,Electronics,Smartphones,Apple,iPhone SE,598.0,400.0,1.0,7.0,598.0,8.0,190.0,Credit Card,3.0
+2021-04-12,18-25,TX,Female,Middle,Affiliates,Electronics,Smartphones,Apple,iPhone 15,1006.0,800.0,1.0,13.0,1006.0,10.0,195.0,Debit Card,4.0
+2021-04-12,26-35,NY,Other,Low,Affiliates,Home,Furniture,IKEA,Billy Bookcase,126.0,100.0,1.0,4.0,126.0,19.0,7.0,Debit Card,5.0
+2021-04-12,26-35,OH,Other,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,884.0,700.0,3.0,14.0,2652.0,22.0,530.0,BNPL,5.0
+2021-04-12,36-45,NY,Male,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,216.0,100.0,2.0,4.0,433.0,30.0,202.0,Debit Card,7.0
+2021-04-12,26-35,TX,Male,Middle,Affiliates,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,17.0,15.0,3.0,16.0,51.0,7.0,-1.0,BNPL,5.0
+2021-04-12,46-55,CA,Male,Middle,Others,Home,Furniture,IKEA,Kallax Shelf,72.0,60.0,2.0,4.0,144.0,25.0,-2.0,Credit Card,5.0
+2021-04-12,18-25,TX,Female,Middle,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1811.0,1500.0,1.0,8.0,1811.0,14.0,298.0,Credit Card,5.0
+2021-04-12,66+,PA,Male,Middle,Affiliates,Electronics,Laptops,Apple Laptop,MacBook Air M2,1299.0,1000.0,2.0,3.0,2597.0,24.0,573.0,Digital Wallet,5.0
+2021-04-12,46-55,MI,Female,Low,Organic,Clothing,T-Shirts,Nike,Sportswear,35.0,25.0,3.0,14.0,104.0,11.0,18.0,Credit Card,5.0
+2021-04-12,46-55,GA,Female,Low,Affiliates,Electronics,Smartphones,Apple,iPhone 14,952.0,700.0,3.0,7.0,2857.0,21.0,736.0,Debit Card,4.0
+2021-04-12,26-35,NC,Female,Middle,Email,Home,Furniture,IKEA,Billy Bookcase,190.0,100.0,1.0,3.0,190.0,20.0,70.0,Digital Wallet,7.0
+2021-04-12,26-35,OH,Male,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,5.0,13.0,92.0,8.0,9.0,Credit Card,6.0
+2021-04-12,26-35,NC,Other,Middle,Organic,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1713.0,1500.0,3.0,10.0,5140.0,26.0,614.0,Credit Card,5.0
+2021-04-12,36-45,NC,Male,High,Email,Home,Beds,Tempur-Pedic,Contour Elite,2055.0,1700.0,2.0,4.0,4110.0,36.0,674.0,Credit Card,6.0
+2021-04-12,36-45,NC,Male,Middle,App,Home,Beds,Tempur-Pedic,Contour Elite,2132.0,1700.0,2.0,2.0,4264.0,36.0,828.0,Credit Card,5.0
+2021-04-12,66+,FL,Male,Low,Affiliates,Electronics,Smartphones,Samsung,Galaxy A32,283.0,250.0,2.0,12.0,565.0,17.0,48.0,Credit Card,3.0
+2021-04-12,56-65,FL,Female,High,Organic,Home,Furniture,IKEA,Billy Bookcase,140.0,100.0,2.0,3.0,280.0,28.0,52.0,Debit Card,6.0
+2021-04-12,56-65,NY,Male,Low,PPC,Home,Beds,Tempur-Pedic,Cloud Supreme,2231.0,1800.0,1.0,1.0,2231.0,21.0,410.0,Debit Card,6.0
+2021-04-12,36-45,OH,Male,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,185.0,100.0,2.0,3.0,369.0,28.0,141.0,Digital Wallet,6.0
+2021-04-12,36-45,TX,Female,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1829.0,1500.0,1.0,5.0,1829.0,14.0,315.0,Credit Card,4.0
+2021-04-12,26-35,FL,Male,Middle,Organic,Clothing,T-Shirts,Adidas,Performance,59.0,45.0,6.0,17.0,357.0,12.0,74.0,Credit Card,6.0
+2021-04-12,46-55,CA,Female,Low,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,16.0,10.0,3.0,12.0,48.0,5.0,14.0,Credit Card,4.0
+2021-04-12,56-65,CA,Female,Low,Email,Electronics,Smartphones,Apple,iPhone 15,1069.0,800.0,8.0,9.0,8549.0,43.0,2106.0,Digital Wallet,5.0
+2021-04-12,26-35,IL,Male,Low,Email,Clothing,Jeans,Wrangler,Regular Fit,50.0,35.0,2.0,22.0,100.0,10.0,20.0,Debit Card,5.0
+2021-04-12,46-55,CA,Other,Low,App,Clothing,Jeans,Levis,Slim Fit,52.0,50.0,2.0,19.0,103.0,6.0,-3.0,Debit Card,3.0
+2021-04-12,18-25,PA,Male,High,Organic,Home,Furniture,Ashley Furniture,Sofa,430.0,300.0,16.0,4.0,6878.0,167.0,1912.0,Digital Wallet,13.0
+2021-04-12,26-35,TX,Male,Low,Organic,Home,Beds,Serta,iComfort,2368.0,1900.0,2.0,3.0,4735.0,32.0,903.0,Debit Card,5.0
+2021-04-12,18-25,PA,Other,Middle,Others,Home,Beds,Tempur-Pedic,Contour Elite,2162.0,1700.0,1.0,3.0,2162.0,20.0,443.0,Digital Wallet,6.0
+2021-04-12,46-55,CA,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,963.0,700.0,2.0,9.0,1927.0,14.0,513.0,Debit Card,16.0
+2021-04-12,36-45,CA,Female,Middle,App,Home,Beds,Tempur-Pedic,Contour Elite,2101.0,1700.0,2.0,1.0,4202.0,30.0,772.0,Credit Card,6.0
+2021-04-12,26-35,IL,Male,High,App,Beauty,Makeup,Revlon,PhotoReady Concealer,13.0,12.0,6.0,10.0,75.0,10.0,-7.0,Debit Card,5.0
+2021-04-12,18-25,IL,Male,Middle,Others,Home,Beds,Serta,iComfort,2304.0,1900.0,2.0,4.0,4608.0,34.0,774.0,BNPL,16.0
+2021-04-12,56-65,CA,Male,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,2.0,9.0,35.0,4.0,1.0,Credit Card,5.0
+2021-04-12,56-65,OH,Female,High,Affiliates,Home,Furniture,IKEA,Billy Bookcase,148.0,100.0,2.0,2.0,297.0,28.0,69.0,BNPL,6.0
+2021-04-12,56-65,TX,Other,Low,Others,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,26.0,20.0,2.0,13.0,52.0,6.0,6.0,Digital Wallet,6.0
+2021-04-12,56-65,FL,Female,Middle,Affiliates,Clothing,T-Shirts,Adidas,Performance,58.0,45.0,3.0,18.0,175.0,10.0,31.0,Digital Wallet,6.0
+2021-04-12,36-45,NY,Female,Middle,Others,Clothing,Jeans,Wrangler,Authentics,42.0,30.0,3.0,17.0,127.0,13.0,25.0,Credit Card,6.0
+2021-04-12,36-45,PA,Female,High,PPC,Clothing,T-Shirts,Adidas,Essentials,45.0,35.0,5.0,16.0,223.0,11.0,37.0,Digital Wallet,8.0
+2021-04-12,56-65,TX,Female,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,153.0,100.0,2.0,4.0,307.0,27.0,79.0,Credit Card,5.0
+2021-04-12,66+,FL,Male,Middle,App,Electronics,Smartphones,Apple,iPhone 14,953.0,700.0,1.0,8.0,953.0,11.0,242.0,Credit Card,4.0
+2021-04-12,56-65,MI,Male,Low,App,Home,Beds,Serta,iComfort,2462.0,1900.0,2.0,2.0,4924.0,34.0,1089.0,Debit Card,7.0
+2021-04-12,36-45,CA,Female,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,16.0,15.0,1.0,12.0,16.0,3.0,-3.0,Credit Card,3.0
+2021-04-12,36-45,CA,Male,Middle,Affiliates,Electronics,Smartphones,Samsung,Galaxy S21,763.0,500.0,3.0,7.0,2289.0,20.0,770.0,Credit Card,4.0
+2021-04-12,26-35,NC,Female,Middle,Others,Home,Furniture,IKEA,Billy Bookcase,151.0,100.0,2.0,4.0,303.0,31.0,71.0,Credit Card,5.0
+2021-04-12,26-35,FL,Other,Low,PPC,Electronics,Laptops,Apple Laptop,MacBook Air M1,1091.0,900.0,12.0,3.0,13092.0,97.0,2194.0,Debit Card,14.0
+2021-04-12,26-35,OH,Male,High,Organic,Electronics,Laptops,HP,Pavilion,891.0,600.0,1.0,7.0,891.0,14.0,276.0,Digital Wallet,4.0
+2021-04-12,26-35,IL,Female,Middle,Affiliates,Clothing,T-Shirts,Adidas,Performance,57.0,45.0,1.0,17.0,57.0,8.0,4.0,Digital Wallet,4.0
+2021-04-12,46-55,PA,Female,Low,Others,Electronics,Smartphones,Samsung,Galaxy A32,301.0,250.0,1.0,9.0,301.0,12.0,39.0,Digital Wallet,5.0
+2021-04-12,46-55,GA,Male,Middle,Email,Electronics,Smartphones,Apple,iPhone 14,905.0,700.0,1.0,14.0,905.0,9.0,196.0,Credit Card,3.0
+2021-04-12,56-65,CA,Female,Middle,Others,Electronics,Laptops,Dell,XPS,1544.0,1300.0,2.0,3.0,3087.0,21.0,467.0,Debit Card,9.0
+2021-04-12,36-45,PA,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone SE,574.0,400.0,2.0,9.0,1148.0,17.0,330.0,BNPL,6.0
+2021-04-12,56-65,GA,Female,Low,Others,Beauty,Makeup,Revlon,ColorStay Lipstick,20.0,15.0,3.0,10.0,61.0,6.0,10.0,Debit Card,5.0
+2021-04-12,66+,FL,Male,Low,PPC,Electronics,Laptops,Dell,XPS,1605.0,1300.0,1.0,4.0,1605.0,15.0,290.0,Credit Card,3.0
+2021-04-12,36-45,GA,Female,Middle,Others,Home,Furniture,IKEA,Billy Bookcase,117.0,100.0,1.0,3.0,117.0,15.0,2.0,Debit Card,5.0
+2021-04-12,18-25,CA,Male,High,Email,Electronics,Laptops,HP,Envy,935.0,700.0,1.0,5.0,935.0,12.0,224.0,Digital Wallet,3.0
+2021-04-12,18-25,CA,Other,Low,Organic,Electronics,Smartphones,Apple,iPhone 14,942.0,700.0,1.0,6.0,942.0,8.0,233.0,Digital Wallet,3.0
+2021-04-12,18-25,TX,Female,Middle,App,Beauty,Makeup,Revlon,PhotoReady Concealer,17.0,12.0,6.0,6.0,101.0,8.0,21.0,Digital Wallet,5.0
+2021-04-12,26-35,MI,Female,Low,Affiliates,Beauty,Makeup,Revlon,PhotoReady Concealer,18.0,12.0,3.0,12.0,54.0,9.0,9.0,Credit Card,4.0
+2021-04-12,66+,IL,Female,Low,Others,Home,Furniture,Ashley Furniture,Sofa,448.0,300.0,2.0,4.0,896.0,29.0,266.0,Credit Card,6.0
+2021-04-12,46-55,PA,Female,Middle,Others,Electronics,Smartphones,Samsung,Galaxy A32,323.0,250.0,3.0,11.0,970.0,23.0,197.0,Credit Card,6.0
+2021-04-12,18-25,NY,Male,Middle,Organic,Beauty,Makeup,Maybelline,Fit Me Foundation,25.0,15.0,1.0,5.0,25.0,8.0,2.0,Credit Card,5.0
+2021-04-12,18-25,FL,Male,Low,Organic,Home,Beds,Tempur-Pedic,Cloud Supreme,2253.0,1800.0,2.0,3.0,4506.0,33.0,872.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Male,Middle,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,14.0,10.0,2.0,11.0,28.0,4.0,4.0,Digital Wallet,4.0
+2021-04-12,18-25,CA,Female,Middle,PPC,Home,Furniture,Ashley Furniture,Sofa,464.0,300.0,2.0,4.0,929.0,25.0,304.0,Credit Card,6.0
+2021-04-12,26-35,PA,Male,Middle,App,Clothing,Jeans,Levis,501 Original,74.0,60.0,2.0,21.0,148.0,9.0,19.0,Credit Card,4.0
+2021-04-12,56-65,TX,Male,Middle,Organic,Beauty,Makeup,Maybelline,Lash Sensational Mascara,13.0,10.0,3.0,7.0,38.0,7.0,1.0,Debit Card,5.0
+2021-04-12,56-65,TX,Other,Low,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,23.0,20.0,5.0,17.0,116.0,8.0,9.0,Credit Card,5.0
+2021-04-12,18-25,TX,Male,Low,Email,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1850.0,1500.0,1.0,7.0,1850.0,14.0,336.0,BNPL,5.0
+2021-04-12,26-35,PA,Other,High,App,Home,Furniture,IKEA,Billy Bookcase,140.0,100.0,2.0,4.0,280.0,29.0,51.0,Digital Wallet,4.0
+2021-04-12,56-65,PA,Male,Low,App,Home,Beds,Tempur-Pedic,Cloud Supreme,2164.0,1800.0,2.0,4.0,4328.0,34.0,694.0,Debit Card,4.0
+2021-04-12,56-65,FL,Female,Middle,App,Clothing,T-Shirts,Nike,Pro,50.0,30.0,6.0,10.0,301.0,12.0,108.0,Credit Card,5.0
+2021-04-12,26-35,GA,Male,Low,PPC,Home,Furniture,IKEA,Billy Bookcase,149.0,100.0,2.0,4.0,299.0,26.0,72.0,Credit Card,5.0
+2021-04-12,26-35,TX,Other,Low,Others,Clothing,Jeans,Wrangler,Authentics,41.0,30.0,1.0,21.0,41.0,6.0,5.0,Debit Card,5.0
+2021-04-12,56-65,GA,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,952.0,700.0,3.0,8.0,2855.0,21.0,734.0,Digital Wallet,6.0
+2021-04-12,26-35,FL,Female,Low,Affiliates,Home,Furniture,Ashley Furniture,Bed Frame,263.0,100.0,15.0,2.0,3942.0,155.0,2287.0,Digital Wallet,12.0
+2021-04-12,46-55,TX,Female,Low,Organic,Home,Furniture,Ashley Furniture,Bed Frame,251.0,100.0,2.0,3.0,502.0,27.0,275.0,Debit Card,5.0
+2021-04-12,26-35,TX,Male,Middle,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1881.0,1500.0,2.0,7.0,3763.0,23.0,740.0,Credit Card,6.0
+2021-04-12,18-25,CA,Female,Middle,App,Clothing,Jeans,Levis,Bootcut,117.0,100.0,2.0,19.0,233.0,6.0,27.0,Digital Wallet,3.0
+2021-04-12,66+,NC,Male,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,899.0,700.0,3.0,13.0,2696.0,26.0,571.0,Digital Wallet,6.0
+2021-04-12,46-55,TX,Male,Middle,App,Electronics,Smartphones,Samsung,Galaxy A32,378.0,250.0,3.0,5.0,1133.0,22.0,362.0,Debit Card,5.0
+2021-04-12,18-25,TX,Other,Low,PPC,Clothing,T-Shirts,Adidas,Performance,60.0,45.0,6.0,19.0,359.0,11.0,78.0,Debit Card,5.0
+2021-04-12,46-55,TX,Other,High,Email,Electronics,Smartphones,Samsung,Galaxy Z Fold 5,1719.0,1500.0,2.0,12.0,3439.0,16.0,423.0,Credit Card,4.0
+2021-04-12,18-25,CA,Male,Low,Affiliates,Clothing,Jeans,Levis,501 Original,85.0,60.0,3.0,15.0,255.0,8.0,68.0,Digital Wallet,5.0
+2021-04-12,46-55,IL,Female,High,Others,Electronics,Smartphones,Samsung,Galaxy S21,717.0,500.0,3.0,11.0,2151.0,24.0,627.0,Digital Wallet,5.0
+2021-04-12,46-55,OH,Male,Middle,Affiliates,Clothing,T-Shirts,Nike,Dry-FIT,25.0,20.0,2.0,13.0,50.0,8.0,2.0,Credit Card,5.0
+2021-04-12,56-65,OH,Female,Low,PPC,Electronics,Smartphones,Apple,iPhone 14,947.0,700.0,3.0,9.0,2842.0,22.0,720.0,BNPL,5.0
+2021-04-12,46-55,TX,Male,High,Email,Clothing,T-Shirts,Adidas,Performance,71.0,45.0,6.0,10.0,424.0,11.0,143.0,Digital Wallet,2.0
+2021-04-12,26-35,TX,Male,Middle,App,Electronics,Smartphones,Samsung,Galaxy S21,674.0,500.0,3.0,13.0,2021.0,22.0,499.0,Digital Wallet,5.0
+2021-04-12,36-45,IL,Male,Middle,Others,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,21.0,15.0,5.0,11.0,107.0,10.0,22.0,Digital Wallet,5.0
+2021-04-12,56-65,CA,Female,Low,Affiliates,Home,Beds,Tempur-Pedic,Cloud Supreme,2147.0,1800.0,2.0,4.0,4293.0,30.0,663.0,Digital Wallet,5.0
+2021-04-12,66+,OH,Male,Low,Others,Electronics,Smartphones,Samsung,Galaxy S21,797.0,500.0,1.0,8.0,797.0,11.0,287.0,Credit Card,5.0
+2021-04-12,26-35,NY,Male,Low,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1857.0,1500.0,2.0,7.0,3714.0,26.0,688.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Female,Middle,Email,Home,Beds,Tempur-Pedic,Contour Elite,1971.0,1700.0,1.0,4.0,1971.0,16.0,255.0,Digital Wallet,4.0
+2021-04-12,36-45,GA,Other,High,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2152.0,1700.0,1.0,4.0,2152.0,17.0,434.0,Credit Card,5.0
+2021-04-12,36-45,IL,Male,High,Affiliates,Home,Furniture,Ashley Furniture,Sofa,454.0,300.0,2.0,4.0,909.0,29.0,279.0,Credit Card,6.0
+2021-04-12,56-65,NY,Other,Middle,Email,Electronics,Laptops,HP,Pavilion,826.0,600.0,2.0,5.0,1653.0,26.0,427.0,Digital Wallet,7.0
+2021-04-12,26-35,CA,Male,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,163.0,100.0,1.0,2.0,163.0,14.0,49.0,Digital Wallet,5.0
+2021-04-12,56-65,PA,Female,Middle,Affiliates,Beauty,Makeup,Revlon,ColorStay Lipstick,16.0,15.0,2.0,10.0,31.0,7.0,-6.0,Credit Card,4.0
+2021-04-12,26-35,CA,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 14,1002.0,700.0,2.0,5.0,2003.0,14.0,589.0,Debit Card,4.0
+2021-04-12,46-55,TX,Other,Middle,PPC,Home,Furniture,IKEA,Kallax Shelf,76.0,60.0,1.0,4.0,76.0,16.0,-0.0,Credit Card,4.0
+2021-04-12,56-65,NY,Male,High,Affiliates,Home,Furniture,IKEA,Billy Bookcase,135.0,100.0,1.0,1.0,135.0,19.0,16.0,Digital Wallet,5.0
+2021-04-12,46-55,NC,Other,Low,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,19.0,15.0,5.0,13.0,94.0,12.0,7.0,Debit Card,5.0
+2021-04-12,56-65,PA,Female,Middle,Organic,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1807.0,1500.0,2.0,6.0,3614.0,24.0,590.0,Debit Card,4.0
+2021-04-12,46-55,TX,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone 15,973.0,800.0,1.0,14.0,973.0,10.0,163.0,BNPL,3.0
+2021-04-12,56-65,IL,Female,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,22.0,15.0,1.0,8.0,22.0,7.0,-0.0,Credit Card,4.0
+2021-04-12,46-55,PA,Male,Low,Email,Home,Beds,Serta,Perfect Sleeper,1000.0,750.0,1.0,1.0,1000.0,20.0,230.0,Debit Card,5.0
+2021-04-12,36-45,NY,Other,High,Organic,Clothing,T-Shirts,Nike,Dry-FIT,22.0,20.0,5.0,13.0,110.0,13.0,-3.0,Credit Card,7.0
+2021-04-12,36-45,TX,Male,Middle,Affiliates,Home,Furniture,IKEA,Kallax Shelf,64.0,60.0,2.0,3.0,129.0,27.0,-19.0,Credit Card,5.0
+2021-04-12,46-55,MI,Other,Middle,Email,Beauty,Makeup,Maybelline,Fit Me Foundation,18.0,15.0,6.0,11.0,105.0,10.0,5.0,Digital Wallet,5.0
+2021-04-12,36-45,CA,Other,Low,Organic,Electronics,Smartphones,Apple,iPhone SE,559.0,400.0,2.0,11.0,1118.0,14.0,304.0,Digital Wallet,4.0
+2021-04-12,66+,NY,Female,Middle,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2111.0,1700.0,1.0,1.0,2111.0,21.0,389.0,Credit Card,4.0
+2021-04-12,66+,IL,Female,Middle,Email,Home,Furniture,IKEA,Billy Bookcase,127.0,100.0,1.0,4.0,127.0,18.0,9.0,Credit Card,4.0
+2021-04-12,56-65,CA,Female,Middle,Organic,Electronics,Smartphones,Apple,iPhone SE,557.0,400.0,2.0,13.0,1113.0,14.0,300.0,Credit Card,4.0
+2021-04-12,18-25,FL,Female,Middle,Email,Electronics,Smartphones,Apple,iPhone 15,1073.0,800.0,2.0,5.0,2147.0,17.0,530.0,BNPL,5.0
+2021-04-12,26-35,FL,Male,Low,Others,Clothing,Jeans,Wrangler,Regular Fit,52.0,35.0,1.0,16.0,52.0,7.0,9.0,Debit Card,4.0
+2021-04-12,56-65,CA,Male,High,Affiliates,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1806.0,1500.0,1.0,6.0,1806.0,12.0,294.0,Credit Card,3.0
+2021-04-12,26-35,FL,Male,High,Others,Home,Furniture,IKEA,Kallax Shelf,76.0,60.0,1.0,3.0,76.0,17.0,-1.0,Credit Card,5.0
+2021-04-12,18-25,NC,Female,Middle,App,Electronics,Smartphones,Apple,iPhone SE,552.0,400.0,1.0,11.0,552.0,14.0,138.0,Credit Card,5.0
+2021-04-12,36-45,NC,Other,Middle,App,Home,Beds,Tempur-Pedic,Cloud Supreme,2129.0,1800.0,2.0,3.0,4258.0,36.0,622.0,Digital Wallet,5.0
+2021-04-12,36-45,TX,Male,Middle,Organic,Home,Furniture,Ashley Furniture,Dining Table,298.0,200.0,2.0,1.0,595.0,27.0,168.0,Debit Card,5.0
+2021-04-12,26-35,FL,Female,Low,Affiliates,Clothing,Jeans,Wrangler,Regular Fit,49.0,35.0,1.0,22.0,49.0,7.0,7.0,Credit Card,5.0
+2021-04-12,36-45,FL,Male,Middle,Affiliates,Beauty,Skincare,Neutrogena,Rapid Wrinkle Repair,26.0,20.0,8.0,19.0,205.0,11.0,34.0,Credit Card,7.0
+2021-04-12,26-35,MI,Male,Low,App,Home,Furniture,Ashley Furniture,Dining Table,343.0,200.0,2.0,2.0,685.0,30.0,255.0,Digital Wallet,10.0
+2021-04-12,46-55,NY,Male,Low,App,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1806.0,1500.0,2.0,9.0,3612.0,26.0,586.0,BNPL,6.0
+2021-04-12,66+,TX,Male,Low,Email,Electronics,Smartphones,Samsung,Galaxy S21,779.0,500.0,3.0,10.0,2336.0,22.0,815.0,Credit Card,4.0
+2021-04-12,26-35,FL,Female,Low,Others,Electronics,Smartphones,Apple,iPhone 15,1105.0,800.0,2.0,6.0,2209.0,17.0,592.0,Debit Card,5.0
+2021-04-12,26-35,NY,Other,Middle,Affiliates,Clothing,T-Shirts,Nike,Sportswear,38.0,25.0,2.0,11.0,76.0,10.0,16.0,Digital Wallet,5.0
+2021-04-12,18-25,TX,Male,Low,Others,Beauty,Skincare,Neutrogena,Hydro Boost Gel,25.0,20.0,5.0,10.0,126.0,8.0,19.0,Credit Card,4.0
+2021-04-12,26-35,OH,Other,Middle,App,Electronics,Smartphones,Samsung,Galaxy A32,341.0,250.0,1.0,10.0,341.0,11.0,81.0,BNPL,3.0
+2021-04-12,56-65,PA,Female,Middle,Email,Electronics,Laptops,HP,Envy,914.0,700.0,1.0,9.0,914.0,15.0,199.0,Digital Wallet,5.0
+2021-04-12,18-25,OH,Female,Middle,App,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,18.0,15.0,1.0,17.0,18.0,6.0,-3.0,Credit Card,4.0
+2021-04-12,26-35,NY,Male,Low,Affiliates,Electronics,Laptops,HP,Pavilion,854.0,600.0,2.0,2.0,1708.0,26.0,482.0,Debit Card,6.0
+2021-04-12,36-45,CA,Female,Middle,PPC,Electronics,Smartphones,Apple,iPhone 15,1043.0,800.0,2.0,10.0,2087.0,14.0,473.0,Debit Card,6.0
+2021-04-12,18-25,CA,Male,High,Organic,Home,Furniture,IKEA,Billy Bookcase,151.0,100.0,2.0,2.0,301.0,25.0,76.0,Digital Wallet,7.0
+2021-04-12,56-65,CA,Male,High,Organic,Clothing,Jeans,Wrangler,Authentics,43.0,30.0,2.0,15.0,85.0,6.0,19.0,Digital Wallet,3.0
+2021-04-12,46-55,TX,Male,Low,Others,Electronics,Smartphones,Samsung,Galaxy S21,712.0,500.0,3.0,13.0,2135.0,22.0,613.0,Credit Card,4.0
+2021-04-12,18-25,NY,Female,High,Email,Clothing,T-Shirts,Nike,Dry-FIT,24.0,20.0,5.0,17.0,119.0,13.0,6.0,Debit Card,7.0
+2021-04-12,66+,CA,Other,High,Others,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1833.0,1500.0,2.0,4.0,3666.0,21.0,646.0,Credit Card,6.0
+2021-04-12,46-55,CA,Female,Middle,Organic,Home,Beds,Tempur-Pedic,Contour Elite,2071.0,1700.0,1.0,3.0,2071.0,16.0,354.0,Digital Wallet,5.0
+2021-04-12,46-55,IL,Female,Middle,Others,Home,Beds,Tempur-Pedic,Contour Elite,2077.0,1700.0,1.0,3.0,2077.0,20.0,357.0,Digital Wallet,6.0
+2021-04-12,46-55,OH,Male,Low,Others,Clothing,Jeans,Levis,Slim Fit,50.0,50.0,3.0,19.0,150.0,10.0,-10.0,Debit Card,6.0
+2021-04-12,56-65,MI,Female,Low,Organic,Home,Furniture,IKEA,Billy Bookcase,127.0,100.0,2.0,4.0,254.0,30.0,24.0,BNPL,6.0
+2021-04-12,36-45,GA,Other,Low,Email,Beauty,Makeup,Maybelline,Lash Sensational Mascara,12.0,10.0,1.0,13.0,12.0,4.0,-3.0,Credit Card,5.0
+2021-04-12,56-65,NY,Female,Middle,Organic,Electronics,Laptops,Dell,XPS,1543.0,1300.0,1.0,9.0,1543.0,17.0,226.0,Debit Card,6.0
+2021-04-12,36-45,IL,Male,Middle,App,Clothing,T-Shirts,Nike,Sportswear,38.0,25.0,2.0,14.0,76.0,9.0,17.0,Credit Card,5.0
+2021-04-12,66+,NY,Other,High,Email,Electronics,Smartphones,Apple,iPhone 14,895.0,700.0,2.0,11.0,1789.0,19.0,370.0,Digital Wallet,6.0
+2021-04-12,18-25,NC,Female,Low,Organic,Clothing,T-Shirts,Adidas,Essentials,41.0,35.0,2.0,10.0,82.0,11.0,1.0,Credit Card,4.0
+2021-04-12,46-55,CA,Other,Middle,App,Beauty,Skincare,Neutrogena,Hydro Boost Gel,21.0,20.0,5.0,12.0,107.0,6.0,1.0,Debit Card,4.0
+2021-04-12,56-65,FL,Male,High,Email,Electronics,Laptops,HP,Pavilion,832.0,600.0,2.0,8.0,1663.0,24.0,439.0,Credit Card,6.0
+2021-04-12,66+,NY,Female,Low,Organic,Electronics,Laptops,Apple Laptop,MacBook Pro M2,1389.0,1200.0,9.0,7.0,12504.0,81.0,1623.0,Debit Card,9.0
+2021-04-12,18-25,FL,Female,Middle,Email,Electronics,Smartphones,Samsung,Galaxy S21,707.0,500.0,3.0,12.0,2121.0,23.0,598.0,Digital Wallet,5.0
+2021-04-12,46-55,NY,Male,Low,Organic,Electronics,Laptops,Apple Laptop,MacBook Pro M3,1914.0,1500.0,2.0,4.0,3828.0,26.0,803.0,BNPL,6.0
+2021-04-12,36-45,PA,Male,High,App,Electronics,Smartphones,Apple,iPhone 14,970.0,700.0,3.0,5.0,2911.0,23.0,788.0,Digital Wallet,6.0
+2021-04-12,36-45,CA,Male,Middle,PPC,Clothing,T-Shirts,Nike,Sportswear,40.0,25.0,3.0,16.0,121.0,7.0,39.0,Digital Wallet,5.0
+2021-04-12,18-25,CA,Other,High,PPC,Home,Beds,Serta,Perfect Sleeper,964.0,750.0,1.0,4.0,964.0,16.0,198.0,Digital Wallet,3.0
+2021-04-12,26-35,IL,Male,Middle,Affiliates,Beauty,Makeup,Maybelline,Fit Me Foundation,17.0,15.0,1.0,9.0,17.0,7.0,-5.0,Digital Wallet,6.0
+2021-04-12,56-65,FL,Other,Low,App,Electronics,Smartphones,Apple,iPhone 14,903.0,700.0,3.0,13.0,2710.0,23.0,587.0,Credit Card,6.0
+2021-04-12,66+,CA,Male,Middle,Affiliates,Beauty,Makeup,Revlon,ColorStay Lipstick,22.0,15.0,3.0,5.0,67.0,5.0,17.0,Credit Card,4.0
+2021-04-12,18-25,MI,Female,Middle,Organic,Home,Furniture,IKEA,Billy Bookcase,164.0,100.0,1.0,4.0,164.0,18.0,45.0,Digital Wallet,5.0
+2021-04-12,46-55,GA,Female,Middle,Affiliates,Clothing,Jeans,Wrangler,Authentics,38.0,30.0,2.0,22.0,77.0,7.0,10.0,Credit Card,4.0
+2021-04-12,56-65,OH,Male,Middle,Organic,Beauty,Skincare,Neutrogena,Oil-Free Acne Wash,15.0,15.0,3.0,14.0,46.0,7.0,-7.0,Debit Card,5.0
+2021-04-12,46-55,TX,Male,Low,Affiliates,Home,Furniture,IKEA,Kallax Shelf,74.0,60.0,1.0,3.0,74.0,16.0,-2.0,Credit Card,6.0
+2021-04-12,26-35,FL,Female,Middle,Others,Electronics,Smartphones,Samsung,Galaxy S21,696.0,500.0,2.0,9.0,1392.0,17.0,375.0,Credit Card,3.0
+2021-04-12,26-35,CA,Other,Middle,App,Home,Furniture,Ashley Furniture,Bed Frame,238.0,100.0,2.0,2.0,475.0,25.0,250.0,Credit Card,4.0
+2021-04-12,36-45,NC,Other,Middle,Affiliates,Clothing,T-Shirts,Nike,Dry-FIT,25.0,20.0,3.0,14.0,74.0,13.0,1.0,Credit Card,5.0
+2021-04-12,26-35,IL,Male,High,Affiliates,Home,Beds,Serta,iComfort,2435.0,1900.0,3.0,4.0,7305.0,48.0,1557.0,Credit Card,6.0
+2021-04-12,26-35,NY,Female,Middle,Others,Clothing,T-Shirts,Nike,Sportswear,35.0,25.0,6.0,14.0,213.0,14.0,49.0,Credit Card,7.0
+2021-04-12,26-35,MI,Female,Middle,App,Beauty,Skincare,Neutrogena,Hydro Boost Gel,26.0,20.0,5.0,13.0,130.0,10.0,20.0,Digital Wallet,6.0
