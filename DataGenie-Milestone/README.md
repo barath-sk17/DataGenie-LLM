@@ -18,6 +18,15 @@ This Python script implements a Streamlit application with multiple functionalit
 2. **Configuration**: Ensure that the PostgreSQL database connection parameters (`hostname`, `database`, `username`, `pwd`, `port_id`) are correctly configured.
 3. **Running the Script**: Execute the script (`streamlit run milestone-5.py`) & (`streamlit run milestone-4.py`) to launch the Streamlit application. Choose the desired option from the sidebar menu to access different functionalities.
 
+## For Experiencing Different Features
+
+```bash
+streamlit run milestone-4.py
+```
+```bash
+streamlit run milestone-5.py
+```
+
 ## Dependencies
 - Python 3.x
 - LangChain
