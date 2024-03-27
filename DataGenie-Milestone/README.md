@@ -41,4 +41,20 @@ Install the dependencies using `pip install -r requirements2.txt`.
 - For production use, consider securing sensitive information such as API keys and database credentials.
 
 ## Preview
--
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/51a1e9f8-5986-4066-a1a9-2b76d03150f8)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/c62ee932-8ee2-468b-915e-63e78a2f764c)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/eb70c7fd-7836-44f5-8b79-3103003c7661)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/40b49f5f-1da2-462b-b175-1c7be1183e04)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/f5c6694f-4f2b-4838-b87b-faf780a538f6)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/26b323b4-253e-485c-96a5-98ed6e71caa1)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/cb2a1ef3-8565-4b51-9d9e-9c34baa7da35)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/7478b54f-30eb-4afe-b9bd-60ab5e6fa555)
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/7fde0718-8961-4896-87ea-b3658c13adc8)
+
+
+
+
+
+
+
+
