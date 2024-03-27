@@ -40,6 +40,10 @@ streamlit run mile-1-2.py
 - Ensure that you have installed all the required libraries and dependencies before running the application.
 - The bot may require fine-tuning or adjustments to achieve optimal performance based on specific use cases and data.
 
+## Preview
+- ![image](https://github.com/barath-sk17/DataGenie-LLM/assets/127032804/ae1ecade-ba0a-4e20-9b74-d09760758709)
+
+
 ---
 
 # Conversational Question-Answering System with CSV Data and FAISS
