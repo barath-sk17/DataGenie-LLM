@@ -4,7 +4,7 @@
 # Conversational Question-Answering System with CSV Data
 
 ## Overview
-This Python script `conversational_qa_with_csv.py` demonstrates a conversational question-answering system integrated with CSV data. It leverages various components from the LangChain library to load CSV data, preprocess text, generate embeddings, and perform similarity search for answering questions.
+This Python script `llama.py` demonstrates a conversational question-answering system integrated with CSV data. It leverages various components from the LangChain library to load CSV data, preprocess text, generate embeddings, and perform similarity search for answering questions.
 
 ## Features
 - **CSV Data Loading**: Utilizes the `CSVLoader` from LangChain to load CSV data.
@@ -18,7 +18,7 @@ This Python script `conversational_qa_with_csv.py` demonstrates a conversational
    
 2. **Python Environment**: Set up a Python environment with the required dependencies, including LangChain, Hugging Face Transformers, and FAISS.
 
-3. **Running the Script**: Execute the script `conversational_qa_with_csv.py`. It will prompt you to input a query, and then it will provide a response based on the CSV data.
+3. **Running the Script**: Execute the script `llama.py`. It will prompt you to input a query, and then it will provide a response based on the CSV data.
 
 ## Dependencies
 - Python 3.x
@@ -41,7 +41,7 @@ python llama.py
 # CSV to PostgreSQL Data Importer
 
 ## Overview
-This Python script `csv_to_postgresql_importer.py` is designed to import data from a CSV file into a PostgreSQL database. It automates the process of creating a table based on the CSV file's structure and inserting the data into the database.
+This Python script `script_ai.py` is designed to import data from a CSV file into a PostgreSQL database. It automates the process of creating a table based on the CSV file's structure and inserting the data into the database.
 
 ## Features
 - Parses the structure of the CSV file to generate a corresponding PostgreSQL table schema dynamically.
@@ -56,12 +56,7 @@ This Python script `csv_to_postgresql_importer.py` is designed to import data fr
 
 3. **PostgreSQL Connection Parameters**: Set the connection parameters for your PostgreSQL database (hostname, database name, username, password, port) using the respective variables (`hostname`, `database`, `username`, `pwd`, `port_id`).
 
-4. **Running the Script**: Execute the script `csv_to_postgresql_importer.py`. It will read the input CSV file, dynamically generate the table schema, create the table in the PostgreSQL database, and insert the data.
-
-## Dependencies
-- Python 3.x
-- `csv` module (built-in)
-- `psycopg2` library for PostgreSQL database connection
+4. **Running the Script**: Execute the script `script_ai.py`. It will read the input CSV file, dynamically generate the table schema, create the table in the PostgreSQL database, and insert the data.
 
 ## Run-Command
 ```bash
@@ -73,7 +68,7 @@ python script_ai.py
 # CSV Partitioning Utility
 
 ## Overview
-This Python script `partition_csv.py` is designed to partition a large CSV file into smaller files with a specified number of rows per file. This can be useful for breaking down large datasets into more manageable chunks, especially when dealing with memory constraints or when processing the data in parallel.
+This Python script `csv-conv.py` is designed to partition a large CSV file into smaller files with a specified number of rows per file. This can be useful for breaking down large datasets into more manageable chunks, especially when dealing with memory constraints or when processing the data in parallel.
 
 ## Usage
 1. **Input File**: The script expects a CSV file as input. Make sure to specify the path to the input CSV file using the `input_file` variable.
@@ -82,11 +77,11 @@ This Python script `partition_csv.py` is designed to partition a large CSV file 
 
 3. **Rows per File**: Optionally, you can specify the number of rows per file for partitioning. By default, each output file will contain 1000 rows, but you can adjust this value by modifying the `rows_per_file` parameter in the `partition_csv` function.
 
-4. **Running the Script**: Simply execute the script `partition_csv.py`. It will read the input CSV file, partition it into smaller CSV files based on the specified number of rows per file, and save them in the output folder.
+4. **Running the Script**: Simply execute the script `csv-conv.py`. It will read the input CSV file, partition it into smaller CSV files based on the specified number of rows per file, and save them in the output folder.
 
 ## Run-Command
 ```bash
-python partition_csv.py
+python csv-conv.py
 ```
 
 ## Output
