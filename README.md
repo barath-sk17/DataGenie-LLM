@@ -1,4 +1,40 @@
+---
 
+# Conversational Question-Answering System with CSV Data and FAISS
+
+## Overview
+This Python script `mistral.py` implements a conversational question-answering system using LangChain library components such as CSV data loader, text splitter, Hugging Face embeddings, and FAISS vector store. The system allows users to input queries and receive responses based on the CSV data provided.
+
+## Features
+- **CSV Data Loading**: Utilizes the `CSVLoader` from LangChain to load CSV data.
+- **Text Chunking**: Splits the loaded text data into smaller chunks using the `RecursiveCharacterTextSplitter`.
+- **Embedding Generation**: Utilizes Hugging Face embeddings to convert text chunks into dense embeddings.
+- **Vector Store Creation**: Creates a vector store using FAISS to efficiently store and query the embeddings.
+- **Conversational Retrieval**: Implements a conversational question-answering system using LangChain's CTransformers LLMS (Language Model) and the FAISS vector store for similarity search.
+
+## Usage
+1. **CSV Data Preparation**: Prepare the CSV data file (`output_1.csv`) containing the text information for question-answering.
+   
+2. **Python Environment Setup**: Set up a Python environment with the required dependencies, including LangChain, Hugging Face Transformers, and FAISS.
+
+3. **Running the Script**: Execute the script `mistral.py`. It will prompt you to input a query, and then it will provide a response based on the CSV data and FAISS vector store.
+
+## Dependencies
+- Python 3.x
+- LangChain library (`langchain`)
+- Hugging Face Transformers library (`transformers`)
+- FAISS library (`faiss-cpu` or `faiss-gpu`)
+- Other dependencies: `csv`, `os`, `sys`
+
+## Configuration
+- **CSV File Path**: Modify the `file_path` variable to specify the path to the CSV file.
+- **FAISS Vector Store Path**: Adjust the `DB_FAISS_PATH` variable to set the path for saving the FAISS vector store.
+- **LLM Model**: Customize the LLM model path (`CSV_BOT/finallllllllllll/models/mistral-7b-instruct-v0.2.Q6_K.gguf`) and other parameters as needed.
+
+## Example
+```bash
+python mistral.py
+```
 ---
 
 # Conversational Question-Answering System with CSV Data
