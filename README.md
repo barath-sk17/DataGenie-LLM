@@ -1,6 +1,6 @@
 ---
 
-# DataGenie-Hackathon-CSVBot ( A Basic - CSVBot )
+# DataGenie-Hackathon-CSVBot ( Basic Design )
 
 ## Overview
 The `DataGenie-Hackathon-CSVBot` is a Streamlit web application that serves as a conversational question-answering bot. It leverages both SQL databases and OpenAI language models (LLMs) to provide responses to user queries. The bot can interact with users in a chat-like interface, storing conversation history and utilizing memory to improve response efficiency.
