@@ -1,4 +1,3 @@
-Certainly! Below is a sample README file for the provided Python script:
 
 ---
 
@@ -21,6 +20,16 @@ This Python script `csv_to_postgresql_importer.py` is designed to import data fr
 3. **PostgreSQL Connection Parameters**: Set the connection parameters for your PostgreSQL database (hostname, database name, username, password, port) using the respective variables (`hostname`, `database`, `username`, `pwd`, `port_id`).
 
 4. **Running the Script**: Execute the script `csv_to_postgresql_importer.py`. It will read the input CSV file, dynamically generate the table schema, create the table in the PostgreSQL database, and insert the data.
+
+## Dependencies
+- Python 3.x
+- `csv` module (built-in)
+- `psycopg2` library for PostgreSQL database connection
+
+## Example
+```bash
+python script_ai.py
+```
 
 ---
 
